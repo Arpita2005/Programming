@@ -1,0 +1,8 @@
+Product of matrices:
+=================
+a   b    c             X       g   h
+d   e    f                       i     j
+                                    k    l
+
+=(a*g + b*i + c*k)    (a*h + b*j + c*l)
+   (d*g + e*i + f*k)    (d*h + e*j + f*l )

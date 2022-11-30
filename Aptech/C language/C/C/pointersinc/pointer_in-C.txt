@@ -1,0 +1,9 @@
+Using pointer in C programming has following advantages:
+
+Pointers provide direct access to memory.
+Pointers provide a way to return multiple values from a user defined function without using return keyword.
+Pointers reduce the storage space and complexity of programs.
+Pointers reduce the execution time of programs.
+Pointers provide an alternate way to access individual array elements.
+Pointers allow us to perform dynamic memory allocation and deallocation.
+Pointers allow us to create more complex data structures like linked lists, trees, graphs, stacks etc.

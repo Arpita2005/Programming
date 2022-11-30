@@ -1,0 +1,19 @@
+      int i=100;
+      int *ptr=&i;
+      ptr=&i;
+      *ptr=i;
+                  * and & are complements of each other 
+
+          Variable               Value             Address
+=======================================
+                i                    100                        5000
+                ptr                5000                     32500
+
+  Subtraction  of 1st pointer to second:
+--------------------------------------------------------
+
+   e.g  The value of first int pointer = ptr1 = 4096
+           The value of last int pointer = ptr2 = 4084
+        ptr1-ptr2 = 4096 - 4084  = 12
+        Memory requirement of one integer = 4 bytes
+        So no of integer elements available = 12/4 = 3 

@@ -1,0 +1,91 @@
+C strcmp()-
+================
+The strcmp() compares two strings character by character. If the strings are equal, the function returns 0.
+
+The function prototype of strcmp() is:
+
+int strcmp (const char* str1, const char* str2);
+
+strcmp() Parameters:
+====================
+The function takes two parameters:
+
+str1 - a string
+str2 - a string
+Return Value from strcmp()
+=======================
+Return Value	Remarks
+0	              if strings are equal
+>0	              if the first non-matching character in str1 is greater (in ASCII) than that of str2.
+<0	            if the first non-matching character in str1 is lower (in ASCII) than that of str2.
+
+The strcmp() function is defined in the string.h header file.
+
+The strcmpi() function is also defined in the string.h header file, it is same as strcmp() but ignores case.
+
+strcpy():
+=======
+The function prototype of strcpy() is:
+----------------------------------------------------
+char* strcpy(char* destination, const char* source);
+
+The strcpy() function copies the string pointed by source (including the null character) to the destination.
+The strcpy() function also returns the copied string.
+The strcpy() function is defined in the string.h header file.
+
+
+C strcat():-
+=========
+In C programming, the strcat() function contcatenates (joins) two strings.
+
+The function definition of strcat() is:
+-----------------------------------------------------------
+char *strcat(char *destination, const char *source)
+
+It is defined in the string.h header file.
+
+strcat() arguments:
+------------------------------------
+As you can see, the strcat() function takes two arguments:
+
+destination - destination string
+source - source string
+
+The strcat() function concatenates the destination string and the source string, and the result is stored in the destination string.
+
+
+C strlen():
+===========
+The strlen() function calculates the length of a given string.
+
+The strlen() function takes a string as an argument and returns its length. The returned value is of type size_t (the unsigned integer type).
+Syntax: =    unsigned int strlen(char *string)   
+
+It is defined in the <string.h> header file.
+
+strnlen():
+===========
+The strnlen() function returns the number of bytes in the string pointed to by s, excluding the terminating null byte ('\0'), but at most maxlen. In doing this, strnlen() looks only at the first maxlen characters in the string pointed to by s and never beyond s[maxlen-1].
+ 
+Syntax:
+------------------
+size_t strnlen(const char *str,size_t numberOfElements);
+
+If the numberOfElements<length of str, then print numberOfElements otherwise print the original length of str.
+
+ strrev() in C
+============
+The strrev() function is used to reverse the given string.
+is defined in string.h header file.
+
+Syntax:
+-------------------
+char *strrev(char *str);
+
+Parameter:
+------------------------
+
+str: The given string which is needed to be reversed.
+Returns: This function returns the string after reversing the given string.
+
+Note: This is a non-standard function that works only with older versions of Microsoft C.

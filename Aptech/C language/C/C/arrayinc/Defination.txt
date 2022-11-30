@@ -1,0 +1,17 @@
+An array is defined as the collecion of similar type of data items stored at contiguos memory
+ locations Arrays are the derived data type in C primitive type of data such as int, char, double, float.
+
+ Syntax
+ type ArrayName[arraySize];
+ example
+ double_balance[10];
+ double is a big floating number
+ array - Static memory allocation
+ pointer - Dynamic memory allocation
+                                         Defination
+                ============================================================
+                What is the difference between dynamic and static memory allocation?
+                When the allocation of memory performs at the compile time,
+                then it is known as static memory. When the memory allocation is 
+                done at the execution or run time, then it is called dynamic memory allocation. 
+                The memory is allocated at the compile time. The memory is allocated at the runtime.

@@ -1,0 +1,2 @@
+when we access the members of union or structure by it's normal variable , the membership operator used is "." similarly
+when we acess members of union or structure by its pointer variable , the membership operator used is  ->

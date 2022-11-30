@@ -1,0 +1,8 @@
+int i=100;
+int *ptr=&i;
+ptr=5000; (for example)
+
+   Variable               Value              Address
+====================================
+        i                         100                     5000      (for example)    
+        ptr                     5000                   15000    (for example)

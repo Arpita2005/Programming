@@ -1,0 +1,14 @@
+Recursion follows STACK
+=====================
+ factorial(5)
+      = 5*factoral(4)
+         =5*4*factoral(3)
+             =5*4*3*factoral(2)
+                 = 5*4*3*2*factoral(1)
+                    = 5*4*3*2*1*factoral(0)
+                            = 5*4*3*2*1*1
+                                   =120
+
+--------------------------------------------------
+STACK  - LIFO
+           

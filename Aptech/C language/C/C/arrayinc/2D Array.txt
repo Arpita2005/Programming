@@ -1,0 +1,13 @@
+    2D Array/Matrix Declaration :
+============================
+                  datatype arrayname[size1][size2];
+Initialization:
+===============
+         datatype arrayname[size1][size2]={value1,value2,value3,......,valueN};
+          OR
+  datatype arrayname[size1][size2] = {
+                                                                  {value,value,,.....},
+		                             {value,value,,......},
+		                             {value,value,,.....},
+                                                                  ..................................
+		                          };

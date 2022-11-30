@@ -1,0 +1,4 @@
+    Function merits:
+
+    1. code reusability
+    2. code optimization 

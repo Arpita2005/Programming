@@ -1,0 +1,32 @@
+Switch...Case in C Programming:
+============================
+The switch statement allows us to execute one code block among many alternatives.
+
+You can do the same thing with the if...else..if ladder. However, the syntax of the switch statement is much easier to read and write.
+
+Syntax of switch...case
+switch (expression)
+​{
+    case constant1:
+      // statements
+      break;
+
+    case constant2:
+      // statements
+      break;
+    .
+    .
+    .
+    default:
+      // default statements
+}
+How does the switch statement work?
+
+The expression is evaluated once and compared with the values of each case label.
+
+If there is a match, the corresponding statements after the matching label are executed. For example, if the value of the expression is equal to constant2, statements after case constant2: are executed until break is encountered.
+If there is no match, the default statements are executed.
+Notes:
+
+If we do not use the break statement, all statements after the matching label are also executed.
+The default clause inside the switch statement is optional.

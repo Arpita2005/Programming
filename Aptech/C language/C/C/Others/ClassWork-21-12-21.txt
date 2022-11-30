@@ -1,0 +1,12 @@
+WAP to input two numbers and a symbol - + , - , * , / , %
+and display the result according to the inputs.
+e.g - 
+        1)
+         Input numbers - 78 & 23. 
+         Input Symbol:   +
+         Output - 100
+         2)
+         Input numbers - 26 & 11. 
+         Input Symbol:   *
+         Output - 286
+         Use switch ...case 

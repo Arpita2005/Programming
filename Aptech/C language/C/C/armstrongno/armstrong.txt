@@ -1,0 +1,9 @@
+A positive integer is called an Armstrong number of order n if
+
+An armstrong number is any number of n digits which is equal to the sum of nth power of digits in the number. Generally in most programming cases we consider numbers from 000 to 999 that is 3 digit numbers. Thus, we also define armstrong number is any number of 3 digits as sum of cubes of digits in number.
+
+abcd... = a^n + b^n + c^n + d^n + ...
+In case of an Armstrong number of 3 digits, the sum of cubes of each digits is equal to the number itself. For example:
+
+153 = 1*1*1 + 5*5*5 + 3*3*3  // 153 is an Armstrong number.
+1634=1^4+6^4+3^4+4^4=1634

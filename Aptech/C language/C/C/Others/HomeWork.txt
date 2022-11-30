@@ -1,0 +1,1 @@
+Input a letter and check whether it is vowel or consonant . Also check whether it is digit / special character or whitespace in case letter is not given by the user.

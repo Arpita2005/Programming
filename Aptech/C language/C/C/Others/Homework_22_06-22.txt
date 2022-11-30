@@ -1,0 +1,1 @@
+WAP to take an array of floating point numbers and display the decimal portions only from  them.

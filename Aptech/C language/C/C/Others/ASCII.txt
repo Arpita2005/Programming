@@ -1,0 +1,14 @@
+What is ASCII?
+============
+ASCII (American Standard Code for Information Interchange) is the most common character encoding format for text data in computers and on the internet. In standard ASCII-encoded data, there are unique values for 128 alphabetic, numeric or special additional characters and control codes.
+
+ASCII List:
+=============
+A-65 , B- 66 ,................................,Z - 90
+
+a-97,b-98,..................................,z-122
+
+0-48,1-49,.............................,9-57
+
+Whitespace = 32 
+

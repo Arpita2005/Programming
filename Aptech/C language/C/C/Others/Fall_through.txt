@@ -1,0 +1,3 @@
+Fall through in Switch...Case
+==========================
+Fall through is a type of error that occurs in various programming languages like C, C++, Java, Dart …etc. It occurs in switch-case statements where when we forget to add a break statement and in that case flow of control jumps to the next line. It starts from the matching condition.

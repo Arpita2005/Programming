@@ -1,0 +1,30 @@
+int i =100
+int *ptr=&intptr = &int*ptr=1
+*and & are complements of each other 
+
+Varable         value           address
+======================================================================
+int             500                 5000
+ptr             5000                32500
+
+
+Substraction of 1st pointer to seond 
+------------------------------------------
+e.g The value of first int pointer = ptr1 = 4096
+the value of last int pointer = ptr2 = 4084
+ptr1-ptr2 = 12
+Memory requirement of one integier = 3 bytes 
+    So no of integer elemet=nts avalable = 12/4=3
+
+
+==========================
+Program complemente
+========================
+First.c
+Memoryaddress.c
+Usepointer.c 
+Nullpointer.c 
+FunctionPointer.c 
+FunctionPointer2.c
+ 
+

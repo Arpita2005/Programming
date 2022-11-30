@@ -1,0 +1,7 @@
+DMA = Dynamic Memory Allocation
+=======================================
+    var_name = (datatype  *) malloc(no_of_elements * sizeof(datatype));
+
+
+           Note:    no_of_elements   => Size of the array at runtime
+                        var_name => pointer variable name in the program

@@ -1,0 +1,25 @@
+rev=0
+num=8745      =>    copy=num    =>   copy=8745
+
+digit=8745%10=5
+rev=rev*10+digit=0*10+5=5
+copy=Math.floor(copy/10)=874
+
+digit=874%10=4
+rev=rev*10+digit=5*10+4=54
+copy=Math.floor(copy/10)=87
+
+digit=87%10=7
+rev=rev*10+digit=54*10+7=547
+copy=Math.floor(copy/10)=8
+
+digit=8%10=8
+rev=rev*10+digit=547*10+8=5478
+copy=Math.floor(copy/10)=0
+
+
+copy=0
+
+8745  ->  5478 
+
+

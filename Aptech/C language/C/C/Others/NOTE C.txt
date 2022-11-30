@@ -1,0 +1,290 @@
+~:C Language:~ [Font:Lucida Console/Courier New	 Style:Regular	Size:14]  somsekhar.purkait@gmail.com
+~~~~~~~~~~~~~~
+PROGRAMMING LANGUAGE
+====================
+BASIC-Beginners All Purpose Symbolic Instruction Code=>Graphics Application
+COBOL-COmmon Business Oriented Language=>Business Application
+FORTRAN-FORmula TRANslation=>Scientific Application
+
+Generation of Language:~
+************************
+1st Gen.=	MACHINE LEVEL LANGUAGE
+2nd Gen.=   ASSEMBLY LEVEL LANGUAGE		
+            Here we need Assembler to convert it to machine code. 
+			Ex: 8085,8086 Instruction
+3rd Gen.=	HIGH LEVEL LANGUAGE	Ex: C,C++,Java,Basic,Cobol,Fortran.   
+            Here we need Compiler and Interpreter.
+4th Gen.=	DATABASE ORIENTED LANGUAGE	Ex:SQL,Prolog.
+
+History of C & C++:~
+********************
+Before 1960 -- Basic,Cobol,Fortran.
+1960 -- ALGOL-60 [ALGOrithmic Language]=>Difficult to implement and use.
+1963 -- CPL ->Cambridge University [Combined Programming Language]
+1967 -- BCPL ->Cambridge University  [Basic Combined Programming Language] -- invented by Martin Richards.
+1970 -- Language B ->AT & T Bell Lab USA -- invented by Ken Thompson.
+1972 -- Language C ->AT & T Bell Lab USA -- invented by Sir Dennis Ritchie.
+1980+ -- C with Classes -> AT & T Bell Lab USA -- invented by Bjarne Stroustrup.
+1985+ -- C++ -> ANSI(American National Standard Institute) 
+
+Character Set of C:~	[98]
+====================	
+Letters = 52 	A - Z 	and	a - z 
+Digits = 10		0 - 9
+White Space = 5	New line,Form feed,Carriage Return,Horizontal tab,Vertical tab
+Special Characters = 31	+ - * / \ . ? ; , ! ~ % < > : | ^ _ = # $ & ( ) { } [ ] @ ' " 
+
+TOKEN: It is the basic building blocks of any C/C++ program. 
+It contains Variable,Keywords,Data type,Operators,Constants,Logical statement,Looping statement etc.
+
+Variable: It is the place holder within the memory where we can store data for temporary or future use.
+*********
+Rules:
+1. Starts with a letter.
+2. Only letters,digits and special characters _ can be used.
+3. It is case sensitive.
+4. Blank space is not allowed and _ can be embedded.
+5. It is not matched with keywords.
+6. Length can be any number of characters.
+Ex= a,indx,a1,a_b,x_13
+
+Keyword:~(C & C++) 32+14=46  It is the reserve words whose meaning and action is fixed by the language.
+**********
+auto,break,case,char,const,continue,do,default,
+double,else,enum,extern,for,float,goto,int,
+if,long,return,register,short,signed,sizeof,static,
+switch,struct,typedef,union,unsigned,void,volatile,while.
+(Only for C++)
+class,friend,inline,private,public,protected,try,throw,catch,operator,new,delete,virtual,this
+
+DATA TYPE:~
+==========
+It is used to specify the type of value which a variable can hold. It is 3 types.
+1.Primary / Fundamental / Built-In Data type.	- It is defined in C/C++ library.
+2.User Defined Data type.	- It is defined by user. Ex: union,structure,enumeration. In C++ we also get class as this type.
+3.Derived Data type.	- It is based on built in datatype. Ex: array,function,pointer and in C++ we also get reference as this type.
+
+Primary / Fundamental Data type:~	[3 types]
+-------------------------------------------------
+1.Integer		2.Floating Point		3.Character
+**************************************************************************************************************************************
+
+INTEGER:~ It is used to accept whole numbers.
+======================================================================================================================================
+Name				Keyword		Scan Code	Occupied Memory		Range						Example
+======================================================================================================================================
+Integer		   		int				%d		2 byte		  -32768 to +32767					int a
+Short Integer	   	short int		%d		2 byte		  -32768 to +32767					short int a
+Long Integer	   	long int		%ld		4 byte		  -2,147,483,648 to +2,147,483,647	long int a
+Unsigned Integer   	unsigned int	%u		2 byte		   0 to 65535						unsigned int a
+
+*****************************************************************************************************************************************************
+FLOATING POINT:~ It is used to accept fractions.
+======================================================================================================================================
+Floating point	   float			%f		4 byte		 3.4*10^-38 to 3.4*10^+38			float a
+Double			   double			%lf		8 byte		 1.7*10^-308 to 1.7*10^+308			double a
+Long Double	   	   long double		%lf		10 byte		 3.4*10^-4932 to 1.1*10^+4932		long double a
+
+*****************************************************************************************************************************************************
+CHARACTER:~ It is used to accept a single character.
+=======================================================================================================================================
+Character			char			%c		1 byte		    -128 to +127					char a
+Unsigned Character	char			%c		1 byte		    0 to 255						char a
+
+*****************************************************************************************************************************************************
+
+How to write a C program?
+
+1. Comment- It is a statement that is ignored by compiler.
+2. Header file declaration
+3. Definition of main() Function
+4. Variables declarations
+5. Input output operations
+
+Multiline Comment:-
+===================
+/*
+My
+Comment 
+Statement
+*/
+
+Single line Comment:-
+=====================
+//Comment
+
+Syntax of header file declaration:-
+===================================
+#include<header file name>		or		#include"header file name"
+#include is a preprocessor directives that is used to include the header file and its coding with our program logically and compile it altogether.
+When we include the header file from the installed path, <> it is used but, when we include it from the current program location "" is used.
+Ex:    #include<stdio.h> - It is used for standard input output operation.
+
+main(): It is the compulsory function for every C/C++ program. After compilation program execution starts from here.
+
+Syntax of Function:-
+====================
+return_type function_name(Argument)
+{
+	Body of function
+}
+
+N.B.
+1. The return type specifies the type of the value that a function can return after processing. main() does not return any value so we use "void" keyword as return type.
+2. The function name can be any valid identifier[To identify anything in program].
+3. The argument of a function can be used to send any value for processing. In general main() does not receive any arguments. 
+4. {} It indicates block of statements.
+
+Ex:
+void main()
+{
+	//Body of program
+}
+
+Input Function:- scanf() - It accepts any type of value.
+Syntax:
+=======
+scanf("control string",&list of variables);
+Ex:-
+int a;
+scanf("%d",&a);
+
+Output Function:- printf() - It print any type of value.
+Syntax:
+=======
+printf("Statement with control string",list of variables);
+Ex:-
+int a;
+printf("Enter the number=");
+scanf("%d",&a);
+printf("a=%d",a);
+
+OPERATORS: It is a symbol that is used to perform any operation.
+==========
+According to number of operands it is 3 types.
+1. Unary- Accept 1(one) operand. Ex: ++ -- ~ UnaryMinus sizeof
+2. Binary- Accept two operands. Ex: + - * / = > < >= <=
+3. Ternary- Accept 3(three) operands. Ex: Conditional Operator   (Op1) ? Op2 : Op3
+
+According to use it is 8 types.
+1. Arithmetic Op.
+2. Logical Op.
+3. Conditional Op.
+4. Relational Op.
+5. Assignment Op.
+6. Increment & Decrement Op.
+7. Bitwise Op.
+8. Special Op.
+
+Arithmetic Op.=> + 	- 	* 	/ 	% [Modulo Division-To find remainder]   () Brackets
+****************
+int a,b,c;
+a=9;
+b=10;
+c=a/b;		[c=0]
+c=a%b;		[c=9]
+
+Logical Op.=>
+*************
+|| => Logical OR
+&& => Logical AND
+!  => Logical NOT
+
+Conditional Op.=>	?:
+*****************
+Syntax:
+(condition)?true_expression:false_expression
+Ex:
+int a=10,b;
+(a>5)?b=a+10:b=a-10;		[b=20]
+		OR
+b=(a>5)?a+10:a-10;			[b=20]
+
+Relational Op.=>
+****************
+>	<	>=	<=	== [Is Equal to]	!=
+
+Assignment Op.=>	=
+****************
+1.Chain Assignment
+Ex:
+int a,b,c;
+a=b=c=10;  //a=10, b=10, c=10
+
+2.Embedded Assignment
+Ex:
+int a,b;
+b=(a=5)+6;  //a=5, b=11
+
+3.Compound Assignment-Short hand assignment
+Ex:
+int a=5;
+a+=10;		[Normally, a=a+10; i.e. a=15]
+a*=10;		[Normally, a=a*10; i.e. a=50]
+a-=10;		[Normally, a=a-10; i.e. a=-5]
+a/=10;		[Normally, a=a/10; i.e. a=0]
+a%=5;		[Normally, a=a%5; i.e. a=0]
+
+[
+     1. Simple assignment:
+        a=10 ;
+        b=a;
+     2. Compound Assignment
+          a+=b;
+          a-=b;
+          a*=10;
+    3. Embedded Assignment
+          a=(b=5)+(c=10)
+         
+          a=15
+          b=5
+          c=10
+   4. Multiple Assignment
+          a=b=c=10
+         a=10,b=10,c=10
+]
+
+Increment & Decrement Op.=>
+*************************
+++ [Increment the value by 1] 		-- [Decrement the value by 1]
+
+Syntax: 
+[At first increment/decrement the value then assign it]
+++operand =>Pre Increment
+
+[At first assign the old value then increment/decrement]
+operand++ =>Post Increment
+
+Types of Decrement:
+--operand =>Pre Decrement
+operand-- =>Post Decrement
+
+Ex:
+int a=5,b;
+b=a++;		[a=6, b=5]
+b=++a;		[a=6, b=6]
+--------------------------
+int a=2,b;
+b=a--;		[a=1, b=2]
+b=--a;		[a=1, b=1]
+==========================
+int a=2;
+a+=a++ + ++a;		[a=a+(a++ + ++a)]
+==========================
+int a=-2;
+a-=a-- - --a;
+
+Bitwise Op.=>
+*************
+&  |  ^  <<  >>  ~
+int a=5,b=9,c;
+c=a|b;     
+
+Special Op.=>
+*************
+sizeof ==> Unary operator. Used to show the size in bytes of a variable	stored in memory. 
+Ex:
+int a;
+printf("size of a=%d",sizeof(a));	//size of a=2
+
+comma (,) ==> Used as separator

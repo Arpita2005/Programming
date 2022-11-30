@@ -1,0 +1,2 @@
+#include <stdio.h>
+int main(){int a,b,choose;do{printf("Enter two number to get addition:\n");scanf("%d%d",&a,&b);printf("Your addition of %d and %d is =%d\n",a,b,a+b);printf("Do you want to continue?\npress 1 to yes and Press 0 to no:\n");scanf("%d",&choose);}while (choose!=0);return 0;}

@@ -1,0 +1,10 @@
+{
+    "liveServer.settings.AdvanceCustomBrowserCmdLine": "",
+    "liveServer.settings.port": 0,
+    "liveServer.settings.multiRootWorkspaceName": "Programming",
+    "files.associations": {
+        "*.py": "python",
+        "abcd_new_something.C": "cpp"
+    },
+    "C_Cpp.errorSquiggles": "Disabled"
+}

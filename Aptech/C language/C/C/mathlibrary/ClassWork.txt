@@ -1,0 +1,4 @@
+WAP to input a float number at runtime and display the no of digits in its integer part.
+
+e.g-   Input        8745.4234
+         Output:    4 

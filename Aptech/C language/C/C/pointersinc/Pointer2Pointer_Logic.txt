@@ -1,0 +1,10 @@
+      putchar(**(fruit+x));  =>       //** mean pointer to pointer
+**(fruit+x) =   ** (&&fruit[x][0]) = fruit[x][0]
+   x=0 To 7           fruit[0][0] - w
+                             fruit[1][0] - b
+                             fruit[2][0] - p
+                             ..........................
+                             fruit[6][0] - b
+
+             putchar('\n');   - print new line 
+ arrayname+Index_variable=&arrayname[Index_variable];

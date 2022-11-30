@@ -1,0 +1,8 @@
+A storage class defines the scope (Visiility ) and life time of variables and or 
+functions swithin a C program They precede the type that they modify we have four dirrent 
+storage casses in a C program
+
+. Auto
+. Register
+.static 
+.extern
