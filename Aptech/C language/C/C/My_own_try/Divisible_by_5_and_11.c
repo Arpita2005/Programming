@@ -29,7 +29,7 @@ int main()
         }
         num/=10;
     }
-    if(even_sum-odd_sum>=0||even_sum-odd_sum<=0)
+    if(even_sum-odd_sum==0)
     {
         printf("It is divisible by 11\n");
     }
