@@ -43,8 +43,4 @@ void possitive_to_negative()
         printf("You have typed wrong option number\n");
     }
     
-    
-    
-    
-    
 }
