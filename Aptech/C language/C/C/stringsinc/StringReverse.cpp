@@ -16,7 +16,8 @@ int main()
    int i,n;
    for(n=0;str[n]!='\0';n++);
    printf("Reversed String:  ");
-   for(i=n-1;i>=0;i--)
+   //for(i=n-1;i>=0;i--)
+   for(i=n;i>=0;i--)
    printf("%c",str[i]);
    getch();
    return 0;

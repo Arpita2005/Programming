@@ -11,7 +11,8 @@ int main()
 	{
 		length++;
 	}
-	for(j=length-1;j>=0;j--)
+	//for(j=length-1;j>=0;j--)
+	for(j=length;j>=0;j--)
 	    printf("%c",str[j]);
 	
 	getch();

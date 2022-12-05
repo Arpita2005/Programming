@@ -6,5 +6,6 @@ int main()
 {
      char str1[20] = "BeginnersBook";
      printf("Length of string str1: %d", strlen(str1));
+     getch();
      return 0;
 }
