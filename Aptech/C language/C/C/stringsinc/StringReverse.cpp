@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<conio.h>
 #include<string.h>
  //String Reverse Function
 int main()
@@ -16,7 +17,7 @@ int main()
    for(n=0;str[n]!='\0';n++);
    printf("Reversed String:  ");
    for(i=n-1;i>=0;i--)
-      printf("%c",str[i]);
- 
+   printf("%c",str[i]);
+   getch();
    return 0;
 }

@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include<conio.h>
 #include <string.h>
 // String Concat
 int main()
@@ -15,5 +16,6 @@ int main()
      strcat(s1,s2);
      
      printf("Output string after concatenation: %s", s1);
+     getch();
      return 0;
 }

@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<conio.h>
 // Length of a string
 int main()  
 {
@@ -9,5 +10,6 @@ int main()
     for(i = 0; s[i] != '\0'; ++i); 
     
     printf("Length of string: %d", i);
+    getch();
     return 0;
 }

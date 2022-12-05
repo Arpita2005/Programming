@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<conio.h>
 //Remove Characters in String Except Alphabets
 int main()
 {
@@ -20,5 +21,6 @@ int main()
     }
     printf("Output String: ");
     puts(line);
+    getch();
     return 0;
 }

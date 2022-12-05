@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<conio.h>
 #include<string.h>
 // String Compare and string copy
 int main()
@@ -26,5 +27,6 @@ int main()
      {
          printf("string 3 and 4 are different");
      }
+     getch();
      return 0;
 }

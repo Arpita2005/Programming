@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include<conio.h>
 #include <string.h>
 /*
   Following is the declaration for strncpy() function.
@@ -22,6 +23,6 @@ int main ()
    strncpy(dest, src, 10);
 
    printf("Final copied string : %s\n", dest);
-   
+   getch();
    return(0);
 }

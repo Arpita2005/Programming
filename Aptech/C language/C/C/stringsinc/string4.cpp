@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include<conio.h>
 //Concatenate Two Strings Without Using strcat()
 int main()
 {
@@ -20,6 +21,6 @@ int main()
 
     s1[i] = '\0';
     printf("After concatenation: %s", s1);      
-
+    getch();
     return 0;
  }

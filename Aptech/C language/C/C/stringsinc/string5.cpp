@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<conio.h>
 //Copy String Manually Without Using strcpy()
 int main()
 {
@@ -12,5 +13,6 @@ int main()
     }
     s2[i] = '\0';
     printf("String s2: %s", s2);
+    getch();
     return 0;
 }

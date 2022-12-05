@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include<conio.h>
 // Length of string
 int main()
 {
@@ -10,6 +11,6 @@ int main()
 	while (str[i] != '\0')
 		i++;
 	printf("\n Length of %s = %d", str, i);
-
+	getch();
 	return 0;
 }

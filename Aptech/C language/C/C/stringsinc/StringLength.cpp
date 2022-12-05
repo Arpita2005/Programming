@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include<conio.h>
 #include <string.h>
 //   String Length
 int main()

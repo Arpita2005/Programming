@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<conio.h>
 //String reverse code
 int main()
 {
@@ -13,6 +14,7 @@ int main()
 	for(j=length-1;j>=0;j--)
 	    printf("%c",str[j]);
 	
+	getch();
 	return 0;
 	
 }
