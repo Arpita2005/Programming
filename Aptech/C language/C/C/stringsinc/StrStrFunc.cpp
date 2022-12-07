@@ -11,7 +11,7 @@ int main()
      
      printf("\nOutput string is: %s", strchr(inputstr,'i'));
 	 //ing Function in C at BeginnersBook.COM
-	 
+	    
      printf("\nOutput string is: %s", strrchr(inputstr,'i'));
      //innersBook.COM
      getch();

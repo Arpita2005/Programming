@@ -3,7 +3,7 @@ class calc
 {
 	public static void main(String[] args)
 	{
-	int i= 21,j=4,k;
+	int i= 21,j=4,k;//local variable
 	k=i+j;
 	System.out.println("Sum: "+k);
 	k=i-j;

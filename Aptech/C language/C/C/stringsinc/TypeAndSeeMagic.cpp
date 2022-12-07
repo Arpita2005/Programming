@@ -13,6 +13,6 @@ int main()
 		printf("%c",str[i]);
 		i++;
 	}
-	
+	//getch();
 	return 0;
 }
