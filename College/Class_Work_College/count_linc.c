@@ -3,18 +3,20 @@
 #include<string.h>
 int main()
 {
-    char paragraph[100];
+    char paragraph[1000];
     int i,count=0;
     printf("The Paragraph is:\n");
-    scanf("%[^\nc]",paragraph);
-    for(i=0;i<='\0';i++)
+    //scanf("%[^\nc]",paragraph);
+    gets(paragraph);
+    for(i=0;paragraph[i]!='\0';i++)
     {
-        if(paragraph[i]=='.'&&paragraph[i+1]=='.')
+        if(paragraph[i]=='.')
         {
             count++;
         }
     }
-    printf("The numbers of line in the paragraphs:\n%d",i);
+    printf("The numbers of line in the paragraphs:\n%d",count);
     getch();
     return 0;
 }
+//Flowers carry importance in each nook and corner of the world. They also come in use for making medicines. Similarly, we also make difference in fragrance perfumes from the flowers. Further, the butterflies, birds and bees take the flowers as food.
