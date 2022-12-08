@@ -8,7 +8,8 @@
         "GROSS.C": "cpp",
         "Q1.C": "cpp",
         "iostream": "cpp",
-        "ostream": "cpp"
+        "ostream": "cpp",
+        "ratio": "c"
     },
     "C_Cpp.errorSquiggles": "Disabled"
 }
