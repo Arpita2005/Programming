@@ -1,4 +1,4 @@
-import java.io.*;
+ import java.io.*;
 class two
 {
 	int id; //Default value of int is 0
