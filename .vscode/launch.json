@@ -1,7 +1,20 @@
 {
     "configurations": [
         {
-            //Windows OS C debuggerr
+            "type": "java",
+            "name": "Launch TestAccount",
+            "request": "launch",
+            "mainClass": "TestAccount",
+            "projectName": "Programming_f3c5363f"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestStudent2",
+            "request": "launch",
+            "mainClass": "TestStudent2",
+            "projectName": "Programming_f3c5363f"
+        },
+        {
             "name": "C_[WINDOWS]",
             "type": "cppdbg",
             "request": "launch",
@@ -28,7 +41,6 @@
             "preLaunchTask": "C: gcc.exe build active file"
         },
         {
-            //Windows OS C++ debugger
             "name": "C++_[WINDOWS]",
             "type": "cppdbg",
             "request": "launch",
