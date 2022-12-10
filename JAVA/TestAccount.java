@@ -1,13 +1,15 @@
 class Account
 {  
     // instance variables 
-	int acc_no;  
+	int acc_no;
+	//int class;  
 	String name;  
 	float amount; 
 	
 	void insert(int a,String n,float amt)
 	{  
 		acc_no=a;  
+		//class=a;
 		name=n;  
 		amount=amt;  
 	}  
@@ -37,6 +39,7 @@ class Account
 	void display()
 	{
 		System.out.println(acc_no+" "+name+" "+amount);
+		//System.out.println(class +" "+name+" "+amount);
 	}  
 }  
   
