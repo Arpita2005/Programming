@@ -8,11 +8,11 @@ typedef struct book
     char author_name[50];
 }details;
 
-#define size 5
+#define SIZE 5
 int main()
 {
-        details classwork[size];
-        for(int i=0;i<size;i++)
+        details classwork[SIZE];
+        for(int i=0;i<SIZE;i++)
         {
             printf("Enter the book name:\n");
             gets(classwork[i].book_name);
@@ -25,7 +25,7 @@ int main()
             fflush(stdin);
             gets(classwork[i].book_name);
         }
-        for(int i=0;i<size;i++)
+        for(int i=0;i<SIZE;i++)
         {
             printf("The %d book details are:\n",i+1);
             printf("=============================\n");
