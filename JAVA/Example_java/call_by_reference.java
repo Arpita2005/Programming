@@ -1,4 +1,4 @@
-import java.io.*;
+//import java.io.*;
 import java.util.Scanner;
 //main class
  public class call_by_reference
