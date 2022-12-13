@@ -1,5 +1,5 @@
 #include<stdio.h>
-
+#include<conio.h>
 int main()
 {
   int x;
@@ -19,6 +19,6 @@ int main()
       printf("Hello, world!\n");
   } 
   while (x==0);
-    
+  getch();  
   return 0;  
 }

@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<conio.h>
 // S= 1/!1 +  2/!2  +  3/!3  +................+  n/!n
 int fact(int x)
 {
@@ -22,6 +23,6 @@ int main()
 		sum+=(float)((float)i/(float)(fact(i)));
 	}
 	printf("\nSum=%0.3f",sum);
-	
+	getch();
 	return 0;
 }
