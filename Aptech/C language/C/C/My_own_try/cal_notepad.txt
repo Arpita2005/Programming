@@ -1,0 +1,71 @@
+#include<stdio.h>
+#include<conio.h>
+int num1,num2,result;
+void addition()
+{
+	printf("Enter the first number:\n");
+	scanf("%d",&num1);
+	
+	printf("Enter the second number:\n");
+	scanf("%d",&num2);
+	result=num1+num2);
+	printf("Your result is:%d",result);
+}
+void subtraction()
+{
+	
+	printf("Enter the first number:\n");
+	scanf("%d",&num1);
+	printf("Enter the second number:\n");
+	scanf("%d",&num2);
+	result=num1-num2;
+	printf("Your result is:%d",result);
+}
+void multiplication()
+{
+	printf("Enter the first number:\n");
+	scanf("%d",&num1);
+	printf("Enter the second number:\n");
+	scanf("%d",&num2);
+	result=num1*num2;
+	printf("Your result is:%d",result);
+}
+void addition()
+{
+printf("Enter the first number:\n");
+scanf("%d",&num1);
+printf("Enter the second number:\n");
+scanf("%d",&num2);
+result=num1/num2;
+printf("Your result is:%d",result);
+}
+int main()
+{
+int decide;
+printf("Choose the option: 1.addition  2.Subtraction  3.Multiplication   4.Divison");
+scanf("%d",&decide);
+if(decide==1)
+{
+	addition();
+}
+else if(decide==2)
+{
+	subtraction();
+}
+else if(decide==3)
+{ 
+	multiplication();
+}
+else if(decide==4)
+{
+	division();
+}
+else
+{
+printf("You have entered wrong option\n");
+}
+getch();
+return 0;
+	
+
+	
