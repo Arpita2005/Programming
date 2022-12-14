@@ -69,6 +69,8 @@ public static void main(String[] args)
     bank b1=new bank();
     b1.account_open();
     b1.option_choose();
+    int decide;
+    
 
 }
 }
