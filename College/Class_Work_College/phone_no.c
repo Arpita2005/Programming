@@ -5,7 +5,7 @@
  struct phone_no
  {
     char name[50];
-    long int call_number;
+    long long int call_number;
  };
  int main()
  {
@@ -22,13 +22,13 @@
     printf("The student details:\n");
     printf("========================\n");
     printf("Name:%s\n",c1.name);
-    printf("Your phone number is:%ld\n",c1.call_number);
+    printf("Your phone number is:%lld\n",c1.call_number);
     printf("========================\n");
     printf("Name:%s\n",c2.name);
-    printf("Your phone number is:%ld\n",c2.call_number);
+    printf("Your phone number is:%lld\n",c2.call_number);
     printf("========================\n");
     printf("Name:%s\n",c3.name);
-    printf("Your phone number is:%ld\n",c3.call_number);
+    printf("Your phone number is:%lld\n",c3.call_number);
 
     getch();
     return 0;

@@ -9,7 +9,8 @@
         "Q1.C": "cpp",
         "iostream": "cpp",
         "ostream": "cpp",
-        "ratio": "c"
+        "ratio": "c",
+        "valarray": "c"
     },
     "C_Cpp.errorSquiggles": "Disabled"
 }
