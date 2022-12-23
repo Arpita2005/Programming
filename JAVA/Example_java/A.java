@@ -11,7 +11,7 @@
 		public static void main(String args[])
 		{
 		   A x=new A();
-		   System.out.println(m);
+		   System.out.println(m); //no need to call static variable with object name
 		   System.out.println(x.data);
 		   x.method();
 		}
