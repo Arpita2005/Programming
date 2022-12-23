@@ -1,4 +1,4 @@
-import java.io.*;
+//import java.io.*;
 class student
 {
 	int id;  //instance variable

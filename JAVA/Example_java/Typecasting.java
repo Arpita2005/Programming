@@ -1,4 +1,4 @@
-public class Test1
+public class Typecasting
 {
     public static void main(String[] args)
     {

@@ -9,7 +9,7 @@ public class FormatSpecifier
 		float f1=90.74564f;
 		System.out.printf("\n%5d",i);
 		System.out.printf("\n%5c",c);
-		System.out.printf("\n%.2f",f1);
+		System.out.printf("\n%.2f\n",f1);
 		
 	}
 }

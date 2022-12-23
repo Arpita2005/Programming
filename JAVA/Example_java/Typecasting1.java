@@ -1,4 +1,4 @@
-public class Test
+public class Typecasting1
 {
     public static void main(String[] args)
     {
@@ -10,7 +10,7 @@ public class Test
       System.out.println("Long value "+l);
       System.out.println("Float value "+f);
 	  System.out.printf("\nFloat value %.2f",f);
-	  System.out.printf("\nFloat value %.0f",f1);
+	  System.out.printf("\nFloat value %.2f\n",f1);
     }
     
 }
