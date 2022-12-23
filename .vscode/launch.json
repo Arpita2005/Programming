@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch bank_details",
+            "request": "launch",
+            "mainClass": "bank_details",
+            "projectName": "Programming_f3c5363f"
+        },
+        {
+            "type": "java",
             "name": "Launch effect",
             "request": "launch",
             "mainClass": "effect",
