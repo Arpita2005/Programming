@@ -1,6 +1,4 @@
-//Write a program to print the pattern 1, 8, 72, 61, 521, 612, 343, 215, ......, n terms.
-
-
+//Write a program to print the pattern 1, 8, 72, 64, 521, 612, 343, 215, ......, n terms.
 #include"stdio.h"
 #include"conio.h"
 int call_reverse(int x)
@@ -35,7 +33,6 @@ int main()
         for(i=1;i<=c;i++)
         {
             printf("%d\t",call_reverse(i*i*i));
-           //call_reverse();
         }
     getch();
     return 0;
