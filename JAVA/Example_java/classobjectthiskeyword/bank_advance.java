@@ -2,7 +2,7 @@ import java.util.Scanner;
 class advance
 {
     String name,branch_name;
-    int no_of_person, ac_open_amount,deposit,withdraw,id;
+    int no_of_person, ac_open_amount,deposit,withdraw,id,i=0;
     Scanner input = new Scanner(System.in);
     public void get_details()
     {
@@ -17,6 +17,7 @@ class advance
         input.nextLine();
         System.out.println("Enter your Id:");
         id=input.nextInt();
+        input.nextLine();
         System.out.println("Enter Your Branch Name:");
         branch_name=input.next();
     }
