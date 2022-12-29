@@ -2,44 +2,23 @@
     "configurations": [
         {
             "type": "java",
-            "name": "Launch bank_advance",
+            "name": "Launch bank",
             "request": "launch",
-            "mainClass": "bank_advance",
+            "mainClass": "bank",
             "projectName": "Programming_f3c5363f"
         },
         {
             "type": "java",
-            "name": "Launch bank_details",
+            "name": "Launch App",
             "request": "launch",
-            "mainClass": "bank_details",
+            "mainClass": "App",
             "projectName": "Programming_f3c5363f"
         },
         {
             "type": "java",
-            "name": "Launch effect",
+            "name": "Launch mirror_image",
             "request": "launch",
-            "mainClass": "effect",
-            "projectName": "Programming_f3c5363f"
-        },
-        {
-            "type": "java",
-            "name": "Launch result",
-            "request": "launch",
-            "mainClass": "result",
-            "projectName": "Programming_f3c5363f"
-        },
-        {
-            "type": "java",
-            "name": "Launch TestAccount",
-            "request": "launch",
-            "mainClass": "TestAccount",
-            "projectName": "Programming_f3c5363f"
-        },
-        {
-            "type": "java",
-            "name": "Launch TestStudent2",
-            "request": "launch",
-            "mainClass": "TestStudent2",
+            "mainClass": "mirror_image",
             "projectName": "Programming_f3c5363f"
         },
         {

@@ -27,7 +27,7 @@ class Banking_statement
     }
     void  bank_deposit()
     {
-        System.out.println("=================================");
+        System.out.println("================================="+" ");
         System.out.println("Enter a amount to deposit : ");
         deposit=amount_input.nextInt();
         balance+=deposit;

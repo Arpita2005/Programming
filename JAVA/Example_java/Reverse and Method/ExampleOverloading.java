@@ -14,7 +14,7 @@ public class ExampleOverloading
       System.out.println("Minimum Value = " + result2);
    }
    // for integer
-   public static int minFunction(int n1, int n2) 
+   static int minFunction(int n1, int n2) 
    {
       int min;
       if (n1 > n2)
@@ -25,7 +25,7 @@ public class ExampleOverloading
       return min; 
    }   
    // for double
-   public static double minFunction(double n1, double n2) 
+    static double minFunction(double n1, double n2) 
    {
       double min;
       if (n1 > n2)
