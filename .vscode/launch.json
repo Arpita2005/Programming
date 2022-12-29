@@ -2,23 +2,9 @@
     "configurations": [
         {
             "type": "java",
-            "name": "Launch bank",
+            "name": "Launch replace",
             "request": "launch",
-            "mainClass": "bank",
-            "projectName": "Programming_f3c5363f"
-        },
-        {
-            "type": "java",
-            "name": "Launch App",
-            "request": "launch",
-            "mainClass": "App",
-            "projectName": "Programming_f3c5363f"
-        },
-        {
-            "type": "java",
-            "name": "Launch mirror_image",
-            "request": "launch",
-            "mainClass": "mirror_image",
+            "mainClass": "replace",
             "projectName": "Programming_f3c5363f"
         },
         {
