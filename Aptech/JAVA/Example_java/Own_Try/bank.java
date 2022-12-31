@@ -23,7 +23,7 @@ class details
         person[] p1=new person[num];
         for(int i=0;i<p1.length;i++)
         {
-            System.out.println("Details : "+(i+1));
+            System.out.println(" ||Details : "+(i+1) +"||");
             System.out.println("Enter Your Name:\n");
             name=input.nextLine();
             System.out.println("Enter Your Id:\n");
