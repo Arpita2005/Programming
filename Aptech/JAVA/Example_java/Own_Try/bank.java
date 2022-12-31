@@ -4,17 +4,17 @@ class person
     Scanner sc=new Scanner(System.in);
     Scanner input=new Scanner(System.in);
     int id,ac_open_amount,deposit,withdraw,num;
-    String name,branch;
-    char verify,choose;
+    String name,verify,branch;
+    char choose;
 }
 
 class details
 {
     Scanner sc=new Scanner(System.in);
     Scanner input=new Scanner(System.in);
-    int id,ac_open_amount,deposit,withdraw,num;
+    int id,ac_open_amount,deposit,withdraw,num,verify;
     String name,branch;
-    char verify,choose;
+    char choose;
     
     public void details(int person)
     {
@@ -23,6 +23,7 @@ class details
         person[] p1=new person[num];
         for(int i=0;i<p1.length;i++)
         {
+            System.out.println("Details : "+(i+1));
             System.out.println("Enter Your Name:\n");
             name=input.nextLine();
             System.out.println("Enter Your Id:\n");
@@ -38,6 +39,8 @@ class details
         if(choose=='D'||choose=='d')
         {
             System.out.println("Which user's details you want to show type his/her name or ID:");
+            verify=input.nextInt();
+
             for(int i=0;i<p1.length;i++)
             {
                 if(p1.length==verify)
