@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch practise",
+            "request": "launch",
+            "mainClass": "practise",
+            "projectName": "Programming_f3c5363f"
+        },
+        {
+            "type": "java",
+            "name": "Launch practice",
+            "request": "launch",
+            "mainClass": "practice",
+            "projectName": "Programming_f3c5363f"
+        },
+        {
+            "type": "java",
             "name": "Launch bank",
             "request": "launch",
             "mainClass": "bank",
