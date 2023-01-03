@@ -1,4 +1,5 @@
-#include <stdio.h>   
+#include <stdio.h>  
+#include<conio.h> 
 // Function to print the character bridge
 int main() 
 { 
@@ -26,5 +27,6 @@ int main()
     		
     	printf("\n");
 	}
+	getch();
     return 0; 
 } 

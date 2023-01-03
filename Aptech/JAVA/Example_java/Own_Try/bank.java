@@ -82,4 +82,5 @@ class bank
      d1.details_of_everyone();
    }
 }
+}
 

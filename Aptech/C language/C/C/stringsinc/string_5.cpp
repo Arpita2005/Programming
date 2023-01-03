@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<conio.h>
 int main()
 {
 	char name[30],ch;
@@ -12,5 +13,6 @@ int main()
 	}
 	name[i]='\0';
 	printf("\n The length of string %s is %d",name,i-1);
+	getch();
 	return 0;
 }

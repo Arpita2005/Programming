@@ -2,30 +2,9 @@
     "configurations": [
         {
             "type": "java",
-            "name": "Launch practise",
+            "name": "Launch print",
             "request": "launch",
-            "mainClass": "practise",
-            "projectName": "Programming_f3c5363f"
-        },
-        {
-            "type": "java",
-            "name": "Launch practice",
-            "request": "launch",
-            "mainClass": "practice",
-            "projectName": "Programming_f3c5363f"
-        },
-        {
-            "type": "java",
-            "name": "Launch bank",
-            "request": "launch",
-            "mainClass": "bank",
-            "projectName": "Programming_f3c5363f"
-        },
-        {
-            "type": "java",
-            "name": "Launch replace",
-            "request": "launch",
-            "mainClass": "replace",
+            "mainClass": "print",
             "projectName": "Programming_f3c5363f"
         },
         {
