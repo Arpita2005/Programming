@@ -31,6 +31,7 @@ public class third
                 fact*=k;
             }
             System.out.println(fact);
+            fact=1;
         }
        
     }

@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch hollow_rect",
+            "request": "launch",
+            "mainClass": "hollow_rect",
+            "projectName": "Programming_f3c5363f"
+        },
+        {
+            "type": "java",
+            "name": "Launch solid_rect",
+            "request": "launch",
+            "mainClass": "solid_rect",
+            "projectName": "Programming_f3c5363f"
+        },
+        {
+            "type": "java",
             "name": "Launch print",
             "request": "launch",
             "mainClass": "print",
