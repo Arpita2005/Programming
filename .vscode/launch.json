@@ -2,23 +2,16 @@
     "configurations": [
         {
             "type": "java",
-            "name": "Launch hollow_rect",
+            "name": "Launch k_pattern",
             "request": "launch",
-            "mainClass": "hollow_rect",
+            "mainClass": "k_pattern",
             "projectName": "Programming_f3c5363f"
         },
         {
             "type": "java",
-            "name": "Launch solid_rect",
+            "name": "Launch foreach_loop",
             "request": "launch",
-            "mainClass": "solid_rect",
-            "projectName": "Programming_f3c5363f"
-        },
-        {
-            "type": "java",
-            "name": "Launch print",
-            "request": "launch",
-            "mainClass": "print",
+            "mainClass": "foreach_loop",
             "projectName": "Programming_f3c5363f"
         },
         {

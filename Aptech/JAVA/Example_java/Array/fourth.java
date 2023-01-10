@@ -8,6 +8,7 @@ public class fourth
         Scanner sc=new Scanner (System.in);
         int input,sum=0;
         int[] arr=new int[100];
+        int max=arr[0],min=arr[0];
         System.out.println("Enter the size of array:\n");
         input=sc.nextInt();
         System.out.println(".............................\n");

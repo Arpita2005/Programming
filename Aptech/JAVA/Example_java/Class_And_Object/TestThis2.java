@@ -25,8 +25,10 @@ class TestThis2
 	{ 	
 		Student5 s1=new Student5(111,"Ankit",5000f);  
 		Student5 s2=new Student5(112,"Sumit",6000f); 
+		Student5 s3=new Student5(113,"Arpita",4000f);
 		
 		s1.display();  
 		s2.display();  
+		s3.display();
    }
 }  

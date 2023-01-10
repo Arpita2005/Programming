@@ -6,7 +6,7 @@ public class d_m_Y
     {
        Scanner input=new Scanner(System.in);
        int day,rem,year,l_day;
-       System.out.println("Enter the dat to see year month and day:\n");
+       System.out.println("Enter the date to see year month and day:\n");
        day=input.nextInt();
        year=day/365;
        System.out.println("The year is:\n"+year);
