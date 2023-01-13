@@ -17,6 +17,7 @@ int main()
                 line[j] = line[j+1];
             }
             line[j] = '\0';
+       
         }
     }
     printf("Output String: ");

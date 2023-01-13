@@ -8,7 +8,7 @@ int main()
     char sentence[100];
     printf("Enter the Sentence to count the words:\n");
     scanf("%[^\n]c",sentence);
-    int count=0,i=0;
+    int count=1,i=0;
     while(sentence[i]!='\0')
     {
         // count=getch();
