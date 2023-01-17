@@ -16,7 +16,7 @@ int main()
     count1++;
     for(i=0;i<count-count1;i++)
     {
-        for(j-i;j<i+count1;j++)
+        for(j=i;j<i+count1;j++)
         {
             flag = 1;
             if(input[j]!=search[j-1])

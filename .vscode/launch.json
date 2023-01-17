@@ -2,6 +2,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch main",
+            "request": "launch",
+            "mainClass": "file_parameter.main",
+            "projectName": "Programming_f3c5363f"
+        },
+        {
+            "type": "java",
+            "name": "Launch main1",
+            "request": "launch",
+            "mainClass": "file_with_parameter.main1",
+            "projectName": "Programming_f3c5363f"
+        },
+        {
+            "type": "java",
+            "name": "Launch main",
+            "request": "launch",
+            "mainClass": "advance_cal.main",
+            "projectName": "Programming_f3c5363f"
+        },
+        {
+            "type": "java",
             "name": "Launch k_pattern",
             "request": "launch",
             "mainClass": "k_pattern",

@@ -1,7 +1,4 @@
-package Example_java.calculator;
-// import Example_java.calculator.first;
-// import Example_java.calculator.option;
-
+package calculator;
 public class main
 {
     public static void main(String[] args) 

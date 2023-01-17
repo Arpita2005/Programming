@@ -3,13 +3,12 @@
 #include<conio.h>
 int main()
 {
-    char line[200];
+    char line[200],ch;
     int i;
     printf("Please enter your input:\n");
     gets(line);
-    char ch ='-';
-    // printf("Enter the character with whome you wannt to replace:\n");
-    // scanf("%c",&ch);
+    printf("Enter the character with whome you wannt to replace:\n");
+    scanf("%c",&ch);
     printf("\n");
     for(i=0;line[i]!='\0';i++)
     {
@@ -18,7 +17,7 @@ int main()
             line[i]=ch;
         }
     }
-    printf("The sentence after removing spaces will be:\n%s",line[i]);
+    puts(line);
     getch();
     return 0;
 

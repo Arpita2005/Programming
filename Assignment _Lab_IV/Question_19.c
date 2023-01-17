@@ -14,13 +14,12 @@ int main()
     }
     printf("Enter the second line:\n");
     gets(second);
-    i=0;
     for(int j=0;second[j]!='\0';j++)
     {
        third[k]=second[j];
        k++;
     }
-    third[k]='\0';
+    //third[k]='\0';
     printf("The final string is:\n%s",third);
     getch();
     return 0;
