@@ -8,34 +8,6 @@
             "projectName": "Programming_f3c5363f"
         },
         {
-            "type": "java",
-            "name": "Launch main1",
-            "request": "launch",
-            "mainClass": "file_with_parameter.main1",
-            "projectName": "Programming_f3c5363f"
-        },
-        {
-            "type": "java",
-            "name": "Launch main",
-            "request": "launch",
-            "mainClass": "advance_cal.main",
-            "projectName": "Programming_f3c5363f"
-        },
-        {
-            "type": "java",
-            "name": "Launch k_pattern",
-            "request": "launch",
-            "mainClass": "k_pattern",
-            "projectName": "Programming_f3c5363f"
-        },
-        {
-            "type": "java",
-            "name": "Launch foreach_loop",
-            "request": "launch",
-            "mainClass": "foreach_loop",
-            "projectName": "Programming_f3c5363f"
-        },
-        {
             "name": "C_[WINDOWS]",
             "type": "cppdbg",
             "request": "launch",

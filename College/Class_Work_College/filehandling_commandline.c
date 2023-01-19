@@ -32,7 +32,7 @@ int main(int argc, char *argv[])
     }
     fclose(ptr1);
     fclose(ptr2);
-    // ptr=fopen("file.txt","r");
+    // ptr=fopen("file.txt","w");
     // ch=getc(ptr);
     // if(ptr==NULL)
     // {
