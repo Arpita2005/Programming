@@ -1,29 +1,22 @@
 /*Write a program in C to reverse a string using recursion.*/
-#include<stdio.h>
+# include <stdio.h>
 #include<conio.h>
-#define MAX 100
-char* ReverseOfString(char[]);
+void reverse(char *str)
+{
+if (*str)
+{
+	reverse(str+1);
+	printf("%c", *str);
+}
+}
 int main()
 {
-
-    char str1[MAX],*revstr;
-    printf(" Input any string: ");
-    scanf("%s",str1);
-
-    revstr = ReverseOfString(str1);     /**call the function ReverseOfString**/
-
-    printf(" The reversed string is: %s\n\n",revstr);
-    getch();
-    return 0;
-}
-char* ReverseOfString(char str1[])
-{
-    static int i=0;
-    static char revstr[MAX];
-    if(*str1)
-    {
-         ReverseOfString(str1+1);      /**calling the function ReverseOfString itself**/
-         revstr[i++] = *str1;
-    }
-    return revstr;
+char a[100];
+printf("Enter the String:\n");
+gets(a);
+printf("The reverse is:\n");
+printf("========================\n");
+reverse(a);
+getch();
+return 0;
 }

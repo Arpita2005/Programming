@@ -1,7 +1,7 @@
 //Write a C programme to find the frequency of the word
 #include <stdio.h>
 #include <string.h>
- 
+#include<conio.h>
 void main()
 {
     int count = 0, c = 0, i, j = 0, k, space = 0;
@@ -67,4 +67,5 @@ void main()
         printf("%s -> %d times\n", ptr1[i], c);
         c = 0;
     }
+    getch();
 }

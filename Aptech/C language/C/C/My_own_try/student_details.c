@@ -1,5 +1,6 @@
 #include<stdio.h>
 #include<conio.h>
+// #include<stdlib.h>
 struct student
 {
     int roll,year;
@@ -38,23 +39,27 @@ int main()
    scanf("%d", &s[i].roll);
    printf("Enter Course:\n");
    fflush(stdin);
-   scanf("%s",&s[i].course);
+   gets(s[i].course);
    printf("Enter Year:\n");
    scanf(" %d",&s[i].year);
   }
   for (i = 0; i < total; i++)
   {
     printf("Details of %d student\n", i + 1);
-    printf("Roll %d Name %s\n Corse %s\n year of joning %d\n", s[i].roll, s[i].name, s[i].course, s[i].year);
+    printf("====================================\n");
+    printf("Name :  %s\n.......\nRoll: %d\n...... \n Corse:  %s\n.........\nYear of joning:  %d\n",s[i].name,s[i].roll,s[i].course,s[i].year);
   }
+  printf("===================\n");
   printf("specific year\n");
-  scanf("%d\n", &time);
+  printf("..................\n");
+  scanf("%d", &time);
   for (i = 0; i < total; i++)
   {
     year(s[i], time);
   }
   printf("For specific details enter roll\n");
-  scanf("%d\n", &roll);
+  printf("........................\n");
+  scanf("%d", &roll);
   for (i = 0; i < total; i++)
   {
     details(s[i], roll);

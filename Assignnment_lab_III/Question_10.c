@@ -18,13 +18,15 @@ void perfect_in_a_range()
     for(i=start_num;i<end_num;i++)
     {
         while(n<i)
-        {
+        { 
             if(i%n==0)
             sum=sum+n;
             n++;
         }
         if(sum==i)
-        printf("%d",n);
+        {
+        printf("%d",i);
+        }
     }
     printf("\n");
 }

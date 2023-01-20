@@ -1,22 +1,31 @@
-//Write a program in C to check whether an input string is palindrome or not.
-#include<stdio.h>
-#include<string.h>
+#include <stdio.h>
+#include <string.h>
 #include<conio.h>
-int main()
-{
-    char input[200];
-    int i;
-    printf("Enter your string:\n");
-    gets(input);
-       if(input==strrev(input))
-          {
-             printf("It is a palindrome string\n");
-          }
-     else
-          {
-             printf("It is not a pallindrome string\n");
-          }   
-   
-   getch();
+int main(){
+    char string1[20];
+    int i, length;
+    int flag = 0;
+    
+    printf("Enter a string:");
+    scanf("%s", string1);
+    
+    length = strlen(string1);
+    
+    for(i=0;i < length ;i++)
+    {
+        if(string1[i] != string1[length-i-1])
+        {
+            flag = 1;
+            break;
+        }
+    }
+    
+    if (flag==1) {//if(flag) because when we declare flag only it automatically holds non zero value
+        printf("%s is not a palindrome", string1);
+    }    
+    else {
+        printf("%s is a palindrome", string1);
+    }
+    getch();
     return 0;
 }

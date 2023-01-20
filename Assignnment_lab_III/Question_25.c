@@ -15,6 +15,7 @@ int main()
     else
         lcmOf = lcmCalculate(n1, n2);         /**call the function lcmCalculate for lcm calculation**/
     printf(" The LCM of %d and %d :  %d\n\n", n1, n2, lcmOf);
+    getch();
     return 0;
 }
 int lcmCalculate(int a, int b)                /**the value of n1 and n2 is passing through a and b**/

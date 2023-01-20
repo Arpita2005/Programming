@@ -37,8 +37,8 @@ int main()
             strcpy(large, words[k]);  
     }  
       
-    printf("Smallest word: \n...........................\n%s", small);  
-    printf("Largest word: \n...................................\n%s", large);  
+    printf("Smallest word: \n...........................\n%s\n", small);  
+    printf("Largest word: \n...................................\n%s\n", large);  
     getch();
     return 0;  
 }  

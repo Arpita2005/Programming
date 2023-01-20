@@ -10,11 +10,11 @@ int main()
     gets(input);
    // printf("\nThe length is:%d\n",strlen(input));
     for(i=0;input[i]!='\0';i++);
-    printf("%d\n",i);
+    printf("Length : %d\n",i);
     printf("Enter second Sentence:\n");
     gets(input1);
     for(j=0;input1[j]!='\0';j++);
-    printf("%d\n",j);
+    printf("Length: %d\n",j);
     //printf("The length is:%d\n",strlen(input1));
     if(strlen(input)==strlen(input1))
     {

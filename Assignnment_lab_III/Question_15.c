@@ -1,27 +1,37 @@
-//Write a program in C to Print Fibonacci Series using recursion.
+/***Write a program in C to Print Fibonacci Series using recursion.***/
+
 #include<stdio.h>
 #include<conio.h>
-int fibonacci(int num);
-int main()
+int term;
+int fibonacci(int prNo, int num);
+ 
+void main() 
 {
-  int num;
-  printf("Enter the last range number to show the fibonacci series:\n");
-  scanf("%d",&num);
-  for(int i=0;i<num;i++)
-  {
-    printf("%d",fibonacci(num));
-  }
-  getch();
-  return 0;
+   static int prNo = 0, num = 1;
+   printf(" Input number of terms for the Series : ");
+   scanf("%d", &term);
+ printf(" The Series are :\n"); 
+   printf(" 1  ");
+   fibonacci(prNo, num);
+    printf("\n\n");
 }
-int fibonacci(int num)
+int fibonacci(int prNo, int num) 
 {
-    if(num==0)
-    {
-        return 0;
-    }
-    else
-    {
-        return fibonacci(num-1)+fibonacci(num-2);
-    }
+   static int i = 1;
+   int nxtNo;
+ 
+   if (i == term)
+      return (0);
+   else 
+   {
+      nxtNo = prNo + num;
+      prNo = num;
+      num = nxtNo;
+      printf("%d  ", nxtNo);
+ 
+      i++;
+      fibonacci(prNo, num);
+   }
+   getch();
+   return 0;
 }
