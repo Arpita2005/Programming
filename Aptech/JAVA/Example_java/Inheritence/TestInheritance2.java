@@ -1,18 +1,18 @@
-class Animal
+class Domestic_Animal
 {  
 		void eat()
 		{
 			System.out.println("eating...");
 		}  
 }  
-class Dog extends Animal
+class ddog extends Domestic_Animal
 {  
 		void bark()
 		{
 			System.out.println("barking...");
 		}  
 }  
-class BabyDog extends Dog
+class BabyDog extends ddog
 {  
 		void weep()
 		{

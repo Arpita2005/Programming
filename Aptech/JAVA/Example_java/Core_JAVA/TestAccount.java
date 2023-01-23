@@ -1,4 +1,4 @@
-class Account
+class my_Account
 {  
     // instance variables 
 	int acc_no;
@@ -43,11 +43,11 @@ class Account
 	}  
 }  
   
-class TestAccount
+class TESTAccount
 {  
 	public static void main(String[] args)
 	{ 	
-			Account a1=new Account(); 
+			my_Account a1=new my_Account();
 			
 			a1.insert(832345,"Ankit",1000);  
 			a1.display();  

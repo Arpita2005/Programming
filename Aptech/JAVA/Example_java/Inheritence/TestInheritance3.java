@@ -1,18 +1,18 @@
-class Animal
+class Animals
 {  
 	void eat()
 	{
 		System.out.println("eating...");
 	}  
 }  
-class Dog extends Animal
+class Dogs extends Animals
 {  
 	void bark()
 	{
 		System.out.println("barking...");
 	}  
 }  
-class Cat extends Animal
+class Cat extends Animals
 {  
 	void meow()
 	{
@@ -26,7 +26,7 @@ class TestInheritance3
 		Cat c=new Cat();  
 		c.meow();  
 		c.eat();  
-		Dog d=new Dog();
+		Dogs d=new Dogs();
 		d.bark();
 		d.eat();
 		//c.bark();//C.T.Error  

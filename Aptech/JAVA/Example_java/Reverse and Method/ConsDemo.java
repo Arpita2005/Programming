@@ -1,9 +1,9 @@
 // A simple constructor.
-class MyClass 
+class mmyClass
 {
    int x;
    // Following is the constructor
-   MyClass() 
+   mmyClass()
    {
       x = 10;
    }
@@ -12,8 +12,8 @@ public class ConsDemo
 {
    public static void main(String args[]) 
    {
-      MyClass t1 = new MyClass();
-      MyClass t2 = new MyClass();
+      mmyClass t1 = new mmyClass();
+      mmyClass t2 = new mmyClass();
       System.out.println(t1.x + " " + t2.x);
    }
 }

@@ -18,7 +18,7 @@ public class ArithmeticException
 		   r=i/j;
 		   System.out.println("The result is:=   "+r);
 		}	
-		catch(ArithmeticException e) 
+		catch(Exception e)
 		{
 			 System.out.println("Exception thrown  :" + e);
 		}

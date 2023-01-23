@@ -1,6 +1,6 @@
 // A class to display the attributes of the vehicle
 
-class Vehicle 
+class ride
 {
    String color;
    private int speed;
@@ -24,7 +24,7 @@ class Vehicle
 }
 
 // A subclass which extends for vehicle
-class Car extends Vehicle 
+class ride1 extends ride
 {
    int CC;
    int gears;
@@ -41,7 +41,7 @@ public class Test4
 {
    public static void main(String args[]) 
    {
-     Car b1 = new Car();
+     ride1 b1 = new ride1();
      // the subclass can inherit 'color' member of the superclass
      b1.color = 500; 
      b1.setSpeed(200) ;

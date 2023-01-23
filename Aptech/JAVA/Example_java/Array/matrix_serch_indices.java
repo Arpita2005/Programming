@@ -27,7 +27,7 @@ public class matrix_serch_indices
             {
                 if(number[i][j]==x)
                 {
-                    System.out.println("x found at location " +j+" "+i);
+                    System.out.println("x found at location " +i+" "+j);
                     System.out.println("...............................");
                 }
             }

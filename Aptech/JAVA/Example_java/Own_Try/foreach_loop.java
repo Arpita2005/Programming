@@ -1,12 +1,12 @@
 import java.util.*;
 
-class Student
+class student
 {
     String name;
     int roll;
     int marks;
 
-    Student(String name, int roll, int marks)
+    student(String name, int roll, int marks)
     {
         this.name = name;
         this.roll = roll;
@@ -29,7 +29,7 @@ class foreach_loop
         int num=sc.nextInt();
 
 
-        Student s1[] = new Student[num];
+        student s1[] = new student[num];
 
         for(int i=0;i<num;i++)
         {
@@ -44,7 +44,7 @@ class foreach_loop
         }
            
         
-        for(Student s : s1)
+        for(student s : s1)
         {
             System.out.println("Name: " + s.name);
             System.out.println("Roll: " + s.roll);

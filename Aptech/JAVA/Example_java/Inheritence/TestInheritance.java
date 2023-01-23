@@ -1,11 +1,11 @@
-class Animal
+class animal
 {  
 	void eat()
 	{
 		System.out.println("eating...");
 	}  
 }  
-class Dog extends Animal
+class dog extends animal
 {  
 	void bark()
 	{
@@ -16,7 +16,7 @@ class TestInheritance
 {  
    public static void main(String args[])
    {		
-		Dog d=new Dog();  
+		dog d=new dog();
 		d.bark();  
 		d.eat();  
    }

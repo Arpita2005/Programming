@@ -1,18 +1,18 @@
-class A
+class AA
 {  
 	void msg()
 	{
 		System.out.println("Hello");
 	}  
 }  
-class B
-{  
+class BB
+{
 	void msg()
 	{
 		System.out.println("Welcome");
 	}  
 }  
-class C extends A,B
+class C extends AA //,BB
 {//suppose if it were  
    
      public static void main(String args[])

@@ -36,18 +36,18 @@ class Shape
     }
 }
 // A subclass which extends for shape
-class Rectangle extends Shape 
+class Rectangles extends Shape
 {
    private String type;
    // default Constructor
-   Rectangle() 
+   Rectangles()
    {
       super();
       type = null;
       System.out.println("Inside default constructor of rectangle ");
    }
     // Parameterized Constructor
-    Rectangle(String ty, int len, int bdth) 
+    Rectangles(String ty, int len, int bdth)
 	{
        super(len, bdth);
        System.out.println("Inside constructor of rectangle ");
@@ -65,7 +65,7 @@ class Rectangle extends Shape
     }
 }
 // A subclass which extends for rectangle
-class ColoredRectangle extends Rectangle 
+class ColoredRectangle extends Rectangles
 {
     private String color;
     /* default Constructor*/
@@ -99,8 +99,8 @@ public class Test_Rect
 {
    public static void main(String args[]) 
    {
-       ColoredRectangle CR = new ColoredRectangle();
+       ColoredRectangleshape CR = new ColoredRectangleshape();
 	   System.out.println();
-       ColoredRectangle CR2 = new ColoredRectangle("Red","Big", 5, 2 );
+       ColoredRectangleshape CR2 = new ColoredRectangleshape("Red","Big", 5, 2 );
    }
 }

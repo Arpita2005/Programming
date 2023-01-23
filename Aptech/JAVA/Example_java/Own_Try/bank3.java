@@ -92,13 +92,13 @@ class bank3
     }
 }
 
-class Person
+class Person_num
 {
     String name;
     long id, balance;
     String branch;
 
-    Person (String name, long id, long balance, String branch)
+    Person_num (String name, long id, long balance, String branch)
     {
         this.name = name;
         this.id = id;

@@ -1,5 +1,5 @@
 
-class Shape 
+class Size
 {
    private int length;
    private int breadth;
@@ -20,7 +20,7 @@ class Shape
       length = i;
    }
    // default Constructor
-   Shape() 
+   Size()
    {
       length = 0;
       breadth = 0;
@@ -28,7 +28,7 @@ class Shape
    }
 
     // Parameterized Constructor
-    Shape(int len, int bdth) 
+    Size(int len, int bdth)
     {
        length = len;
        breadth = bdth;
@@ -39,12 +39,12 @@ class Shape
 }
 
 // A subclass which extends for shape
-class Rectangle extends Shape 
+class circle extends Size
 {
    private String type;
 
    // default Constructor
-   Rectangle() 
+   circle()
    {
       super();
       type = null;
@@ -52,7 +52,7 @@ class Rectangle extends Shape
    }
 
     // Parameterized Constructor
-    Rectangle(String ty, int len, int bdth) 
+    circle(String ty, int len, int bdth)
 	{
        super (len, bdth);
        System.out.println("Inside constructor of rectangle ");
@@ -73,11 +73,11 @@ class Rectangle extends Shape
 }
 
 // A subclass which extends for rectangle
-class ColoredRectangle extends Rectangle 
+class drawrect extends circle
 {
     private String color;
     /* default Constructor*/
-    ColoredRectangle() 
+    drawrect()
 	{
        super();
        color = null;
@@ -85,7 +85,7 @@ class ColoredRectangle extends Rectangle
     }
 
      // Parameterized Constructor
-     ColoredRectangle(String c, String ty, int len, int bdth) 
+     drawrect(String c, String ty, int len, int bdth)
 	 {
        super (ty, len, bdth);
        System.out.println("Inside constructor of coloredRectangle ");
@@ -107,7 +107,7 @@ public class Test5
 {
    public static void main(String args[]) 
    {
-       ColoredRectangle CR = new ColoredRectangle();
-       ColoredRectangle CR2 = new ColoredRectangle("Red","Big", 5, 2 );
+       drawrect CR = new drawrect();
+       drawrect CR2 = new drawrect("Red","Big", 5, 2 );
    }
 }

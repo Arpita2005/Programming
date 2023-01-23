@@ -1,8 +1,8 @@
-class Employee
+class Employee01
 {  
       float salary=40000;  
 }  
-class Programmer extends Employee
+class Programmer extends Employee01
 {
 	
      int bonus=10000;  

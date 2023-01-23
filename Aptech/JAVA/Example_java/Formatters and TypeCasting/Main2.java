@@ -8,7 +8,7 @@ public class Main2
   {
     Formatter fmt = new Formatter();
     Date d1=new Date();
-	  System.out.println(d1);
+    System.out.println(d1);
     fmt.format("%s", new Date());// Anonymous object
     System.out.println(fmt);	 // get a calendar instance, which defaults to "now"
     Calendar cal = Calendar.getInstance();     // get a date to represent "today"
