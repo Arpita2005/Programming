@@ -1,4 +1,4 @@
-class Calculation
+class Calculation12
 {  
    public void fact(int n)
     {  
@@ -13,7 +13,7 @@ class Calculation
     public static void main(String[] args) {
         /*Calculation c1=new Calculation();
 		   c1.fact(5);*/
-        new Calculation().fact(5);
+        new Calculation12().fact(5);
         //calling method with anonymous object
     }
 }  

@@ -2,41 +2,6 @@
     "configurations": [
         {
             "type": "java",
-            "name": "Launch Test_Car",
-            "request": "launch",
-            "mainClass": "Test_Car",
-            "projectName": "Programming_f3c5363f"
-        },
-        {
-            "type": "java",
-            "name": "Launch CallByReference",
-            "request": "launch",
-            "mainClass": "CallByReference",
-            "projectName": "Programming_f3c5363f"
-        },
-        {
-            "type": "java",
-            "name": "Launch student1",
-            "request": "launch",
-            "mainClass": "student1",
-            "projectName": "Programming_f3c5363f"
-        },
-        {
-            "type": "java",
-            "name": "Launch TestNestedInterface2",
-            "request": "launch",
-            "mainClass": "TestNestedInterface2",
-            "projectName": "Programming_f3c5363f"
-        },
-        {
-            "type": "java",
-            "name": "Launch TestInterfaceDefault",
-            "request": "launch",
-            "mainClass": "TestInterfaceDefault",
-            "projectName": "Programming_f3c5363f"
-        },
-        {
-            "type": "java",
             "name": "Launch main",
             "request": "launch",
             "mainClass": "file_parameter.main",
