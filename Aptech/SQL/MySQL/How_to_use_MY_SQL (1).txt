@@ -1,0 +1,147 @@
+			    How to download and start
+			=========================
+
+
+1/- First download and install wamp server.
+2/- Secound open wamp server application and click on icon then go mysql then click on Mysql console then press enter.
+
+
+=============================================================================================
+
+			  How to use MySQL commands
+			==========================
+	  what for						  Codes/syntax
+	========						=============
+0/. To clear terminal 				||		system clear;
+
+1/. create a database =  			||		create database databasename;
+
+2/. View database = 				||		show databases;
+
+3/. To use database = 			 	||		use name;
+
+4/. To show tables =				||		show tables;
+
+5/. To show all customers description = 		||		desc customers;
+
+6/. To see all customers details/ profiles = 		||		select * from customers;
+
+7/. To insert a value in customers table = 		||		insert into customer values(id,'name',age,'address',salary);  numbers without cotation and text with.
+
+8/. To get anyone details =(Select what you want)	||		select id,name,age from customers where id>3;  |
+							select id,name,address,salary from customerswhere id>5; (or your can use any items as per your query which you want to get to show)
+							select from * customers where age >=25 and <=30;  |
+							select from * customers where age between 25 and 30;
+
+9/. To get perticular one person details =		||		select id,name,age from customers where name='Chittajit';
+
+10/. To insert into this table customers = 		||		insert into customers values(id,'name',age,'address',salary);
+
+11/. To create a database =			||		create database name;
+
+12/. To update a database value =		||  		update customer set name='give name which nt to update' where name='give name which you want to update';
+
+13/. To create a table =			||		create table customers(id int not null,name varchar (20) not null,address char (25),salary decimal (18,2),primary key (id));
+
+14/. To delete a  table value = 			||		delete from customers where id=2;
+
+15/. To update the value from table(name) =	||		update customers set name='update name' where name='old name';
+
+16/. To display a perticular customer details =	||		select * from customers where id=2;
+
+17/. To display perticular customer and perticular details ||		select * id,name,address, from customers where id=3; or you can use this also
+							select * id,name,age salary  from customers where id<3; or you can use below 3;
+
+18/. To display the sum of salary numbers =	||		select sum(salary) from customers;  /  select sum(salary)  Total_Salary from customers;
+
+19/. To update table name =			||		
+
+20/. To see avarage salary of customers =		||		select avg(salary) from customers;  /  select avg(salary) Avarage_Salary from customers;
+
+21/.To see max salary of customers =		||		select max(salary) from customers;   /   select max(salary) Maximum_Salary from customers;
+
+22/. To see minimum salary of customers = 	||		select min(salary) from customers;  /  select min(salary) Minimum_Salary from customers;
+
+23/. To see the rows of data of customers		||		select count(*) from customers;   /    select count(*) No_of_Emps from customers;
+
+24/. To delete a particular value from table if(Number)= ||		update customers set salary=null where salary=1234.00; 	{  Note:- You can't delete a value from table you have to delete total table row   }
+
+24/. To delete a particular value from table (Text) =	||		update customers set name='NULL' where name="Name';     { Note:- You can't delete a value from table you have to delete  the total row from table.   }
+
+25/. display the maximum salary without knowing it  =||		select * from customers where salary=(select max(salary) from customers);
+
+26/. Display the minimum salary without knowing it =    ||		select * from customes where salary=(select min(salary) from customers);
+
+27/. Display the more than avarave salary without knowing it = ||	select * from customes where salary>(select avg(salary) from customers);
+
+28/. Display the below than avarave salary without knowing it = ||	select * from customes where salary<(select avg(salary) from customers);
+
+29/. To display the one copy name =		||		select distinct name from customers;
+
+30/. To display more than one particular customers detail = ||	 	select * from customers where name='NAME' or name='NAME';
+
+32/.to display a name and less than a salary =	||		select * from customers where name='NAME' or salary<6000.00;
+
+33/. To delete database =			||		drop database DATABASE_NAME;
+
+34/. To display a name which starting with a latter = 	||		select * from customers where name like 'A%';
+
+35/. To display a name which end with a latter =	||		select * from customers where name like '%A';
+
+36/. To display a name which contain with u latter =   ||		 select * from customers where name like '%u%';
+
+37/. To display a name which contain second with o latter = ||		select * from customers where name like '_o%';
+
+38/. To display a name which contain third later with r latter = ||	select * from customers where name like '__r%';
+
+39/. To display a name which contain last secound later with a  = ||	select * from customers where name like '%a_';
+
+40/. To display a name which contain last secound later with d =  ||	select * from customers where name like '%d__';
+
+41/. To display a name with order asending =		||	select * from customers order by name; select * from customers order by name asc;
+
+42/. To display a name with order of descending =		||	select * from customers order by name desc;
+
+43/. To display a salary with order asending =		||   	select * from customers order by salary; select * from customers order by salary asc;
+
+44/. To display a salary with order of descending = 		||	select * from customers order by salary desc;
+
+45/.To display a customers salary 100/300/400/  =		||	select * from customers were salary in (100,300,400);
+
+ 46/. To display a customers who's not salary 100/300/400 =	||	select * from customers where salary not in (100,300,400);
+
+ 47/. To display a perticular column =			||	select column_name from table name;
+
+ 48/. To display between two values =			||	 select * from employee where salary between 3000 and 5000;
+
+ 49/. To add another column in a table =			||	alter table customers add mobile int    |    ALTER TABLE <TABLE_NAME> ADD <COLUMN_NAME> DATATYPE(SIZE);
+    
+ 50/. To add anything after any column =			||	alter table customers add email_id varchar(50) after address ;     |		ALTER TABLE <TABLE_NAME> DROP COLUMN <COLUMN_NAME>;
+
+ 51/. To delete a column =				|| 	alter table customers drop column mobile;	|	ALTER TABLE <TABLE_NAME> DROP COLUMN <COLUMN_NAME>;
+
+ 52/. To update a datatype = 				||	alter table customers modify email_id char(100); 	|	ALTER TABLE <TABLE_NAME> MODIFY <COLUMN_NAME> DATATYPE(SIZE);
+
+ 53/. To create a table but one of the colum get reference by another table column = 	||	create table orders(order_id int primary key,cid int,product_name varchar(100),order_date date,foreign key(cid) references customers6(customer_id));
+
+ 54/. To display the details between two tables and column when id is same=	||	select c.customer_id,o.order_id,c.customer_name,c.email,c.address,o.product_name,o.order_date from customers6 c,orders o where c.customer_id=o.cid; (customers6 is c and orders is o we have declared in this line you can see)
+
+ 55/. To display a result between two or more table column when id should not be 501 =	||	select c.customer_id, c.customer_name, o.product_name, o.order_date from customers6 c, orders o where c.customer_id=o.cid and o.order_id<>501;
+
+ 56/. To add primary key = alter table customers add primary key(id);
+
+ 57/.To drop primary key = alter table customers drop primary key;
+
+ 58/ To change a null value yes = alter table customers modify id int not null;
+
+ 59/. To change a null value no = alter table customers modify id int null;
+
+ 60/. To ad a column and make it first column = alter table students add id int primary key first
+
+ 61/. To add a column and making it in position = alter table NAME add FIELD DATATYPE after POSTION	|| either it will be add in last column
+
+ 62/. To Create a use = CREATE USER 'username' IDENTIFIED BY 'password';
+
+ 63/. To give all permission = GRANT ALL PRIVILEGES ON *.* TO 'username ;
+
+ 64/. TO open mysql on windows = Open cmd type = cd C:\type\your\mysql\bin\location\bin then press enter

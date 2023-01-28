@@ -1,12 +1,6 @@
 {
     "configurations": [
-        {
-            "type": "java",
-            "name": "Launch main",
-            "request": "launch",
-            "mainClass": "file_parameter.main",
-            "projectName": "Programming_f3c5363f"
-        },
+        
         {
             "name": "C_[WINDOWS]",
             "type": "cppdbg",
