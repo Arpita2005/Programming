@@ -21,5 +21,7 @@ public class Open_1_acc
         id=input.nextDouble();
         System.out.println("Enter Your Address:\n");
         address=sc1.next();
+        System.out.println("Enter Your Phone Number\n");
+        phone_num=input.nextDouble();
     }
 }

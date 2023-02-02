@@ -6,7 +6,6 @@ public class main
         System.out.println("Welcome to Our Bank\n");
         System.out.println("Follow the below steps to continue further\n");
         System.out.println("+...............................+\n");
-        first fp=new first();
-        fp.first();
+        new first();
     }
 }

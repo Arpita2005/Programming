@@ -39,6 +39,7 @@ void input()
         gets(lb[i].writer);
         printf("Enter Book Price:\n");
         scanf("%d",&lb[i].price);
+        printf("\n.................\n");
     }
     }
     else if(choose==2)
@@ -72,7 +73,7 @@ void input()
     }
     else if(choose==4)
     {
-        printf("Number of books that you have in your library:%d",num);
+        printf("Number of books that you have in your library:%d\n",num);
     }
     else if(choose==5)
     {

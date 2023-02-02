@@ -31,13 +31,14 @@ int main()
         fflush(stdin);
         gets(b[i].publisher);
         printf("Enter The Price:\n");
+        fflush(stdin);
         scanf("%d",&b[i].price);
     }
     while(1)
     {
         printf("What Topic You Want to select ?\n1.Books of a specific Author\n2. Books By a specific Publisher\n3. All Books costing Rs. 500 and above\n4.Details Of all Books\n5. Exit\n");
         scanf("%d",&select);
-        printf("\n.............\n")
+        printf("\n.............\n");
         if(select==1)
         {
             char au_n[100];
@@ -103,7 +104,7 @@ int main()
        {
          exit(1);
        }
-       else
+    else
        {
         printf("Sorry You have entered wrong option\n");
        }

@@ -3,7 +3,7 @@ import java.util.*;
 public class first
 {   char select;
     Scanner input=new Scanner(System.in);
-    public void first()
+     first()
     {
         while (true) {
             System.out.println(".======HOME======.\n");

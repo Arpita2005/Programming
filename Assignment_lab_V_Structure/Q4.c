@@ -15,7 +15,7 @@ int main()
 
     for(int i=0;i<num;i++)
     {
-       printf("Information %d",i+1);
+       printf("Information %d\n",i+1);
        printf("Enter the name:");
        fflush(stdin);
        gets(ag[i].name);
@@ -23,16 +23,18 @@ int main()
        scanf("%d",&ag[i].roll);
        printf("Ente the date and month of birth:\n");
        scanf("%d%d",&ag[i].day,&ag[i].month);
-       printf("Enter the borth Year:\n");
+       printf("Enter the birth Year:\n");
+       fflush(stdin);
        scanf("%d",&ag[i].year1);
        printf("Enter the year of admission:\n");
+       fflush(stdin);
        scanf("%d",&ag[i].year2);
        printf("\nXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX\n");
     }
      for(int i=0;i<num;i++)
      {
-        printf("%d name is:%c",ag[i].name);
-        printf("Your age is:%d",ag[i].year2-ag[i].year1);
+        printf("Roll : %d Name is: %c",ag[i].roll,ag[i].name);
+        printf("  Your age is:%d",ag[i].year2-ag[i].year1);
         printf("\n====================\n");
      }
      getch();

@@ -3,8 +3,9 @@ import java.util.*;
 public class open_many_acc
 {
     int num,i,age;
-    double id;
+    double id,ph_no;
     Scanner input=new Scanner(System.in);
+    Scanner db=new Scanner(System.in);
     String name,address;
     Scanner sc=new Scanner(System.in);
     Scanner sc1=new Scanner(System.in);
@@ -23,6 +24,8 @@ public class open_many_acc
           id=input.nextDouble();
           System.out.println("Enter Your Address:\n");
           address=sc1.next();
+          System.out.println("Enter Your Phone Number:\n");
+          ph_no=db.nextDouble();
           System.out.println("\n+=======================+\n");
       }
   }
