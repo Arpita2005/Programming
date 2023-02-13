@@ -1,4 +1,4 @@
-//WA a recursive function called power () to calculate x rise to the power n 
+//WA a recursive function called power() to calculate x rise to the power n 
 #include<stdio.h>
 #include<conio.h>
 int power(int num,int base)

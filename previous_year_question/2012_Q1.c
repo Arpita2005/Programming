@@ -19,7 +19,7 @@ int main()
     scanf("%d",&num1);
     printf("Enter the second num:\n");
     scanf("%d",&num2);
-    printf(:\n-======================-\n);
+    printf("\n-======================-\n");
     printf("The gcd of two numbers are: %d",gcd(num1,num2));
     getch();
     return 0;

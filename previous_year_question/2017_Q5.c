@@ -8,10 +8,13 @@ int main()
     char name[50];
     for(i=0;i<5;i++)
     {
+        
+        printf("...........................\n");
         printf("Name of %d student :\n",i+1);
         fflush(stdin);
         gets(name);
         printf("Marks of %d student:\n",i+1);
+        fflush(stdin);
         scanf("%d",&num);
         printf("\n+===========================+\n");
         if(num>0&&num<=10)

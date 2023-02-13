@@ -29,8 +29,8 @@ void transpose()
         for(j=0;j<coloumn;j++)
         {
             printf("%3d",array[i][j]);
-            if(j==coloumn-1)
-            printf("\n");
+            // if(j==coloumn-1)
+            // printf("\n");
         }
 
     for(i=0;i<row;i++)
@@ -38,7 +38,7 @@ void transpose()
             transpose[j][i]=array[i][j];
 
 
-    printf("Tranpose of a matrix\n");
+    printf("\nTranpose of a matrix\n");
     printf("=================\n");
     for(i=0;i<coloumn;i++)
         for(j=0;j<row;j++)

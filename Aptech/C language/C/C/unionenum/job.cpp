@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<conio.h>
 union job 
 {         
    //defining a union
@@ -16,5 +17,6 @@ int main()
 {	
    printf("size of union = %d",sizeof(u));
    printf("\nsize of structure = %d", sizeof(s));
+   getch();
    return 0;
 }

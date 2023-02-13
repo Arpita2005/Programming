@@ -1,6 +1,8 @@
 {
     "C_Cpp.errorSquiggles": "disabled",
     "files.associations": {
-        "2010_q2.C": "cpp"
+        "2010_q2.C": "cpp",
+        "chrono": "c",
+        "span": "c"
     }
 }

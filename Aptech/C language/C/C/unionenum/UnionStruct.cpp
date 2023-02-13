@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<conio.h>
 union id 
 {
       char name[40];
@@ -18,6 +19,6 @@ int main()
     printf("First Value of number = %d\n",student.description.number);
     student.description.number = 32;
     printf("After Change Value of number = %d\n",student.description.number);
-
+      getch();
     return 0;
 }

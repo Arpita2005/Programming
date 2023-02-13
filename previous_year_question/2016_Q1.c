@@ -4,7 +4,7 @@
 #include<conio.h>
 int main()
 {
-    char num[50],count;
+    char num[50];
     printf("Enter a number:\n");
     gets(num);
    for(int i=0;i<strlen(num);i++)

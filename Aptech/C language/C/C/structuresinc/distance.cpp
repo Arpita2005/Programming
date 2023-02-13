@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<conio.h>
 struct Distance
 {
     int feet;
@@ -25,5 +26,6 @@ int main()
         ++sum.feet;
     }
     printf("\nSum of distances=%d\' %.1f\" ",sum.feet,sum.inch);
+    getch();
     return 0;
 }

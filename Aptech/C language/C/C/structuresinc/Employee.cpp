@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include<conio.h>
 // Nested Structure
 struct Employee
 {
@@ -20,6 +21,6 @@ int main()
 	printf("\nEmployee SSN    : %d",emp.ssn);  
 	printf("\nEmployee Salary : %f",emp.salary);  
 	printf("\nEmployee DOJ    : %d/%d/%d",emp.doj.date,emp.doj.month,emp.doj.year);  
-	    
+	gwtch();   
 	return 0;
 }

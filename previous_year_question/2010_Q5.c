@@ -39,7 +39,7 @@ int main()
          multiplication[i][j]=first[i][j]*second[i][j];
             printf("%d",multiplication[i][j]);
         }
-        prinntf("\n\n");
+        printf("\n\n");
     }
     getch();
     return 0;

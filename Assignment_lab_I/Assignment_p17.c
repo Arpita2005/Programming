@@ -12,7 +12,7 @@ int main()
 		if(i%n==0)
 		{
 		flag =0;
-			break;
+		break;
 		}
 			
     }

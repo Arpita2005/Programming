@@ -16,11 +16,11 @@ int main()
     printf("The reverse of %d is:%d",num,reverse);
     if(num==reverse)
     {
-        printf("\nThis is an example of pallindrome\n");
+        printf("\n'''''''''''''''''''''\nThis is an example of pallindrome\n");
     }
     else
     {
-        printf("This is not pallindrome\n");
+        printf("\n''''''''''''\nThis is not pallindrome\n");
     }
     getch();
     return 0;

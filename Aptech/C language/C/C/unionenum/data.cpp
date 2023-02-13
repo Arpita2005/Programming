@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<string.h>
- 
+#include<conio.h>
 union Data 
 {
    int i;
@@ -15,6 +15,6 @@ int main()
    printf("\nSize of union =%d bytes\n",sizeof(x));  
    strcpy(x.str, "C Programming");
    printf("str : %s\n", x.str);
-
+   getch();
    return 0;
 }

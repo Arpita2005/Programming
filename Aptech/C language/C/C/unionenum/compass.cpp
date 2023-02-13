@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<conio.h>
 enum compass_direction
 {
    north,
@@ -35,6 +36,6 @@ int main()
       puts("If you go far enough west, you'll be east!");
       break;
   }
-
+  getch()
   return 0;
 }

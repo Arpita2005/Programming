@@ -19,9 +19,13 @@ int main()
         {
             printf("Positive number :%d\n",arr[i]);
         }
-        else
+        else if(arr[i]<0)
         {
             printf("Negative number :%d\n",arr[i]);
+        }
+        else
+        {
+            printf("We don't know 0 is what type of number \n");
         }
     }
     getch();

@@ -27,7 +27,8 @@ int main()
        a=min;
        min=max;
        max=a;
-    printf("The Highest Element is:%d",min);
+      printf("\n...................\n");
+    printf("\nThe Highest Element is:%d",min);
     printf("The Smallest Element is:%d",max);
     getch();
     return 0;

@@ -15,7 +15,6 @@ struct student_detail
     // structure within structure
     struct student_college_detail clg_data;
 }stu_data;
- 
 int main() 
 {
     struct student_detail stu_data = {1, "Raju", 90.5, 71145,
