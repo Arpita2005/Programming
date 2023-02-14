@@ -1,5 +1,0 @@
-WAP to create a class and create some objects of that class.
-When you run the program it will show how many objects 
-have been created in the program....
-
-(Hints:    You may use static variable and static function  )

@@ -1,5 +1,0 @@
-    WAP in C++ to input human body temperature in Celsius and Display the temperature in 
-    Ferenheit.
-
-        C/5=(F-32)/9
-

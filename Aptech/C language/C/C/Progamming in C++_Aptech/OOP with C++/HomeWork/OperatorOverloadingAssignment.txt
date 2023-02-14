@@ -1,1 +1,0 @@
-WAP to overload * and + operator separately where * will divide a value of a variable by 2 and + will multiply the value of a variable by 4. Initialize the variable to 8.
