@@ -21,7 +21,7 @@ class GFG
 		}
 		catch(NullPointerException e)
 		{
-			System.out.print("NullPointerException Caught");
+			System.out.print("NullPointerException Caught\n");
 		}
 	}
 }

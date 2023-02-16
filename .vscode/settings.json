@@ -3,6 +3,15 @@
     "files.associations": {
         "2010_q2.C": "cpp",
         "chrono": "c",
-        "span": "c"
+        "span": "c",
+        "random": "c",
+        "array": "c",
+        "bitset": "c",
+        "string_view": "c",
+        "initializer_list": "c",
+        "ranges": "c",
+        "regex": "c",
+        "utility": "c",
+        "valarray": "c"
     }
 }

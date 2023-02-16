@@ -5,7 +5,8 @@ public class VarargsDemo
    {
       // Call method with variable args  
 	   printMax(new double[]{34, 3, 3, 2, 56.5,98.4,76.2,16.4});
-       printMax(new double[]{1, 2, 3,4,5,8.4,7});
+      printMax(new double[]{1, 2, 3,4,5,8.4,7});
+      //printMax(new double[]{});
    }
 
    public static void printMax(double[] numbers) 
