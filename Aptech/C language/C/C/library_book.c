@@ -60,7 +60,7 @@ int main()
         printf("Press 'y' to back to the main menu\nor,\nPress'n' to exit\n");
         fflush(stdin);
         scanf(" %c", &option); // getting the option to display the menu or exit
-    } while (option == 'y');
+    } while (option == 'y');    
     printf("\t\t\t***ENDED***");
     getch();
     return 0;
