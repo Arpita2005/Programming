@@ -19,3 +19,4 @@
 		}  	  
 	  }  
 	}  
+/* RemoveAll :: It removes the common factor and print the other part */

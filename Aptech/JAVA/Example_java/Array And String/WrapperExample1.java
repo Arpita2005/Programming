@@ -6,7 +6,7 @@ public class WrapperExample1
 		int a=20;  
 		Integer i=Integer.valueOf(a);//converting int into Integer  
 		Integer j=a;//autoboxing, now compiler will write Integer.valueOf(a) internally  
-		  
+		//Integer j=i;
 		System.out.println(a+" "+i+" "+j);  
    }
 }  

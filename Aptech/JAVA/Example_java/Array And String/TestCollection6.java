@@ -19,4 +19,5 @@
 	  }  
 	 }  
 }  
-
+/* RetailAll :: It works as intersection 
+ * Find the common factor between arraylist string and print it  */

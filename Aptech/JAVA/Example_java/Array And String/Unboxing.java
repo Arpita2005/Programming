@@ -8,8 +8,8 @@ public class Unboxing
         Integer i = new Integer(-8);
 
         // 1. Unboxing through method invocation
-        int absVal = absoluteValue(i);
-        System.out.println("absolute value of " + i + " = " + absVal);
+        int value = absoluteValue(i);
+        System.out.println("absolute value of " + i + " = " + value);
 
         List<Double> ld = new ArrayList<>();
         ld.add(3.1416);    // Π is autoboxed through method invocation.
