@@ -2,8 +2,7 @@
 //positive or negative  and display the exceptional message if the second number is 0
 import java.util.*;
 
-public class ArithmeticException
-{
+public class ArithmeticException extends Throwable {
 	public static void main(String args[]) 
 	{
 		int i,j,r;

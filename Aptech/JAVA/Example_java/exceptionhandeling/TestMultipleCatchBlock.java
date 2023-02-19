@@ -9,7 +9,7 @@ public class TestMultipleCatchBlock
 			a[5]=100;	
 	   }       
 catch(ArrayIndexOutOfBoundsException e){System.out.println("task 2 completed");}  
-	   catch(ArithmeticException e){System.out.println("task1 is completed");} 
+	 //  catch(ArithmeticException e){System.out.println("task1 is completed");}
 	   catch(Exception e){System.out.println("common task completed");} 
     
   

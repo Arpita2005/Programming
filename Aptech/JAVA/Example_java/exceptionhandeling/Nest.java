@@ -9,10 +9,10 @@ class Nest
          try
 		 {
             System.out.println("Inside block1");
-            int b =45/0;
-            System.out.println(b);
+            int b2 =45/0;
+            System.out.println(b2);
          }
-         catch(ArithmeticException e1)
+         catch (ArithmeticException e1)
 		 {
             System.out.println("Exception: e1");
          }

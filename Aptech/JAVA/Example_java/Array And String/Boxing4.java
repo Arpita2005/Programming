@@ -5,7 +5,8 @@ class Boxing4
   
   public static void main(String args[])
   {  
-      int a=30;  
-      m(a);  
+      //int a=30;
+      long a=30;
+      m(a);
   }
 }  
