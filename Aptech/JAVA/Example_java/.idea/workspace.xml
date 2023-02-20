@@ -6,10 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="7379d2e7-88ea-485a-9219-5006be94f204" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Array And String/Boxing4.java" beforeDir="false" afterPath="$PROJECT_DIR$/Array And String/Boxing4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exception/ArithmeticException.java" beforeDir="false" afterPath="$PROJECT_DIR$/Exception/ArithmeticException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exceptionhandeling/Nest.java" beforeDir="false" afterPath="$PROJECT_DIR$/exceptionhandeling/Nest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exceptionhandeling/TestMultipleCatchBlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/exceptionhandeling/TestMultipleCatchBlock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Own_Try/library.java" beforeDir="false" afterPath="$PROJECT_DIR$/Own_Try/library.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example_java/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Example_java/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

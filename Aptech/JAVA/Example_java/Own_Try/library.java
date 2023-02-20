@@ -23,24 +23,23 @@ class option //extends basic_details
 	long price,page_no,number_of_available,issue_date,return_date;
     Scanner sc=new Scanner(System.in);
     int number;  
-    basic_details[] bd=new basic_details[number]; 
+    basic_details[] bd; 
 	//basic_details[] bd1=new basic_details[number];
-    
 	public int add_book()
   {
         System.out.println("How much Book Details you want to entry ??\n"); 
-        number=sc.nextInt();
+        this.number=sc.nextInt();
         Scanner first=new Scanner(System.in);
 	    Scanner second=new Scanner(System.in);
-        //basic_details[] bd=new basic_details[number];
+        bd=new basic_details[number];
 		System.out.println("Add Some Book Details To Enhance Library\n");
 		for(int i=0;i<number;i++)
 		{  
-        	System.out.println("Details Of "+(i+1)+"Book");
+        	System.out.println("Details Of "+(i+1)+" Book");
 			System.out.println("Enter Book's Title :\n");
 			book_title=first.nextLine();
 			System.out.println("Enter Author's Name :\n");
-			author_name=first.next();
+			author_name=first.nextLine();
 			System.out.println("Enter the Accession number :\n");
 			accession_number=first.nextLine();
 			System.out.println("Enter the Price :\n");
@@ -59,30 +58,25 @@ class option //extends basic_details
 
 			bd[i]= new basic_details(book_title,author_name,accession_number,book_issue_month,price,page_no,number_of_available,issue_date,return_date);
 		}
+        System.out.println(number);
 		return number;
     }
     public void view(int number)
    {
 	    System.out.println("Want to Take A View Of Book's DataBase !! See It ::::");
+        System.out.println("The number of book are : "+number);
+        System.out.println("\n.......................\n");
 		for(int i=0;i<number;i++)
 		 {
-			if( number > 0)
-			{
-				System.out.println("Book Details of "+(i+1)+"book is :");
-				System.out.println("Book Name is : "+book_title);
-				System.out.println("Author Name is :"+author_name);                
-                System.out.println("Total page is :"+page_no);                                       
-                System.out.println("Accession Number is :"+accession_number);
-				System.out.println("Book Issue Date :"+issue_date);
-				System.out.println("Book Issue Month is :"+book_issue_month);
-				System.out.println("Return Date is :"+return_date);
+				System.out.println("Book Details of "+(i+1)+" book is :");
+				System.out.println("Book Name is : "+bd[i].book_title);
+				System.out.println("Author Name is :"+bd[i].author_name);                
+                System.out.println("Total page is :"+bd[i].page_no);                                       
+                System.out.println("Accession Number is :"+bd[i].accession_number);
+				System.out.println("Book Issue Date :"+bd[i].issue_date);
+				System.out.println("Book Issue Month is :"+bd[i].book_issue_month);
+				System.out.println("Return Date is :"+bd[i].return_date);
 				System.out.println("\n=====================\n");
-			}
-			
-			else if(number==0||number<0)
-			{
-				System.out.println(" Sorry !! Your Data Base is Empty \n");
-			}
 	      }
     }
     public void author_check(int number)
@@ -95,11 +89,9 @@ class option //extends basic_details
 		   n=sc1.nextLine();
 		   for(int i=0;i<number;i++)
 		  {
-			if(number>0)
-			{
 				if(bd[i].author_name.equalsIgnoreCase(n))
 				{
-				   System.out.println("Book Details of "+(i+1)+"book is :");
+				   System.out.println("Book Details of "+(i+1)+" book is :");
 				   System.out.println("Book Name is : "+bd[i].book_title);
 				   System.out.println("Author Name is :"+bd[i].author_name);                
                    System.out.println("Total page is :"+bd[i].page_no);                              
@@ -109,14 +101,15 @@ class option //extends basic_details
 				   System.out.println("Return Date is :"+bd[i].return_date);
 				   System.out.println("\n=====================\n");
 				}
-			}
-			else if(number==0||number<0)
-			{
-				System.out.println(" Sorry !! Your Data Base is Empty \n");
+                else
+                {
+                    System.out.println("Author Name Mismatched \n");
+                    System.out.println("\n<<<<<<<<<<<<<<<<<<<<<<<<\n");
+                }
 			}
 		  }
         
-    }
+    
     public void title_check(int number)
     {
         Scanner tc=new Scanner(System.in);
@@ -127,11 +120,9 @@ class option //extends basic_details
         name=tc.nextLine();
         for(int i=0;i<number;i++)
        {
-         if(number>0)
-         {
              if(bd[i].book_title.equalsIgnoreCase(name))
              {
-                System.out.println("Book Details of "+(i+1)+"book is :");
+                System.out.println("Book Details of "+(i+1)+" book is :");
                 System.out.println("Book Name is : "+bd[i].book_title);
                 System.out.println("Author Name is :"+bd[i].author_name);                
                 System.out.println("Total page is :"+bd[i].page_no);                   
@@ -142,13 +133,14 @@ class option //extends basic_details
                 System.out.println("Return Date is :"+bd[i].return_date);
                 System.out.println("\n=====================\n");
              }
-         }
-         else if(number==0||number<0)
-         {
-             System.out.println(" Sorry !! Your Data Base is Empty \n");
+             else
+             {
+                System.out.println("Title Matching Error\n");
+                System.out.println("\n>>>>>>>>>>>>>>>>>>>>>>\n");
+             }
          }
        }
-    }
+    
     public void acc_num(int number)
     {
         Scanner tc=new Scanner(System.in);
@@ -159,8 +151,6 @@ class option //extends basic_details
         ac_num=tc.nextLine();
         for(int i=0;i<number;i++)
        {
-         if(number>0)
-         {
              if(bd[i].accession_number.equalsIgnoreCase(ac_num))
              {
                 System.out.println("Book Details of "+(1+1)+"book is :");
@@ -174,23 +164,35 @@ class option //extends basic_details
                 System.out.println("Return Date is :"+bd[i].return_date);
                 System.out.println("\n=====================\n");
              }
-         }
-         else if(number==0||number<0)
-         {
-             System.out.println(" Sorry !! Your Data Base is Empty \n");
-         }
        }
+    }
+    public void availability()
+    {
+        System.out.println("The count Of books are : "+number);
+        for(int i=0;i<number;i++)
+        {
+            if(bd[i].number_of_available>0)
+            {
+                System.out.println(bd[i].book_title+" is available \n");
+            }
+            else
+            {
+                System.out.println("Not Available \n");
+            }
+        }
     }
 }
 public class library
 {
     public static void main(String[] args)
     {
-        while(true)
-    {
+        
         int number= 0;
         Scanner input=new Scanner(System.in);
         int d;
+        option o=new option();
+        while(true)
+    {
         System.out.println(" \t\t\t================BOOK LIBRARY============");
         System.out.println("\n++++++++++++++++++--------------------+++++++++++++++++++++++\n");
         System.out.println("Press 1 to add some Book Details in data base\n");
@@ -198,42 +200,51 @@ public class library
         System.out.println("Press 3 to search a book by Author Name\n");
         System.out.println("Press 4 to search a book by Title\n");
         System.out.println("Press 5 to search a book by Accession Number\n");
-        // System.out.println("Press 6 to see the Count and Availability\n");
+        System.out.println("Press 6 to see the Count and Availability\n");
+        System.out.println("Press 7 To Take A Look of All The Rules And Regulations\n");
+        System.out.println("Want To Exit !! Press 8");
+        System.out.println("\n");
         // System.out.println("Press 7 to see the list accroding Accession Number\n");
-        System.out.println(" -> ");
+        System.out.print(" -> ");
         d=input.nextInt();
+        System.out.println("\n");
         if(d==1)
         {
-            new option().add_book();
+            number=o.add_book();
         }
         else if(d==2)
         {
-            new option().view(number);
+            o.view(number);
         }
         else if(d==3)
         {
-            new option().author_check(number);
+            o.author_check(number);
         }
         else if(d==4)
         {
-            new option().title_check(number);
+            o.title_check(number);
         }
         else if(d==5)
         {
-            new option().acc_num(number);
+            o.acc_num(number);
+        }
+        else if(d==6)
+        {
+            o.availability();
+        }
+        else if(d==7)
+        {
+            System.out.println("Strict silence, decorum and discipline must be maintained in the library.");
+            System.out.println("\n1.   Use of mobile phones is strictly prohibited in the library premises.\n2.  Every member must sign the register available at the entrance.\n3.  Students have to bear the Identity Card for entering the Library ");
+        }
+        else if(d==8)
+        {
+            System.exit(0);
         }
         else
         {
-            System.out.println("Sorry !! :(  Choose the correct option \n");
-            
+            System.out.println("Sorry !! :(  Choose the correct option \n"); 
         }
     }
     }
-}
-     
-    
-
-				
-				
-			
-			
+}			
