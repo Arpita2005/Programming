@@ -30,16 +30,17 @@ class option //extends basic_details
         System.out.println("How much Book Details you want to entry ??\n"); 
         this.number=sc.nextInt();
         Scanner first=new Scanner(System.in);
+        Scanner third=new Scanner(System.in);
 	    Scanner second=new Scanner(System.in);
         bd=new basic_details[number];
 		System.out.println("Add Some Book Details To Enhance Library\n");
 		for(int i=0;i<number;i++)
 		{  
-        	System.out.println("Details Of "+(i+1)+" Book");
+        	System.out.println("Details Of "+(i+1) +" Book");
 			System.out.println("Enter Book's Title :\n");
 			book_title=first.nextLine();
-			System.out.println("Enter Author's Name :\n");
-			author_name=first.nextLine();
+			System.out.println("Enter Author's Name : \n");
+			author_name=third.nextLine();
 			System.out.println("Enter the Accession number :\n");
 			accession_number=first.nextLine();
 			System.out.println("Enter the Price :\n");
@@ -68,7 +69,7 @@ class option //extends basic_details
         System.out.println("\n.......................\n");
 		for(int i=0;i<number;i++)
 		 {
-				System.out.println("Book Details of "+(i+1)+" book is :");
+				System.out.println("Book Details of "+(i+1) +" book is :");
 				System.out.println("Book Name is : "+bd[i].book_title);
 				System.out.println("Author Name is :"+bd[i].author_name);                
                 System.out.println("Total page is :"+bd[i].page_no);                                       
@@ -78,6 +79,31 @@ class option //extends basic_details
 				System.out.println("Return Date is :"+bd[i].return_date);
 				System.out.println("\n=====================\n");
 	      }
+    }
+    public void list(int number)
+    {
+        String j="Searching";
+        System.out.println("Books are in Listed Form ---\n");
+        for(int k=0;k<j.length();k++)
+        {
+        try {
+            Thread.sleep(900);
+        } catch (Exception e) {}
+        System.out.println(j.charAt(k));
+        }
+        for(int i=0;i<number;i++)
+        {
+            System.out.println("|Book Details of "+(i+1) +" book is : |");
+				System.out.println("|Book Name is : "+bd[i].book_title+"|");
+				System.out.println("|Author Name is : "+bd[i].author_name+"|");                
+                System.out.println("|Total page is : "+bd[i].page_no+"|");                                       
+                System.out.println("|Accession Number is : "+bd[i].accession_number+"|");
+				System.out.println("|Book Issue Date : "+bd[i].issue_date+"|");
+				System.out.println("|Book Issue Month is : "+bd[i].book_issue_month+"|");
+				System.out.println("|Return Date is : "+bd[i].return_date+"|");
+				System.out.println("\n=====================\n");
+        }
+        
     }
     public void author_check(int number)
     {
@@ -91,7 +117,7 @@ class option //extends basic_details
 		  {
 				if(bd[i].author_name.equalsIgnoreCase(n))
 				{
-				   System.out.println("Book Details of "+(i+1)+" book is :");
+				   System.out.println("Book Details of "+(i+1) +" book is :");
 				   System.out.println("Book Name is : "+bd[i].book_title);
 				   System.out.println("Author Name is :"+bd[i].author_name);                
                    System.out.println("Total page is :"+bd[i].page_no);                              
@@ -117,7 +143,7 @@ class option //extends basic_details
        {
              if(bd[i].book_title.equalsIgnoreCase(name))
              {
-                System.out.println("Book Details of "+(i+1)+" book is :");
+                System.out.println("Book Details of "+(i+1) +" book is :");
                 System.out.println("Book Name is : "+bd[i].book_title);
                 System.out.println("Author Name is :"+bd[i].author_name);                
                 System.out.println("Total page is :"+bd[i].page_no);                   
@@ -143,7 +169,7 @@ class option //extends basic_details
        {
              if(bd[i].accession_number.equalsIgnoreCase(ac_num))
              {
-                System.out.println("Book Details of "+(1+1)+"book is :");
+                System.out.println("Book Details of "+(1+1) +"book is :");
                 System.out.println("Book Name is : "+bd[i].book_title);
                 System.out.println("Author Name is :"+bd[i].author_name);                
                 System.out.println("Total page is :"+bd[i].page_no);                   
@@ -159,17 +185,20 @@ class option //extends basic_details
     public void availability()
     {
         System.out.println("The count Of books are : "+number);
+        System.out.println("\n+++++++++++++++++++++++++++++++\n");
+        System.out.println("Available Books are Listed Below :: ");
         for(int i=0;i<number;i++)
         {
             if(bd[i].number_of_available>0)
             {
-                System.out.println(bd[i].book_title+" is available \n");
+                System.out.println((i+1)+"/-"+bd[i].book_title+" is available \n");
             }
             else
             {
                 System.out.println("Not Available \n");
             }
         }
+
     }
 }
 public class library
@@ -183,7 +212,7 @@ public class library
         option o=new option();
         while(true)
     {
-        System.out.println(" \t\t\t================BOOK LIBRARY============");
+        System.out.println(" \t\t\t================BOOK :: LIBRARY============");
         System.out.println("\n++++++++++++++++++--------------------+++++++++++++++++++++++\n");
         System.out.println("Press 1 to add some Book Details in data base\n");
         System.out.println("Press 2 to take a view of Data Base\n");
@@ -192,9 +221,9 @@ public class library
         System.out.println("Press 5 to search a book by Accession Number\n");
         System.out.println("Press 6 to see the Count and Availability\n");
         System.out.println("Press 7 To Take A Look of All The Rules And Regulations\n");
-        System.out.println("Want To Exit !! Press 8");
+        System.out.println("Press 8 To See Books are in Listed Form\n");
+        System.out.println("Want To Exit !! Press 9");
         System.out.println("\n");
-        // System.out.println("Press 7 to see the list accroding Accession Number\n");
         System.out.print(" -> ");
         d=input.nextInt();
         System.out.println("\n");
@@ -228,6 +257,10 @@ public class library
             System.out.println("\n1.   Use of mobile phones is strictly prohibited in the library premises.\n2.  Every member must sign the register available at the entrance.\n3.  Students have to bear the Identity Card for entering the Library ");
         }
         else if(d==8)
+        {
+            o.list(number);
+        }
+        else if(d==9)
         {
             System.exit(0);
         }
