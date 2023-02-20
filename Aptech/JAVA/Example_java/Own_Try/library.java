@@ -101,11 +101,6 @@ class option //extends basic_details
 				   System.out.println("Return Date is :"+bd[i].return_date);
 				   System.out.println("\n=====================\n");
 				}
-                else
-                {
-                    System.out.println("Author Name Mismatched \n");
-                    System.out.println("\n<<<<<<<<<<<<<<<<<<<<<<<<\n");
-                }
 			}
 		  }
         
@@ -132,11 +127,6 @@ class option //extends basic_details
                 System.out.println("Book Issue Month is :"+bd[i].book_issue_month);
                 System.out.println("Return Date is :"+bd[i].return_date);
                 System.out.println("\n=====================\n");
-             }
-             else
-             {
-                System.out.println("Title Matching Error\n");
-                System.out.println("\n>>>>>>>>>>>>>>>>>>>>>>\n");
              }
          }
        }
