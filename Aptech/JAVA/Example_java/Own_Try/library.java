@@ -1,5 +1,5 @@
-import java.util.Scanner;
-import java.io.*;
+import java.util.*;
+// import java.io.*;
 class basic_details
 {
 	public String book_title,author_name,accession_number,book_issue_month;
@@ -24,6 +24,7 @@ class option //extends basic_details
     Scanner sc=new Scanner(System.in);
     int number;  
     basic_details[] bd; 
+    basic_details[] bd1;
 	//basic_details[] bd1=new basic_details[number];
 	public int add_book()
   {
@@ -135,7 +136,7 @@ class option //extends basic_details
     {
         Scanner tc=new Scanner(System.in);
         System.out.println(" Search A Book Name By Title Name ");
-        System.out.println(".....................\n");
+        System.out.println("..............................\n");
         String name;
         System.out.println("Enter The Book's Name whose details you want to check :");
         name=tc.nextLine();
@@ -161,13 +162,13 @@ class option //extends basic_details
     {
         Scanner tc=new Scanner(System.in);
         System.out.println(" Search A Book By Accession Number ");
-        System.out.println(".....................\n");
+        System.out.println("..................................\n");
         String ac_num;
         System.out.println("Enter The Accession Name whose details you want to check :");
         ac_num=tc.nextLine();
         for(int i=0;i<number;i++)
        {
-             if(bd[i].accession_number.equalsIgnoreCase(ac_num))
+             if((bd[i].accession_number.equalsIgnoreCase(ac_num))&&(!bd[i+1].accession_number.equalsIgnoreCase(ac_num)))
              {
                 System.out.println("Book Details of "+(1+1) +"book is :");
                 System.out.println("Book Name is : "+bd[i].book_title);
@@ -179,6 +180,10 @@ class option //extends basic_details
                 System.out.println("Book Issue Month is :"+bd[i].book_issue_month);
                 System.out.println("Return Date is :"+bd[i].return_date);
                 System.out.println("\n=====================\n");
+             }
+             else
+             {
+                System.out.println("You have Given same accession number in each book..Please change it  !!\n");
              }
        }
     }
@@ -200,6 +205,50 @@ class option //extends basic_details
         }
 
     }
+    public void borrow(int number)
+    {
+        Scanner input= new Scanner(System.in);
+        bd1=new basic_details[bd.length-1];
+        String a_name,b_name,a_num;
+        System.out.println("Enter Your Book name that you want to borrow:\n");
+        a_name=input.nextLine();
+        // System.out.println("Enter Your Author name that you want to borrow:\n");
+        // b_name=input.nextLine();
+        for(int i=0;i<number;i++)
+        {
+        if((bd[i].book_title.equalsIgnoreCase(a_name)))
+        {
+            // System.out.println("Enter the Accession Number :\n");
+            // a_num=input.nextLine();
+            // if(bd[i].accession_number.equalsIgnoreCase(a_num))
+            // {
+            System.out.println("Book Name is : "+bd[i].book_title);
+            System.out.println("Author Name is :"+bd[i].author_name);                
+            System.out.println("Total page is :"+bd[i].page_no);                                   
+            System.out.println("Accession Number is :"+bd[i].accession_number);
+            System.out.println("Book Issue Date :"+bd[i].issue_date);
+            System.out.println("Book Issue Month is :"+bd[i].book_issue_month);
+            System.out.println("Return Date is :"+bd[i].return_date);
+            System.out.println("You Have succesfully Borrowed !!\n");
+            // }
+            System.out.println("\n.........................\n");
+            for(int k=0,l=0;k<bd.length;k++)
+            {
+                if(bd[k]!=bd[i])
+                {
+                    bd1[l]=bd[k];
+                    l++;
+                }
+            }
+            System.out.println("Before Declaration :"+Arrays.toString(bd)+"\n");
+            System.out.println("After Declaration :"+Arrays.toString(bd1)+"\n");
+            System.out.println(".................................");
+        }
+        }
+        System.out.println("\n>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>\n");
+       // System.out.println("After borrowing the total number of books are :"+(number-1));
+
+    }
 }
 public class library
 {
@@ -212,8 +261,8 @@ public class library
         option o=new option();
         while(true)
     {
-        System.out.println(" \t\t\t================BOOK :: LIBRARY============");
-        System.out.println("\n++++++++++++++++++--------------------+++++++++++++++++++++++\n");
+        System.out.println(" \t\t\t================ BOOK :: LIBRARY ============");
+        System.out.println("\n\t\t\t++++++++++++++++++---------------+++++++++++++++++++++\n");
         System.out.println("Press 1 to add some Book Details in data base\n");
         System.out.println("Press 2 to take a view of Data Base\n");
         System.out.println("Press 3 to search a book by Author Name\n");
@@ -222,7 +271,8 @@ public class library
         System.out.println("Press 6 to see the Count and Availability\n");
         System.out.println("Press 7 To Take A Look of All The Rules And Regulations\n");
         System.out.println("Press 8 To See Books are in Listed Form\n");
-        System.out.println("Want To Exit !! Press 9");
+        System.out.println("Press 9 To Borrow A Book( Can Borrow a single book at a time)\n");
+        System.out.println("Want To Exit !! Press 10");
         System.out.println("\n");
         System.out.print(" -> ");
         d=input.nextInt();
@@ -261,6 +311,10 @@ public class library
             o.list(number);
         }
         else if(d==9)
+        {
+            o.borrow(number);
+        }
+        else if(d==10)
         {
             System.exit(0);
         }

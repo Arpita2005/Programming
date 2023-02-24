@@ -12,7 +12,7 @@
 			==========================
 	  what for						  Codes/syntax
 	========						=============
-0/. To clear terminal 				||		system clear;
+0/. To clear terminal 				||		system clear;(Optional :  exit;)
 
 1/. create a database =  			||		create database databasename;
 
