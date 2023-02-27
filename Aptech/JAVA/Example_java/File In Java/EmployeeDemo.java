@@ -1,6 +1,6 @@
 import java.io.*;
 
-class Employee
+class EMPLOYEE
 {
 	String name,searchName,doj;
 	double basic,hra,da,pf,it,gross,net;
@@ -114,14 +114,14 @@ public class EmployeeDemo
 	  BufferedWriter bw = new BufferedWriter(fw);
 	  int i,j;
 	  
-	  Employee e = new Employee();	  
+	  EMPLOYEE e = new EMPLOYEE();
 	   //list of employees in the file 
-      Employee[] emp = new Employee[20];
+      EMPLOYEE[] emp = new EMPLOYEE[20];
       
 	  e.writeHead(outfile,"Employee.txt");
 	  for(i=0;i<3;i++)
 	  {
-		  emp[i]=new Employee();
+		  emp[i]=new EMPLOYEE();
 		  try
 		  {
 			 j=i+1;

@@ -13,3 +13,8 @@
           }  
      }  
     }  
+	/* 
+	An object that maps keys to values. A map cannot contain duplicate keys; each key can map to at most one value.
+    This interface takes the place of the Dictionary class, which was a totally abstract class rather than an interface.
+    The Map interface provides three collection views, 
+    */

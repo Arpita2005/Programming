@@ -1,13 +1,20 @@
 import java.util.LinkedHashSet;
 import java.util.Set;
-public class TestLinkedHashSet {
+public class BookName {
+   int id;
+   String name;
+    BookName(int i,String n)
+    {
+       id=i;
+       name=n;
+    }
    public static void main(String[] args) {
-      Book book1 = new Book(1, "Java for Dummies");
-      Book book1Dup = new Book(1, "Java for the Dummies"); // same id as above
-      Book book2 = new Book(2, "Java for more Dummies");
-      Book book3 = new Book(3, "more Java for more Dummies");
+      BookName book1 = new BookName(1, "Java for Dummies");
+      BookName book1Dup = new BookName(1, "Java for the Dummies"); // same id as above
+      BookName book2 = new BookName(2, "Java for more Dummies");
+      BookName book3 = new BookName(3, "more Java for more Dummies");
  
-      Set<Book> set = new LinkedHashSet<Book>();
+      Set<BookName> set = new LinkedHashSet<BookName>();
       set.add(book1);
       set.add(book1Dup); // duplicate id, not added
       set.add(book1); // added twice, not added

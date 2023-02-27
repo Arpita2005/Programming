@@ -4,6 +4,7 @@ public class CopyFile1
    public static void main(String args[]) throws IOException 
    {
       FileReader in = null;
+      // FileReader is Character Based, it can be used to read characters
       FileWriter out = null;
 
       try 
@@ -15,18 +16,18 @@ public class CopyFile1
          while ((c = in.read()) != -1) 
 		 {
             out.write(c);
-         }
+       }
       }
 	  finally 
 	  {
          if (in != null) 
 		 {
             in.close();
-         }
+       }
          if (out != null) 
 		 {
             out.close();
-         }
+       }
       }
    }
 }

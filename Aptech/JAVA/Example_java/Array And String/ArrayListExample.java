@@ -9,8 +9,11 @@ class Book {
 		this.author = author;  
 		this.publisher = publisher;  
 		this.quantity = quantity;  
-	}  
-}  
+	}
+
+	public Book(int id, String javaForDummies) {
+	}
+}
 public class ArrayListExample {  
 	public static void main(String[] args) {  
 		//Creating list of Books  

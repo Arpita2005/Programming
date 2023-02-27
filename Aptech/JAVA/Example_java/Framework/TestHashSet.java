@@ -1,10 +1,10 @@
 import java.util.HashSet;
 import java.util.Set;
-class Book
+class BookS
 {
     int a;
 	String n;
-    Book(int i,String s)
+     BookS(int i, String s)
     {
        a=i;
 	   n=s;
@@ -14,12 +14,12 @@ public class TestHashSet
 {
    public static void main(String[] args) 
    {
-      Book book1 = new Book(1, "Java for Dummies");
-      Book book1Dup = new Book(1, "Java for the Dummies"); // same id as above
-      Book book2 = new Book(2, "Java for more Dummies");
-      Book book3 = new Book(3, "more Java for more Dummies");
+      BookS book1 = new BookS(1, "Java for Dummies");
+      BookS book1Dup = new BookS(1, "Java for the Dummies"); // same id as above
+      BookS book2 = new BookS(2, "Java for more Dummies");
+      BookS book3 = new BookS(3, "more Java for more Dummies");
  
-      Set<Book> set1 = new HashSet<Book>();
+      Set<BookS> set1 = new HashSet<BookS>();
       set1.add(book1);
       set1.add(book1Dup); // duplicate id, not added
       set1.add(book1);    // added twice, not added
@@ -34,7 +34,7 @@ public class TestHashSet
       set1.remove(book3);
       System.out.println(set1); // [null, 2: Java for more Dummies]
  
-      Set<Book> set2 = new HashSet<Book>();
+      Set<BookS> set2 = new HashSet<BookS>();
       set2.add(book3);
       System.out.println(set2); // [3: more Java for more Dummies]
       set2.addAll(set1);        // "union" with set1

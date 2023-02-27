@@ -3,21 +3,20 @@ public class ReadDir
 {
    public static void main(String[] args) 
    {
-      File file = null;
+      File file =  new File("."); /*null*/
       String[] paths;  
       try 
 	  {      
-         // create new file object
-         file = new File(".");  //current location
+         /*  create new file object
+         //file = new File(".");  //current location
          //file = new File("E:/Sourav_Dutta_Aptech/");
-         // array of files and directory
+         // array of files and directory */
          paths = file.list();
-         // for each name in the path array
-         for(String path:paths) 
+         
+         for(String path:paths)   // for each name in the path array
 		 {
-            // prints filename and directory name
-            System.out.println(path);
-         }
+            System.out.println(path);  // prints filename and directory name
+       }
       }
 	  catch(Exception e) 
 	  {

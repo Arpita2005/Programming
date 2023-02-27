@@ -3,19 +3,19 @@ class Nest
    public static void main(String args[])
    {
 	 //Parent try block
-     try
+    // try
 	 {
     	//Child try block1
-         try
-		 {
+//         try
+//		 {
             System.out.println("Inside block1");
-            int b2 =0/45;
+            int b2 =45/0;
             System.out.println(b2);
-         }
-         catch (ArithmeticException e)
-		 {
-            System.out.println("Exception: e1");
-         }
+         //}
+//         catch (ArithmeticException e)
+//		 {
+//            System.out.println("Exception: e1");
+//         }
          //Child try block2
          try
 		 {
@@ -29,21 +29,21 @@ class Nest
          }
          System.out.println("Just other statement");
     }
-    catch(ArithmeticException e3)
-	{
-    	 System.out.println("Arithmetic Exception");
-         System.out.println("Inside parent try catch block");
-    }
-    catch(ArrayIndexOutOfBoundsException e4)
-	{
-    	System.out.println("ArrayIndexOutOfBoundsException");
-         System.out.println("Inside parent try catch block");
-    }
-    catch(Exception e5)
-	{
-    	System.out.println("Exception");
-        System.out.println("Inside parent try catch block");
-    }
+//    catch(ArithmeticException e3)
+//	{
+//    	 System.out.println("Arithmetic Exception");
+//         System.out.println("Inside parent try catch block");
+//    }
+//    catch(ArrayIndexOutOfBoundsException e4)
+//	{
+//    	System.out.println("ArrayIndexOutOfBoundsException");
+//         System.out.println("Inside parent try catch block");
+//    }
+//    catch(Exception e5)
+//	{
+//    	System.out.println("Exception");
+//        System.out.println("Inside parent try catch block");
+//    }
     System.out.println("Next statement..");
   }
 }

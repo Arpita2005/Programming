@@ -1,6 +1,11 @@
 import java.util.TreeSet;
  
-public class TestTreeSetComparable {
+public class AddressBookEntry {
+   String add;
+   AddressBookEntry(String add)
+   {
+      this.add=add;
+   }
    public static void main(String[] args) {
       AddressBookEntry addr1 = new AddressBookEntry("peter");
       AddressBookEntry addr2 = new AddressBookEntry("PAUL");

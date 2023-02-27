@@ -9,7 +9,8 @@ public class fileStreamTest
          OutputStream os = new FileOutputStream("test.txt");
          for(int x = 0; x < bWrite.length ; x++) 
 		 {
-            os.write(bWrite[x] );   // writes the bytes
+            os.write(bWrite[x] );  
+            System.out.println(x); // writes the bytes
          }
          os.close();     
          InputStream is = new FileInputStream("test.txt");

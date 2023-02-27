@@ -6,6 +6,7 @@ public class ReadConsole2
       Scanner sc=new Scanner(System.in);
       System.out.println("Enter characters, 'q' to quit.");
       String s;
+      System.out.println("The Output Is :\n");
       do 
       {
           s = sc.nextLine();

@@ -13,15 +13,15 @@ public class Numbers
 		System.out.println("Enter the Second number: ");
 		j=sc.nextInt();
 		
-		try 
-		{
+//		try
+//		{
 		   r=i/j;
 		   System.out.println("The result is:=   "+r);
-		}	
-		catch(ArithmeticException e) 
-		{
-			 System.out.println("Exception thrown  :" + e);
-		}
+//		}
+//		catch(ArithmeticException e)
+//		{
+			// System.out.println("Exception thrown  :" + e);
+		//}
 
   }
 }

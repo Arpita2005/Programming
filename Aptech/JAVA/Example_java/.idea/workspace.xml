@@ -4,14 +4,158 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7379d2e7-88ea-485a-9219-5006be94f204" name="Changes" comment="">
+    <list default="true" id="4a4a2aa9-8027-44af-9ffe-78bac319cac8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/File In Java/ReadDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Own_Try/library.java" beforeDir="false" afterPath="$PROJECT_DIR$/Own_Try/library.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array And String/ArrayListExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/Array And String/ArrayListExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Example_java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Example_java.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/File In Java/CopyFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/File In Java/CopyFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/File In Java/CopyFile1.java" beforeDir="false" afterPath="$PROJECT_DIR$/File In Java/CopyFile1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/File In Java/EmployeeDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/File In Java/EmployeeDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/File In Java/ReadConsole2.java" beforeDir="false" afterPath="$PROJECT_DIR$/File In Java/ReadConsole2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/File In Java/ReadData_Demo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/File In Java/ReadDir.java" beforeDir="false" afterPath="$PROJECT_DIR$/File In Java/ReadDir.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/File In Java/WordCountInFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/File In Java/WordCountInFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/File In Java/fileStreamTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/File In Java/fileStreamTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Framework/ForEachImmutableTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Framework/ForEachImmutableTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Framework/HashMapDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Framework/HashMapDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Framework/HashMapExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/Framework/HashMapExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Framework/MapExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/Framework/MapExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Framework/TestHashSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/Framework/TestHashSet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Framework/TestLinkedHashSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/Framework/BookName.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Framework/TestTreeSetComparable.java" beforeDir="false" afterPath="$PROJECT_DIR$/Framework/AddressBookEntry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Framework/TestTreeSetComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/Framework/TestTreeSetComparator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Framework/TreeSetExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/Framework/TreeSetExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/exceptionhandeling/Nest.java" beforeDir="false" afterPath="$PROJECT_DIR$/exceptionhandeling/Nest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SQL/MySQL/How_to_use_MY_SQL (1).txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../SQL/MySQL/How_to_use_MY_SQL (1).txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Assignment _Lab_IV.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Assignment_lab_V_Structure.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../previous_year_makaut_practical/year_2017/1.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exceptionhandeling/Numbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/exceptionhandeling/Numbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example_java/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example_java/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example_java/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example_java/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example_java/A.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example_java/A1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example_java/A23.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example_java/Account.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example_java/Animal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example_java/ArithmeticException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example_java/Array And String/Array and String in Java.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example_java/Array and String in Java.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example_java/ArrayListExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example_java/ArrayPrintReverse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example_java/AutoArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example_java/Average.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example_java/BankDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example_java/Book.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example_java/Boxing1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example_java/Boxing2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example_java/Boxing3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example_java/Boxing4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example_java/BoxingExample1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example_java/Byte_Eq.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example_java/Calculation12.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example_java/CheckingAccount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example_java/ClassCastException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example_java/Class_And_Object/Object and Class in Java.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example_java/Class_And_Object/public-static-void-main-string-args-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example_java/Dog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example_java/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example_java/Even_Odd_Number/even_detector.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example_java/Even_Odd_Number/main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example_java/Even_Odd_Number/odd_detector.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example_java/Even_Odd_Number/option_choose.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example_java/Example_java.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example_java/ExcepTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example_java/ExcepTest1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example_java/File.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example_java/GFG.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example_java/HomeWork.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example_java/Inheritance in Java.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example_java/Inheritence/Inheritance in Java.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example_java/InsufficientFundsException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example_java/IntArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example_java/Interface in Java.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example_java/Interface/Interface in Java.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example_java/Java Loop.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example_java/Loop/Java Loop.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example_java/Methods_Java.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example_java/Object and Class in Java.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example_java/Own_Try/what.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example_java/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example_java/Rectangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example_java/Rectangle2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example_java/Reverse and Method/Methods_Java.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example_java/Reverse and Method/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example_java/StringBuilderExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example_java/StringBuilderExample2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example_java/StringBuilderExample3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example_java/StringBuilderExample4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example_java/StringBuilderExample5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example_java/StringBuilderExample6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example_java/StringBuilderExample7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example_java/StringDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example_java/StringDemo1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example_java/StringDemo2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example_java/StringDemo3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example_java/StringFormatDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example_java/StringMethodsDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example_java/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example_java/Student1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example_java/Student2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example_java/Student3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example_java/Student4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example_java/Student5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example_java/Student_one.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example_java/TestAccount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example_java/TestArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example_java/TestArray1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example_java/TestCollection1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example_java/TestCollection2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example_java/TestCollection3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example_java/TestCollection4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example_java/TestCollection5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example_java/TestCollection6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example_java/TestEmployee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example_java/TestOneDArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example_java/TestRectangle1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example_java/TestRectangle2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example_java/TestStudent1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example_java/TestStudent2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example_java/TestStudent3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example_java/TestStudent4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example_java/TestThis2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example_java/TestThis4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example_java/TestThis5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example_java/TestThis6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example_java/ThisStudent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example_java/Unboxing.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example_java/UnboxingExample1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example_java/UnboxingExample2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example_java/Variable and operators/Byte_Eq.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example_java/Variable and operators/Variables and Data Types in Java.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example_java/Variables and Data Types in Java.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example_java/WrapperExample1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example_java/WrapperExample2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example_java/advance_cal/addition.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example_java/advance_cal/choose.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example_java/advance_cal/division.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example_java/advance_cal/main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example_java/advance_cal/multiplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example_java/advance_cal/remainder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example_java/advance_cal/subtraction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example_java/calculator/first.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example_java/calculator/main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example_java/calculator/option.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example_java/exceptionhandeling/File.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example_java/exceptionhandeling/HomeWork.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example_java/fourth.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example_java/matrix_serch_indices.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example_java/my_Account.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example_java/one.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example_java/public-static-void-main-string-args-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example_java/second.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example_java/third.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example_java/what.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,29 +165,26 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2Lv4I41nwF6soETfP4Dlr1748yx" />
+  <component name="ProjectId" id="2MExAQYWGIYesTotc8MTtpMI18p" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/Programming/Aptech/JAVA/Example_java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "E:/Programming/Aptech/JAVA/Example_java"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="7379d2e7-88ea-485a-9219-5006be94f204" name="Changes" comment="" />
-      <created>1676738138334</created>
+      <changelist id="4a4a2aa9-8027-44af-9ffe-78bac319cac8" name="Changes" comment="" />
+      <created>1677346399363</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1676738138334</updated>
+      <updated>1677346399363</updated>
     </task>
     <servers />
   </component>
