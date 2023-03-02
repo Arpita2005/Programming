@@ -7,16 +7,17 @@ class Employee
 public:
     virtual void raiseSalary()
     {  /* common raise salary code */ 
-	   cout<<"  Salary raised  ";
+	   cout<<"  Salary one raised  ";
 	}
  
     virtual void promote()
     { /* common promote code */ 	
-	  cout<<"  Promotion for company ";
+	  cout<<"  Promotion one for company ";
 	}
 };
  
 class Manager: public Employee {
+    public:
     virtual void raiseSalary()
     {  /* Manager specific raise salary code, may contain
           increment of manager specific incentives*/ 
@@ -46,7 +47,12 @@ int main()
 {
 	cout<<"  Virtual Functions  ";
 	Employee e;
+    Manager m;
 	e.raiseSalary();
+    e.promote();
+    cout<<"\n\n"<<endl;
+    m.raiseSalary();
+    m.promote();
     getch();
 	return 0;
 }

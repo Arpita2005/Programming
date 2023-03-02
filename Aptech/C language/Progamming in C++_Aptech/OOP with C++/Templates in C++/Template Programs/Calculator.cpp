@@ -1,6 +1,7 @@
 //Simple calculator using Class template
 //Program to add, subtract, multiply and divide two numbers using class template
 #include<iostream>
+#include<conio.h>
 using namespace std;
 template<class T>
 class Calculator
@@ -32,15 +33,26 @@ public:
 
 int main()
 {
-	Calculator<int> intCalc(2, 1);
-	Calculator<float> floatCalc(2.4, 1.2);
+  int a,b;
+  float c,d;
+	cout<<"Enter the first Number :\n"<<endl;
+	cin>>a;
+	cout<<"Enter the second Number :\n"<<endl;
+	cin>>b;
+	cout<<"\n\n"<<endl;
+    cout<<"Enter the first Number (in decimal):\n"<<endl;
+	cin>>c;
+	cout<<"Enter the second Number (in decimal) :\n"<<endl;
+	cin>>d;
+	Calculator<int> intCalc(a,b);
+	Calculator<float> floatCalc(c,d);
 	
 	cout << "Int results:" << endl;
 	intCalc.displayResult();
 	
 	cout << endl << "Float results:" << endl;
 	floatCalc.displayResult();
-	
+	getch();
 	return 0;
 }
 

@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
- 
+#include<conio.h>
 template<class T, class U>
 class A  
 {
@@ -29,6 +29,6 @@ int main()
    
    A<char, double> c('M',1000.23343);
    c.print();
-   
+   getch();
    return 0;
 }

@@ -6,10 +6,6 @@ class Box
 {
    public:
 
-      double getVolume(void) 
-	  {
-         return length * breadth * height;
-      }
 		
       void setLength( double len ) 
 	  {
@@ -25,9 +21,14 @@ class Box
 	  {
          height = hei;
       }
+
+       double getVolume(void) 
+	  {
+         return length * breadth * height;
+      }
 		
       // Overload + operator to add two Box objects.
-      Box operator+(const Box& b) 
+      Box operator+(const Box & b) 
 	  {
          Box box;
          box.length = this->length + b.length;

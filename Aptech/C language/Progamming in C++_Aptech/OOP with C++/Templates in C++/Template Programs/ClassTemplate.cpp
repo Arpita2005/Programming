@@ -1,5 +1,6 @@
 // C++ program to use class template
 #include <iostream>
+#include<conio.h>
 using namespace std;
 template<class t1,class t2>
 
@@ -35,6 +36,6 @@ int main()
     cout <<"Integer and Float data"<<endl;
     s3.getdata();
     s3.display();
-
+    getch();
     return 0;
 }

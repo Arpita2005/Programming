@@ -1,6 +1,5 @@
 /* Copy content of one file into another and display the content of that file */
 import java.io.*;
-
 public class CopyFileAndDisplay 
 {
    public static void main(String args[]) throws IOException 

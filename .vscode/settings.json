@@ -12,6 +12,7 @@
         "ranges": "c",
         "regex": "c",
         "utility": "c",
-        "valarray": "c"
+        "valarray": "c",
+        "iostream": "cpp"
     }
 }

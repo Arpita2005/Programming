@@ -32,6 +32,6 @@ int main()
     sum(x,y,z); // calls first template function
     sum(a,b,z); // calls first template function
     sum(a,b); // calls normal function
-    
+    getch();
     return 0;
 }

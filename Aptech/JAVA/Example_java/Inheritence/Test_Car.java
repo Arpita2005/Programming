@@ -28,9 +28,7 @@ class Car extends Vehicle
    int gears;
    String color;
    void attributescar() 
-   {
-     
-   }
+   {}
 }
 public class Test_Car 
 {

@@ -12,7 +12,7 @@ public class CopyFile
          //out = new FileOutputStream("output.txt");
          int c;
          while ((c = in.read()) != -1) 
-		 {
+		   {
             out.write(c);
          }
          // in.close();

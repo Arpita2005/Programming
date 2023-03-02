@@ -11,7 +11,7 @@ void sum(t1 a,t2 b) // defining template function
 }
 int main()
 {
-    int a,b;
+    int  a,b;
     float x,y;
     cout<<"Enter two integer data: ";
     cin>>a>>b;

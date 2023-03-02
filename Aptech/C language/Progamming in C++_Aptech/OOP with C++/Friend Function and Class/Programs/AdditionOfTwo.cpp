@@ -34,6 +34,7 @@ class B
 // that accesses the member variables numA and numB
 int add(A a1, B b1)
 {
+   cout<<"sum is :"<<endl;
    return (a1.x + b1.y);
 }
 
@@ -41,8 +42,9 @@ int main()
 {
     A p;
     B q;
-    cout<<"Sum: "<< add(p,q);
+   cout<<add(p,q);
     getch();
     return 0;
+   //  cout<<"Sum: "<< add(p,q);
 }
 

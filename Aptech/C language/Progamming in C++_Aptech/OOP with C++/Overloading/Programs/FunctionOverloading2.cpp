@@ -12,6 +12,7 @@ int main()
     
     cout << "Absolute value of " << a << " = " << absolute(a) << endl;
     cout << "Absolute value of " << b << " = " << absolute(b);
+     getch();
     return 0;
 }
 
@@ -26,7 +27,6 @@ float absolute(float var)
 {
     if (var < 0.0)
         var = -var;
-        getch();
     return var;
 }
 
