@@ -42,7 +42,6 @@ class EMPLOYEE
 					break aa;
 				}			
             }		
-            
             // always close the file after its use
             br.close();
 			
@@ -71,7 +70,7 @@ class EMPLOYEE
     void writeHead(PrintWriter pw,String fileName)
     {
       String head = "Name     Date of joining   Basic salary    HRA    DA    PF    IT    Gross    Net ";
-	  String underline = "============================================================";
+	  String underline = "============================================================\n";
       try 
 	  {
 

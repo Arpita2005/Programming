@@ -1,7 +1,5 @@
 package Own_Try_employee;
-
 import java.util.*;
-
 import java.io.*;
 public class Employee_Data_Input {
     static String[] name,doj;
@@ -25,7 +23,7 @@ public class Employee_Data_Input {
         {
             System.out.println("Enter your name : ");
             name[i]=sc_S.nextLine();
-            System.out.println("Enter your Daye of Joining (dd/mm/yyyy): ");
+            System.out.println("Enter your Date of Joining (dd/mm/yyyy): ");
             doj[i]=sc_S.nextLine();
             System.out.println("Enter your basic salary : ");
             basic_salary[i]=sc_N.nextDouble();
