@@ -3,15 +3,14 @@ import java.io.*;
 class basic_details
 {
 	public String book_title,author_name,book_issue_month;
-	public long price,page_no,number_of_available,accession_number,issue_date,return_date,j;
-	basic_details(String book_title, String author_name,String book_issue_month,long price,long page_no,long number_of_available,long accession_number,long issue_date,long return_date,long j)
+	public long price,page_no,accession_number,issue_date,return_date,j;
+	basic_details(String book_title, String author_name,String book_issue_month,long price,long page_no,long accession_number,long issue_date,long return_date,long j)
 	{
 		this.book_title=book_title;
 		this.author_name=author_name;
 		this.accession_number=accession_number;
 		this.price=price;
 		this.page_no=page_no;
-		this.number_of_available=number_of_available;
 		this.issue_date=issue_date;
 		this.book_issue_month=book_issue_month;
 		this.return_date=return_date;
@@ -21,7 +20,7 @@ class basic_details
 class option //extends basic_details
 {
     String book_title,author_name,book_issue_month;
-	long price,page_no,number_of_available,issue_date,return_date,accession_number,j;
+	long price,page_no,issue_date,return_date,accession_number,j;
     Scanner sc=new Scanner(System.in);
     int number;  
     basic_details[] bd; 
@@ -50,8 +49,6 @@ class option //extends basic_details
 			price=second.nextLong();
 			System.out.println("Enter the Page number :\n");
 			page_no=second.nextLong();
-			System.out.println("Enter How much quantity of books you want to issue :\n");
-			number_of_available=second.nextLong();
 			System.out.println("Enter the Book-Issue Date :\n");
 			issue_date=second.nextLong();
            
@@ -71,7 +68,7 @@ class option //extends basic_details
             }
 
 
-			bd[i]= new basic_details(book_title,author_name,book_issue_month,price,page_no,number_of_available,accession_number,issue_date,return_date,j);
+			bd[i]= new basic_details(book_title,author_name,book_issue_month,price,page_no,accession_number,issue_date,return_date,j);
 		}
        // System.out.println(number);
 		return number;
@@ -200,8 +197,7 @@ class option //extends basic_details
                 System.out.println("Book Details of "+(i+1) +" book is :");
                 System.out.println("Book Name is : "+bd[i].book_title);
                 System.out.println("Author Name is :"+bd[i].author_name);                
-                System.out.println("Total page is :"+bd[i].page_no);                   
-                System.out.println("Number Of Availablle is :"+bd[i].number_of_available);                     
+                System.out.println("Total page is :"+bd[i].page_no);                                       
                 System.out.println("Accession Number is :"+bd[i].accession_number);
                 System.out.println("Book Issue Date :"+bd[i].issue_date);
                 System.out.println("Book Issue Month is :"+bd[i].book_issue_month);
@@ -236,8 +232,7 @@ class option //extends basic_details
                 System.out.println("Book Details of "+(1+1) +"book is :");
                 System.out.println("Book Name is : "+bd[i].book_title);
                 System.out.println("Author Name is :"+bd[i].author_name);                
-                System.out.println("Total page is :"+bd[i].page_no);                   
-                System.out.println("Number Of Availablle is :"+bd[i].number_of_available);                     
+                System.out.println("Total page is :"+bd[i].page_no);                                        
                 System.out.println("Accession Number is :"+bd[i].accession_number);
                 System.out.println("Book Issue Date :"+bd[i].issue_date);
                 System.out.println("Book Issue Month is :"+bd[i].book_issue_month);
@@ -260,24 +255,6 @@ class option //extends basic_details
             //  }
        }
     }
-    public void availability()
-    {
-        System.out.println("The count Of books are : "+number);
-        System.out.println("\n+++++++++++++++++++++++++++++++\n");
-        System.out.println("Available Books are Listed Below :: ");
-        for(int i=0;i<number;i++)
-        {
-            if(bd[i].number_of_available>0)
-            {
-                System.out.println((i+1)+"/-"+bd[i].book_title+" is available \n"+"Quantity number is :"+bd[i].number_of_available);
-            }
-            else
-            {
-                System.out.println("Not Available \n");
-            }
-        }
-
-    }
     public void borrow(int number)
     {
         Scanner input= new Scanner(System.in);
@@ -285,10 +262,6 @@ class option //extends basic_details
         Scanner num= new Scanner(System.in);
         String a_name;
         long a_num;
-        // System.out.println("Enter how much book you want to borrow :");
-        // book_num=num.nextInt();
-        // for(int l=0;l<book_num;l++)
-        // {
         
         System.out.println("Enter Your Book name that you want to borrow:\n");
         a_name=input.nextLine();
@@ -321,45 +294,12 @@ class option //extends basic_details
         
                 
                 System.out.println("\n.........................\n");
-                System.out.println("Before Borrowing the number of books are :"+number);
-                
-                System.out.println("After borrowing the details of books are :");
-                System.out.println("\n\n");
-                int s=i;
-                for(int j=s;j<number;j++)
-                {       
-                    bd[j]=bd[j+1];
-                }
-                number-=1;
-                for(int j=0;j<number;j++)
-                {
-                    System.out.println("Book Name is : "+bd[j].book_title);
-                    System.out.println("Author Name is :"+bd[j].author_name);                
-                    System.out.println("Total page is :"+bd[j].page_no);                                   
-                    System.out.println("Accession Number is :"+bd[j].accession_number);
-                    System.out.println("Book Issue Date :"+bd[j].issue_date);
-                    System.out.println("Book Issue Month is :"+bd[j].book_issue_month);
-                    if(bd[j].return_date>30)
-                    {
-                        bd[j].j=bd[j].return_date-30;
-                        System.out.println("Return Date is :"+bd[j].j+" of next month");
-                        System.out.println("\n=====================\n");
-                    }
-                    else if(bd[j].return_date<30)
-                    {
-                        System.out.println("Return Date is :"+bd[j].return_date+" of "+bd[j].book_issue_month);
-                        System.out.println("\n=====================\n");
-                    }
-                    System.out.println("\n>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>\n");
-            
-                }
-            }  
-                else
+               
+            }else
                 {
                     System.out.println("Book name and assassion number are not matching !");
                 }         
         }
-    // }
 
     }
 }
@@ -381,7 +321,7 @@ public class library
         System.out.println("Press 3 to search a book by Author Name\n");
         System.out.println("Press 4 to search a book by Title\n");
         System.out.println("Press 5 to search a book by Accession Number\n");
-        System.out.println("Press 6 to see the Count and Availability\n");
+        //System.out.println("Press 6 to see the Count and Availability\n");
         System.out.println("Press 7 To Take A Look of All The Rules And Regulations\n");
         System.out.println("Press 8 To See Books are in Listed Form\n");
         System.out.println("Press 9 To Borrow A Book\n");
@@ -410,10 +350,10 @@ public class library
         {
             o.acc_num(number);
         }
-        else if(d==6)
-        {
-            o.availability();
-        }
+        // else if(d==6)
+        // {
+        //     o.availability();
+        // }
         else if(d==7)
         {
             System.out.println("Strict silence, decorum and discipline must be maintained in the library.");
