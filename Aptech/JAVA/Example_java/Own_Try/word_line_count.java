@@ -5,10 +5,10 @@ public class word_line_count
     public static void main(String[] args) throws IOException
     {
         int line=0,words=0,letter=0;
-        Scanner input= new Scanner("One.txt");
+        Scanner input= new Scanner(new File("One.txt"));
        while(input.hasNextLine())
     {
-        System.out.println(input.nextLine());
+        input.nextLine();
         line++;
         String word[]=input.nextLine().split(" ");
         {
@@ -23,7 +23,6 @@ public class word_line_count
     System.out.println("Number of letters in this file = "+letter);
     System.out.println("Number of words in this file ="+words);
     System.out.println("Number of lines in file = :"+line);
-
     input.close();
 
     }

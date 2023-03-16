@@ -5,7 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4a4a2aa9-8027-44af-9ffe-78bac319cac8" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../C language/Progamming in C++_Aptech/OOP with C++/Access Specifier/Programs/AccessSpecifier.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../C language/Progamming in C++_Aptech/OOP with C++/Access Specifier/Programs/AccessSpecifier.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C language/Progamming in C++_Aptech/OOP with C++/Access Specifier/Programs/privateDemo.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../C language/Progamming in C++_Aptech/OOP with C++/Access Specifier/Programs/privateDemo.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C language/Progamming in C++_Aptech/OOP with C++/Access Specifier/Programs/publicDemo.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../C language/Progamming in C++_Aptech/OOP with C++/Access Specifier/Programs/publicDemo.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Own_Try/Details.class" beforeDir="false" afterPath="$PROJECT_DIR$/Own_Try/Details.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Own_Try/Employee_Details.class" beforeDir="false" afterPath="$PROJECT_DIR$/Own_Try/Employee_Details.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Own_Try/Employee_Details.java" beforeDir="false" afterPath="$PROJECT_DIR$/Own_Try/Employee_Details.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Own_Try/One.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Own_Try/One.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Own_Try/word_line_count.java" beforeDir="false" afterPath="$PROJECT_DIR$/Own_Try/word_line_count.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Own_Try_employee/Employee_Data_Input.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,13 +36,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/Programming/Aptech/JAVA/Example_java&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "E:/Programming/Aptech/JAVA/Example_java",
+    "settings.editor.selected.configurable": "configurable.group.tools"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

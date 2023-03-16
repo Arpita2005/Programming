@@ -1,6 +1,6 @@
 import java.io.*;
 import java.util.*;
-class Details
+class DetailsFirst
 {
     String[] name,doj;
     double[] basic_salary;
@@ -32,8 +32,8 @@ class Details
     } 
     public void search(int num) throws IOException
     {
-        Details emp=new Details();
-        emp.data_input();
+        //DetailsFirst emp=new DetailsFirst();
+       // emp.data_input();
         String s_name;
         System.out.println("Enter Candidate's name to search and see the details :-\n");
         s_name=sc1.nextLine();
@@ -53,7 +53,9 @@ public class Employee_Details
 {
     public static void main(String[] args) throws IOException
     {
-       Details d1=new Details();
-       d1.search(0);
+        int num=0,p;
+        DetailsFirst d1=new DetailsFirst();
+        p=d1.num;
+        d1.search(p);
     }
 }
