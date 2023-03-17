@@ -7,6 +7,7 @@ public class k_pattern
     int scr=0;
     System.out.println("Enter your name:\n");
     name=sc.nextLine();
+    sc.close();
     scr=name.length();
     for(int i=scr-1;i>=0;i--)
 
