@@ -1,6 +1,5 @@
 {
     "configurations": [
-        
         {
             "name": "C_[WINDOWS]",
             "type": "cppdbg",
