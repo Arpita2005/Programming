@@ -21,5 +21,8 @@ public class AddressBookEntry {
       System.out.println(set.lower(addr2));   // Patrick
       System.out.println(set.headSet(addr2)); // [Patrick]
       System.out.println(set.tailSet(addr2)); // [PAUL, peter]
+
+      // If the user attempts to add an element to the set that violates this constraint 
+      //(for example, the user attempts to add a string element to a set whose elements are integers), the add call will throw a ClassCastException.
    }
 }

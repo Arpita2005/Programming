@@ -36,5 +36,16 @@
 				System.out.println(key+" Details:");  
 				System.out.println(b.id+" , "+b.name+" , "+b.author+" , "+b.publisher+" , "+b.quantity);   
 			}    
+
+		// 	int n=2;
+		// 	boolean e=false;
+		// 	for(Integer V: map.values(entry))
+		//    {
+		// 		if(V==n)
+		// 		{
+		// 			e=true;
+		// 			break;
+		// 		}
+		// 	}
 		}    
     }    
