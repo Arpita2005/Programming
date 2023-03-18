@@ -1,0 +1,4 @@
+(NAME)     ||    (DATE OF BIRTH)   ||   (GROSS SALARY)     ||    {AND SOME OTHER DETAILS}
+
+Tatai  ||  12/11/2002  ||   27800.0 || ( DA = 3000.0 || HRA = 4800.0 )
+Arpita  ||  16/01/2005  ||   13900.0 || ( DA = 1500.0 || HRA = 2400.0 )

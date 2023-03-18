@@ -1,6 +1,7 @@
 package Employees;
 import java.io.*;
-public class File_input {
+public class File_input 
+{
     static void file_input(String Data)throws Exception
     {
        FileWriter FR= new FileWriter("Employees_data.txt");
