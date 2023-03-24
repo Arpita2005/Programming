@@ -24,7 +24,7 @@ class option //extends basic_details
     Scanner sc=new Scanner(System.in);
     int number;  
     basic_details[] bd; 
-    basic_details[] bd1;
+    //basic_details[] bd1;
 	//basic_details[] bd1=new basic_details[number];
 	public int add_book()
   {
