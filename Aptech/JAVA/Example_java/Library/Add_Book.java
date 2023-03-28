@@ -6,15 +6,6 @@ public class Add_Book extends Variables
 {
     Variables d=new Variables();
     Add_Book[] ab12;
-    public Add_Book(String book_name,String author_name,String publisher,float page_no,float price,float available)
-    {
-        this.book_name=d.Book_name();
-        this.author_name=d.Author_name();
-        this.publisher=d.Publisher();
-        this.page_no=d.Page_No();
-        this.price=d.Price();
-        this.available=d.Available();
-    }
 
     public void total()
     {
@@ -39,14 +30,15 @@ public class Add_Book extends Variables
             System.out.println("\n.............................\n");
             for(int i=0;i<b_num;i++)
             {
+                ab12[i]=new Add_Book();
                 total();
-                ab12[i]=new Add_Book(book_name,author_name,publisher,page_no,price,available);
+                //ab12[i]=new Add_Book(book_name,author_name,publisher,page_no,price,available);
             }
             return b_num;
         }
 
     Variables v = new Variables();
-    public  void  book() //(int b_num)
+    public  void  book()
     {
         v.showBook_name();
         v.showAuthor_name();
@@ -55,7 +47,6 @@ public class Add_Book extends Variables
         v.showPage_No();
         v.showAvailable();
         System.out.println("\n=========================\n");
-        //return book(b_num);
     }
     public void show_details(int b_num)
     {

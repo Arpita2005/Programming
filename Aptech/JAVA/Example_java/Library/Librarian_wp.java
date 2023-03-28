@@ -16,15 +16,13 @@ public class Librarian_wp extends Variables
         number=I.nextInt();
         if(number==1)
         {
-            Add_Book ab=new Add_Book(book_name,author_name,publisher,price,page_no,available);
+            Add_Book ab=new Add_Book();
             b_num=ab.enter_details();
         }
         else if(number==2)
         {
-              Add_Book ob=new Add_Book(book_name,author_name,publisher,price,page_no,available);
+              Add_Book ob=new Add_Book();
               ob.show_details(b_num);
-//            show_bookbase sb=new show_bookbase();
-//            sb.show_details(b_num);
         }
         else if (number==3)
         {

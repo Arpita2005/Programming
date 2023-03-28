@@ -11,15 +11,14 @@ public class BookList extends Variables
         {
             try {
                 Thread.sleep(900);
-            } catch (Exception e) {
+            }
+            catch (Exception e) {
                 System.out.println(e.getCause());
             }
             System.out.println(j.charAt(k));
         }
-        Add_Book ob=new Add_Book(book_name,author_name,publisher,page_no,price,available);
+        Add_Book ob=new Add_Book();
         ob.show_details(b_num);
-//        show_bookbase sb=new show_bookbase();
-//        sb.show_details(b_num);
         System.out.println("\n++++===================++++\n");
     }
 }
