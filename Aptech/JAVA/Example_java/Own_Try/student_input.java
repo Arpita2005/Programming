@@ -56,10 +56,6 @@ class student_input_details {
                 System.out.println("Student Section \n" + ip[i].sec);
                 System.out.println("\n++++++++++++++++++++++++++++++++++\n");
             }
-            else
-            {
-                System.out.println("Does not match\n");
-            }
         }
     }
 
