@@ -1,0 +1,9 @@
+A computer network is a group of computers linked to each other that enables the computer to communicate with another computer and share their resources, data, and applications.
+
+A computer network can be categorized by their size. A computer network is mainly of four types:
+
+Computer Network Types
+LAN(Local Area Network)
+PAN(Personal Area Network)
+MAN(Metropolitan Area Network)
+WAN(Wide Area Network)
