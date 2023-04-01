@@ -1,4 +1,0 @@
-Rule for byte equivalent of integer:
-============================
-Rule-1: If num<128  or  num>256  , byte Eq= num%256
-Rule-2:  If num>=128  and  num<=256  , byte Eq= num-256
