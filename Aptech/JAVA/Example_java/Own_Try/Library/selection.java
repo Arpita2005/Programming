@@ -16,7 +16,7 @@ public class selection
         }
         else if (n=='B'||n=='b')
         {
-            User_wp.work();
+            User_wp.work(Add_Book.num);
         }
         else
         {

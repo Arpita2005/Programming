@@ -1,5 +1,7 @@
 package Library;
 
+import pack.A;
+
 import java.util.Scanner;
 
 public class Add_Book extends Input
@@ -27,6 +29,8 @@ public class Add_Book extends Input
             ip[i].pageno=t.nextInt();
             System.out.println("Enter The Price :\n");
             ip[i].price=t.nextInt();
+            System.out.println("Enter The Book Id :\n");
+            ip[i].bookid=sc.nextLine();
             System.out.println("Enter The Availability :\n");
             ip[i].availability=t.nextInt();
             System.out.println("=============+++++++++++============\n");

@@ -23,9 +23,7 @@ class option //extends basic_details
 	long price,page_no,issue_date,return_date,accession_number,j;
     Scanner sc=new Scanner(System.in);
     int number;  
-    basic_details[] bd; 
-    //basic_details[] bd1;
-	//basic_details[] bd1=new basic_details[number];
+    basic_details[] bd;
 	public int add_book()
   {
        // long j;
@@ -166,16 +164,16 @@ class option //extends basic_details
 				   System.out.println("Book Issue Date :"+bd[i].issue_date);
 				   System.out.println("Book Issue Month is :"+bd[i].book_issue_month);
 				   if(bd[i].return_date>30)
-                {
+                  {
                     bd[i].j=bd[i].return_date-30;
                     System.out.println("Return Date is :"+bd[i].j+" of next month");
 				    System.out.println("\n=====================\n");
-                }
-                else if(bd[i].return_date<30)
-                {
+                  }
+                  else if(bd[i].return_date<30)
+                  {
                     System.out.println("Return Date is :"+bd[i].return_date+" of "+bd[i].book_issue_month);
 				    System.out.println("\n=====================\n");
-                }
+                  }
 				   System.out.println("\n=====================\n");
 				}
 			}

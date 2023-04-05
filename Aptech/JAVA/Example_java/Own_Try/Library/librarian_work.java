@@ -23,7 +23,7 @@ public class librarian_work
         }
         else if (s==3)
         {
-            System.out.println("|||+++ Showing Books In Listed Form +++|||\n");
+            System.out.println("|| Showing Books In Listed Form ||\n");
             Search_avail.avail(num);
         }
         else if (s==4)

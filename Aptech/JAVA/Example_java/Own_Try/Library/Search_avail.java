@@ -20,7 +20,11 @@ public class Search_avail extends Add_Book
         {
             System.out.println("Book Details "+(i+1)+"\n");
             System.out.println("The Book Name :\n"+ip[i].bookname);
+            System.out.println("The Author Name :\n"+ip[i].authorname);
+            System.out.println("The Publisher Name :\n"+ip[i].publishername);
+            System.out.println("The page Number :\n"+ip[i].pageno);
             System.out.println("The Price :\n"+ip[i].price);
+            System.out.println("The Book Id is :\n"+ip[i].bookid);
             System.out.println("The Number Of Availability :\n"+ip[i].availability);
             System.out.println("=============+++++++++++============\n");
         }

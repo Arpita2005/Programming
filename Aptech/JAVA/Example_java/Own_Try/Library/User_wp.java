@@ -2,7 +2,7 @@ package Library;
 import java.util.*;
 public class User_wp
 {
-    static void work()
+    static void work(int num)
     {
         String name;
         int c;
@@ -14,19 +14,24 @@ public class User_wp
         c=s.nextInt();
         if(c==1)
         {
-
+            System.out.println("Showing Book Base\n");
+            System.out.println("++++++++++++++++++++++++++\n");
+            Show_db.show(num);
         }
         else if (c==2)
         {
-
+            System.out.println("Search Book Name By Book Name\n");
+            searchbook_bookname.search_bookname();
         }
         else if (c==3)
         {
-
+            System.out.println("Search Book Name By Author Name");
+            searchbook_author.book_author();
         }
         else if (c==4)
         {
-
+            System.out.println("Steps To Follow To Borrow A Book /---\n");
+                Borrow.borrowbook();
         }
         else if (c==5)
         {

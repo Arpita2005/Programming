@@ -2,7 +2,7 @@ package Library;
 
 public class Show_db extends Add_Book
 {
-    static void show(int num)
+    static int show(int num)
     {
         for(int i=0;i<num;i++)
         {
@@ -13,9 +13,11 @@ public class Show_db extends Add_Book
             System.out.println("The Publisher Name :\n"+ip[i].publishername);
             System.out.println("The page Number :\n"+ip[i].pageno);
             System.out.println("The Price :\n"+ip[i].price);
+            System.out.println("The Book Id is :\n"+ip[i].bookid);
             System.out.println("The Availability :\n"+ip[i].availability);
             System.out.println("=============+++++++++++============\n");
         }
-        librarian_work.select(num);
+        return num;
+        //librarian_work.select(num);
     }
 }
