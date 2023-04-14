@@ -1,6 +1,7 @@
 {
     "java.project.sourcePaths": [
+        "Example_java/exceptionhandeling",
         "Example_java/Own_Try",
-        "Example_java/exceptionhandeling"
+        "Example_java"
     ]
 }

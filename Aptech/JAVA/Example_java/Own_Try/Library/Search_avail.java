@@ -1,8 +1,10 @@
 package Library;
 
+import java.io.IOException;
+
 public class Search_avail extends Add_Book
 {
-    static void avail(int num)
+    static void avail(int num) throws IOException
     {
         String j="SEARCHING";
         for (int k = 0; k < j.length(); k++)
@@ -28,5 +30,6 @@ public class Search_avail extends Add_Book
             System.out.println("The Number Of Availability :\n"+ip[i].availability);
             System.out.println("=============+++++++++++============\n");
         }
+       // librarian_work.select(num);
     }
 }

@@ -1,8 +1,10 @@
 package Library;
 
+import java.io.IOException;
+
 public class Show_db extends Add_Book
 {
-    static int show(int num)
+    static void  show(int num) throws IOException
     {
         for(int i=0;i<num;i++)
         {
@@ -17,7 +19,7 @@ public class Show_db extends Add_Book
             System.out.println("The Availability :\n"+ip[i].availability);
             System.out.println("=============+++++++++++============\n");
         }
-        return num;
-        //librarian_work.select(num);
+        //return num;
+        librarian_work.select(num);
     }
 }

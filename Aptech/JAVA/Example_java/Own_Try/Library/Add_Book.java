@@ -2,13 +2,14 @@ package Library;
 
 import pack.A;
 
+import java.io.IOException;
 import java.util.Scanner;
 
 public class Add_Book extends Input
 {
     static int num =0;
     static Input[] ip;
-    static void add()
+    static void add() throws IOException
     {
         Scanner t=new Scanner(System.in);
         System.out.println("Enter How Much Books Details You want To entry ???\n");

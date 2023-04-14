@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "main",
+            "request": "launch",
+            "mainClass": "calculator.main",
+            "projectName": "JAVA_35c5eabc"
+        },
+        {
+            "type": "java",
+            "name": "main",
+            "request": "launch",
+            "mainClass": "main",
+            "projectName": "JAVA_35c5eabc"
+        },
+        {
+            "type": "java",
             "name": "Launch SqrtDemo",
             "request": "launch",
             "mainClass": "SqrtDemo",

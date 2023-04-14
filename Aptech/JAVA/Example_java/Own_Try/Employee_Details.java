@@ -34,32 +34,32 @@ class DetailsFirst
         return num;
 
     } 
-    public void search(int num) throws IOException
-    {
-        DetailsFirst emp=new DetailsFirst();
-       emp.data_input();
-        String s_name;
-        System.out.println("Enter Candidate's name to search and see the details :-\n");
-        s_name=sc1.nextLine();
-        for(int i=0;i<name.length;i++)
-        {
-            if(name[i].equalsIgnoreCase(s_name))
-            {
-                System.out.println("Employee name : "+name[i]);
-                System.out.println("Employee Day of joining : "+doj[i]);
-                System.out.println("Employee basic salary : "+basic_salary);
-            }
-        }
-    }
+    // public void search(int num) throws IOException
+    // {
+    //     DetailsFirst emp=new DetailsFirst();
+    //    emp.data_input();
+    //     String s_name;
+    //     System.out.println("Enter Candidate's name to search and see the details :-\n");
+    //     s_name=sc1.nextLine();
+    //     for(int i=0;i<name.length;i++)
+    //     {
+    //         if(name[i].equalsIgnoreCase(s_name))
+    //         {
+    //             System.out.println("Employee name : "+name[i]);
+    //             System.out.println("Employee Day of joining : "+doj[i]);
+    //             System.out.println("Employee basic salary : "+basic_salary);
+    //         }
+    //     }
+    // }
     
 }
 public class Employee_Details 
 {
     public static void main(String[] args) throws IOException
     {
-        int num=0,p;
+        // int num=0,p;
         DetailsFirst d1=new DetailsFirst();
-        p=d1.num;
-        d1.search(p);
+        // p=d1.num;
+       d1.data_input();
     }
 }

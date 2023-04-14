@@ -1,0 +1,3 @@
+H.W- Display the square root of a number. The number should be scanned at runtime. If the no is -ve it will throw a user defined exception and display suitable message.
+
+              

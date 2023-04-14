@@ -1,11 +1,11 @@
 package Library;
 
+import java.io.IOException;
 import java.util.Scanner;
 
 public class librarian_work
 {
-    static void select(int num)
-    {
+    static void select(int num) throws IOException {
         int s;
         Scanner o=new Scanner(System.in);
         System.out.println("What do you want to do\n1. Add Book Details\n2. Show Book In listed Form\n3. Search Book With Availability\n4. Exit");
@@ -28,7 +28,7 @@ public class librarian_work
         }
         else if (s==4)
         {
-            System.exit(0);
+            selection.ownership();
         }
         else
         {

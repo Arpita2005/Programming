@@ -1,8 +1,9 @@
 package Library;
+import java.io.IOException;
 import java.util.*;
 public class searchbook_bookname extends Add_Book
 {
-     static void search_bookname()
+     static void search_bookname() throws IOException
     {
         String searchname,searchid;
         Scanner sc=new Scanner(System.in);
@@ -34,5 +35,6 @@ public class searchbook_bookname extends Add_Book
                 System.out.println("Does not match");
             }
         }
+        User_wp.work(num);
     }
 }

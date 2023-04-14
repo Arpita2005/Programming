@@ -1,8 +1,9 @@
 package Library;
+import java.io.IOException;
 import java.util.*;
 public class User_wp
 {
-    static void work(int num)
+    static void work(int num) throws IOException
     {
         String name;
         int c;
@@ -32,6 +33,23 @@ public class User_wp
         {
             System.out.println("Steps To Follow To Borrow A Book /---\n");
                 Borrow.borrowbook();
+                //Borrow.op_choos();
+            while (true)
+            {
+                System.out.println("Do you want to borrow again ?\nYes == 1               No == 2\n");
+                int ca;
+                Scanner sc1 = new Scanner(System.in);
+                ca = sc1.nextInt();
+                if (ca == 1) {
+                    Borrow.borrowbook();
+                } else if (ca == 2) {
+                    System.out.println("Thank You !! Bye......\n");
+                    System.exit(0);
+                } else {
+                    System.out.println("Select the correct Option :\n");
+
+                }
+            }
         }
         else if (c==5)
         {

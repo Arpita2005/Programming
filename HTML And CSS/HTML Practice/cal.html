@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculator</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            .cal{
+                background-color: pink;
+                margin-left: auto;
+                margin-right: auto;
+                width: 50%;
+            }
+            .heading{
+                border-width: 3px;
+                border-color: black;
+                border-style: solid;
+                width: 30%;
+                background-color:#ffffcc;
+            }
+            .num{
+                border-color: black;
+                border-width:5px;
+                font-size:medium;
+            }
+            .option{
+                border-width: 3px;
+                border-color:#cc00cc;
+                border-style: solid;
+                width: 30%;
+                background-color:#ffffcc;
+                
+                
+            }
+            .a{
+                background-color:#006666;
+                 color: white;
+                 padding: 32px 16px;
+                 text-align: center;
+                 font-size:16px;
+                 cursor: pointer;
+            }
+        </style>
+    </head>
+    <body>           
+        <div class="cal">
+            <form method="post" action="cal">
+                <h1 class="heading">Calculator</h1><br>
+                <input type="text" name="First Number" placeholder="Enter Your First Number" class="num"><br><br>
+                 <input type="text" name="Second Number" placeholder="Enter Your Second Number" class="num"><br><br>
+                 <h2>What Do You Want To do ??</h2>
+                 <span class="a">
+                     <button type="button"  value="++">Addition</button>
+                     <button type="button"  value="--">Subtraction</button><br><br>
+                     <button type="button" value="**">Multiplication</button>
+                     <button type="button" value="//">Division</button><br><br>
+                     <button type="button" value="%%">Reminder</button><br>
+                 </span>
+            </form>
+        </div>
+    </body>
+</html>
