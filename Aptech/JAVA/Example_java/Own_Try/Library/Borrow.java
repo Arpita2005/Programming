@@ -36,22 +36,22 @@ public class Borrow extends Add_Book {
 
     static void op_choos() throws IOException
     {
-//        System.out.println("Do you want to borrow again ?\nYes == 1               No == 2\n");
-//        int c;
-//        Scanner sc = new Scanner(System.in);
-//        c = sc.nextInt();
-//        if (c == 1)
-//        {
-//            Borrow.borrowbook();
-//        } else if (c == 2)
-//        {
-//            System.out.println("Thank You !! Bye......\n");
-//            System.exit(0);
-//        } else
-//        {
-//            System.out.println("Select the correct Option :\n");
-//            op_choos();
-//        }
+        System.out.println("Do you want to borrow again ?\nYes == 1               No == 2\n");
+        int c;
+        Scanner sc = new Scanner(System.in);
+        c = sc.nextInt();
+        if (c == 1)
+        {
+            Borrow.borrowbook();
+        } else if (c == 2)
+        {
+            System.out.println("Thank You !! Bye......\n");
+            System.exit(0);
+        } else
+        {
+            System.out.println("Select the correct Option :\n");
+            op_choos();
+        }
     }
 }
 

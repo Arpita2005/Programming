@@ -1,6 +1,7 @@
 package Library;
 import java.util.*;
-public class date {
+public class date
+{
     int date, return_date, year, k;
     Scanner one = new Scanner(System.in);
     Scanner two = new Scanner(System.in);

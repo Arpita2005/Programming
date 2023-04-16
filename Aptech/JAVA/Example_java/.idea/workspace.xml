@@ -5,23 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4a4a2aa9-8027-44af-9ffe-78bac319cac8" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../.vscode/launch.json" beforeDir="false" afterPath="$PROJECT_DIR$/../.vscode/launch.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.vscode/settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/../.vscode/settings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C language/C/C/unionenum/data.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../C language/C/C/unionenum/data.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C language/C/C/unionenum/data.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../C language/C/C/unionenum/data.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C language/Progamming in C++_Aptech/OOP with C++/Virtual Function/Programs/First.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../C language/Progamming in C++_Aptech/OOP with C++/Virtual Function/Programs/First.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Employee_Details.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Employees_details.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Own_Try/Employee_Details.java" beforeDir="false" afterPath="$PROJECT_DIR$/Own_Try/Employee_Details.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Own_Try/Employee_Details.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Own_Try/Library/Add_Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/Own_Try/Library/Add_Book.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Own_Try/Library/Borrow.java" beforeDir="false" afterPath="$PROJECT_DIR$/Own_Try/Library/Borrow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Own_Try/Library/Search_avail.java" beforeDir="false" afterPath="$PROJECT_DIR$/Own_Try/Library/Search_avail.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Own_Try/Library/Show_db.java" beforeDir="false" afterPath="$PROJECT_DIR$/Own_Try/Library/Show_db.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Own_Try/Library/User_wp.java" beforeDir="false" afterPath="$PROJECT_DIR$/Own_Try/Library/User_wp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Own_Try/Library/librarian_work.java" beforeDir="false" afterPath="$PROJECT_DIR$/Own_Try/Library/librarian_work.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Own_Try/Library/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Own_Try/Library/main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Own_Try/Library/searchbook_author.java" beforeDir="false" afterPath="$PROJECT_DIR$/Own_Try/Library/searchbook_author.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Own_Try/Library/searchbook_bookname.java" beforeDir="false" afterPath="$PROJECT_DIR$/Own_Try/Library/searchbook_bookname.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Own_Try/Library/selection.java" beforeDir="false" afterPath="$PROJECT_DIR$/Own_Try/Library/selection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Own_Try/Library/date.java" beforeDir="false" afterPath="$PROJECT_DIR$/Own_Try/Library/date.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,14 +32,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "E:/Programming/Aptech/JAVA/Example_java/Own_Try/Library",
-    "settings.editor.selected.configurable": "project.propVCSSupport.Issue.Navigation"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/Programming/Aptech/JAVA/Example_java/Own_Try/Library&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.Issue.Navigation&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\Programming\Aptech\JAVA\Example_java\Own_Try\Library" />

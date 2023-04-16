@@ -8,20 +8,30 @@ class base
 {
  public:
     virtual void print()
-    { cout<< "print base class"<<endl; }
+
+    { 
+        cout<< "print base class"<<endl; 
+    }
  
     void show()
-    { cout<< "show base class"<<endl; }
+
+    { 
+        cout<< "show base class"<<endl; 
+    }
 };
  
 class derived:public base
 {
-public:
+    public:
     void print()
-    { cout<<"print derived class"<<endl; }
+    { 
+        cout<<"print derived class"<<endl; 
+    }
  
     void show()
-    { cout<<"show derived class"<<endl; }
+    { 
+        cout<<"show derived class"<<endl; 
+    }
 };
  
 int main()

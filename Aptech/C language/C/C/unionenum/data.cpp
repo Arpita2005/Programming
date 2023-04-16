@@ -3,9 +3,9 @@
 #include<conio.h>
 union Data 
 {
-   int i;
-   float f;
-   char str[20];
+   int i[40]; //the size of int is 4
+   float f;     // the size of float is 4
+   char str[20]; // the size of char is 1
 };
  
 int main() 
