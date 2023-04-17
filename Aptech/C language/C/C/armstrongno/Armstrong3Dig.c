@@ -1,9 +1,10 @@
 #include<stdio.h>
+#include<conio.h>
 int main()
 {
     int number, originalNumber, remainder, result;    
     printf("\nArmstrong numbers\n========================\n");
-    for(number=1;number<=100000;number++)
+    for(number=1;number<=10000;number++)
     { 
         result=0;
     	originalNumber = number;
@@ -16,7 +17,7 @@ int main()
     	if(number == result)
         		printf("\n%d",number);
     }
-
+	getch();
     return 0;
 }
 

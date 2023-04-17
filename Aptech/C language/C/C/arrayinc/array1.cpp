@@ -13,13 +13,14 @@ int main()
    arr[4] = 50; */
    for (i = 0; i < 5; i++)
    {
-      // Accessing each variable
+      
+      printf(" arr[%d] = %d \n", i, arr[i]);
+   }
+   return 0;
+}
+// Accessing each variable
       /*
         First class[%d] is for to just print 1 to <5 which is because of var i the first one
          then secound %d is to print the inside array objects like 8,9,10 ... because of class[i]
          class[i] is using to print the inside of the array objects
          */
-      printf(" arr[%d] = %d \n", i, arr[i]);
-   }
-   return 0;
-}
