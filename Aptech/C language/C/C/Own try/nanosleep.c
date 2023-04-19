@@ -6,7 +6,7 @@ int main()
     struct timespec remaining , request = {5,100};
     printf("Taking a Nap....\n");
     int response=nanosleep(&request,&remaining);
-    if(response==0)
+    if(response == 0)
     {
         printf("Nap is completed \n");
     }
