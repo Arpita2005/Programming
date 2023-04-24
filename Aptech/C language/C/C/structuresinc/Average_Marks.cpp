@@ -1,5 +1,5 @@
 #include<stdio.h>
-
+#include<conio.h>
 struct student 
 {
      char name[50],branch[50];   

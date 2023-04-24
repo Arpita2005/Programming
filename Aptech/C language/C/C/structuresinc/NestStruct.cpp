@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<string.h>
- 
+#include<conio.h>
 struct student_college_detail
 {
     int college_id;
@@ -25,6 +25,6 @@ int main()
  
     printf(" College Id is: %d \n",stu_data.clg_data.college_id);
     printf(" College Name is: %s \n", stu_data.clg_data.college_name);
-    
+    getch();
     return 0;
 }

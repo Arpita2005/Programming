@@ -1,15 +1,11 @@
 #include<stdio.h>
 #include<conio.h>
-enum compass_direction
-{
-   north,
-   east,
-   south,
-   west
-};
+enum compass_direction{north,east,south,west};
 enum compass_direction get_direction()
 {
-     return south;
+    int a;
+    scanf("%d",&a);
+    // return south;
 }
 /* To shorten example, not using argp */
 int main()
@@ -36,6 +32,6 @@ int main()
       puts("If you go far enough west, you'll be east!");
       break;
   }
-  getch()
+  getch();
   return 0;
 }

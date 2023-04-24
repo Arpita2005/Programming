@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<conio.h>
 /*
  fflush(stdin) in c:
 ==============
@@ -37,5 +38,6 @@ int main()
 	     puts(s[i].name);
 	     printf("Marks: %.1f",s[i].marks);
     }
-   return 0;
+    getch();
+    return 0;
 }

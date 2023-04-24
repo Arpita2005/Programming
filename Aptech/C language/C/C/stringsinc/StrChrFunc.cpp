@@ -6,6 +6,8 @@ int main()
 {
      char mystr[40] = "I am an example of function strchr";
      printf ("%s", strchr(mystr, 'a'));
+     printf("\n\n");
+     printf ("%s", strchr(mystr, 102));
      getch();
      return 0;
 }

@@ -6,7 +6,7 @@ int main()
 	  */
 	 enum months{Jan=1, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec}; 
 	 
-	 enum months month;  /* define 'month' variable of type 'months' */
+	 enum months month;  /* define 'month' variable of datatype 'months' */
 	 
 	 printf("September is %dth month\n", month=Sep); 
 	 /* Assign integer value via an alias     

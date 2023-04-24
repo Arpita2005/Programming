@@ -4,7 +4,7 @@ int main()
 {
 	char name[30],ch;
 	int i=0;                              
-	printf("\nEnter name :");
+	printf("Enter name :");
 	while(ch!= '\n')   
 	{
 		ch=getchar();
