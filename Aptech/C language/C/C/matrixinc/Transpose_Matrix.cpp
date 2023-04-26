@@ -1,5 +1,6 @@
 // Program to Find Transpose of a Matrix
 #include<stdio.h>
+#include<conio.h>
 int main()
 {
     int a[10][10], transpose[10][10], r, c, i, j;
@@ -35,6 +36,7 @@ int main()
     	for(j=0; j<r; ++j)
             printf("%d  ",transpose[i][j]);
     	printf("\n");
-	}    
+	}   
+    getch(); 
     return 0;
 }
