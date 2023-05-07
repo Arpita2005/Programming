@@ -6,11 +6,12 @@ public class fourth
     public static void main(String args[])
     {
         Scanner sc=new Scanner (System.in);
-        int input,sum=0;
+        int input,sum=0,n;
         int[] arr=new int[100];
         int max=arr[0],min=arr[0];
         System.out.println("Enter the size of array:\n");
         input=sc.nextInt();
+       // n=input.length();
         System.out.println(".............................\n");
         System.out.println("Enter the elements:\n");
         for(int i=0;i<input;i++)
@@ -25,5 +26,14 @@ public class fourth
         System.out.println(arr[i]);
         }
         System.out.println("=========================");
+        System.out.println("The max element is :");
+        for(int i=0;i<input;i++)
+        {
+                if(arr[i]>max)
+                {
+                    max=arr[i];
+                    System.out.println(max);
+                }
+        }
     }
 }

@@ -3,7 +3,7 @@ import java.io.*;
 import java.util.*;
 public class Borrow extends Add_Book {
     static void borrowbook() throws IOException {
-        FileWriter wf = new FileWriter("Store_input.txt");
+        FileWriter wf = new FileWriter("Store_input.txt",true);
         String sb, sa, sid, data = "";
         Scanner one = new Scanner(System.in);
         System.out.println("Enter The Book details To borrow a Book :\n");
