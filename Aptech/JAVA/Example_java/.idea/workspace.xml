@@ -5,19 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4a4a2aa9-8027-44af-9ffe-78bac319cac8" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../../C language/C/C/Own try/sum.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../C language/C/C/Own try/sum.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C language/C/C/My_own_try/digit_count_sum.c" beforeDir="false" afterPath="$PROJECT_DIR$/../../C language/C/C/My_own_try/digit_count_sum.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C language/C/C/Own try/MorseText.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../C language/C/C/Own try/MorseText.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C language/C/C/Own try/TextConverter.c" beforeDir="false" afterPath="$PROJECT_DIR$/../../C language/C/C/Own try/TextConverter.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C language/C/C/Own try/TextConverter.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../C language/C/C/Own try/TextConverter.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Array/fourth.java" beforeDir="false" afterPath="$PROJECT_DIR$/Array/fourth.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Own_Try/Library/Borrow.java" beforeDir="false" afterPath="$PROJECT_DIR$/Own_Try/Library/Borrow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Own_Try/Library/Show_db.java" beforeDir="false" afterPath="$PROJECT_DIR$/Own_Try/Library/Show_db.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Own_Try/Library/Store_input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Store_input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Store_input.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Example_java/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Example_java/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Example_java/Library/Store_input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Example_java/Own_Try/Library/Store_input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Example_java/fourth.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Example_java/fourth.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Example_java/one.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Example_java/one.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../College/Class_Work_College/Count_words.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../../College/Class_Work_College/Count_words.exe" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +44,23 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\Programming\Aptech\JAVA\Example_java\Own_Try\Library" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat: Example_java" type="com.poratu.idea.plugins.tomcat">
+      <predefined_log_file enabled="true" id="Tomcat Localhost Log" />
+      <predefined_log_file enabled="true" id="Tomcat Access Log" />
+      <predefined_log_file id="Tomcat Catalina Log" />
+      <predefined_log_file id="Tomcat Manager Log" />
+      <predefined_log_file id="Tomcat Host Manager Log" />
+      <option name="contextPath" value="/Example_java" />
+      <option name="docBase" value="$PROJECT_DIR$/Web-Java/demo/src/main/webapp" />
+      <option name="extraClassPath" value="" />
+      <option name="vmOptions" value="" />
+      <module name="Example_java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">

@@ -11,7 +11,7 @@ int main()
         remainder=k%10;
         sum+=remainder;
         k=k/10;
-        count++;
+        count++; 
     }
     printf("The num of digits are:%d",count);
     printf("\nThe sum of digits are:%d",sum);
