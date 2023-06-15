@@ -14,7 +14,7 @@ int main()
     printf("\n=================================\n");
     if (input == '1')
     {
-        fflush(stdin);
+        //fflush(stdin);
         text_to_morse(str);
     }
     else if (input == '2')

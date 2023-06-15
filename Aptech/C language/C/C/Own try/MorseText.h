@@ -1,7 +1,6 @@
+#include<string.h>
 void text_to_morse(char inp[100])
 {
-   
-    char ch;
     int i = 0, j = 0;
     char code[][10] = {
         {".-"},
@@ -29,20 +28,27 @@ void text_to_morse(char inp[100])
         {".--"},
         {"-..-"},
         {"-.--"},
-        {"--.."}
-    };
+        {"--.."}};
 
     char letterA[] = {"ABCDEFGHIJKLMNOPQRSTUVWXYZ"};
-    printf("Text To Morse Code Converter \n");
+    printf("%c", letterA[1]);
+    printf("\nText To Morse Code Converter \n");
 
     printf("Give Your Input :\n");
-    scanf("%s",inp);
-
-    for(int i=0;i<strlen(inp);i++)
+    scanf("%s", inp);
+  for (int i = 0; i < strlen(inp); i++)
     {
-        if(inp[i]==letterA[i])
+        for (int j = 0; j <= i; j++)
         {
-           printf("%s ",code2[i]);
+            if (inp[j] == letterA[i])
+            {
+                printf("%s", code[j]);
+                i=0;
+            }
+        //      else
+        //    {
+        //     printf("Wrong Input\n");
+        //    }
         }
 
     }
@@ -50,7 +56,7 @@ void text_to_morse(char inp[100])
 
 void morse_to_text(char input[100])
 {
-   char code[][10] = {
+    char code[][10] = {
         {".-"},
         {"-..."},
         {"-.-."},
@@ -76,21 +82,20 @@ void morse_to_text(char input[100])
         {".--"},
         {"-..-"},
         {"-.--"},
-        {"--.."}
-   }
-    char letter1[30]={"ABCDEFGHIJKLMNOPQRSTUVWXYZ"};
+        {"--.."}};
+    char letter1[30] = {"ABCDEFGHIJKLMNOPQRSTUVWXYZ"};
     printf("Morse Code To Text Converter \n");
 
-    for(int i=0;input[i]!='\0';i++)
+    for (int i = 0; input[i] != '\0'; i++)
     {
-           if(toupper(input[i]==code1[i]))
+        if (toupper(input[i] == code[i]))
 
-            {
-               printf("%s",letter1[i]);
-            }
-           else
-            {
-                printf("Wrong input\n");
-            }
+        {
+            printf("%s", letter1[i]);
+        }
+        else
+        {
+            printf("Wrong input\n");
+        }
     }
 }
