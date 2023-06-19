@@ -45,10 +45,6 @@ void text_to_morse(char inp[100])
                 printf("%s", code[j]);
                 i=0;
             }
-        //      else
-        //    {
-        //     printf("Wrong Input\n");
-        //    }
         }
 
     }
