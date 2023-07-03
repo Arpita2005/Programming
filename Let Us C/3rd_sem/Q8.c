@@ -11,7 +11,7 @@ int main()
     temp=a;
     a=b;
     b=temp;
-    printf("\n|:::::::::::::::::::::::::::::::::::::::|\n")
+    printf("\n|:::::::::::::::::::::::::::::::::::::::|\n");
     printf("\nAfter swapping the two numbers are : %d  %d",a,b);
     getch();
     return 0;
