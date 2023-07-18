@@ -20,7 +20,7 @@ int main()
 
     printf("Enter the new element :\n");
     scanf("%d",&element);
-    printf("Enter the index where the new wlwmwnt to be inserted :\n");
+    printf("Enter the index where the new element to be inserted :\n");
     scanf("%d",&index);
    while(i>index)
    {

@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include<conio.h>
 int main()
 {
    int i;
@@ -16,6 +17,7 @@ int main()
       
       printf(" arr[%d] = %d \n", i, arr[i]);
    }
+   getch();
    return 0;
 }
 // Accessing each variable

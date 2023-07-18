@@ -2,12 +2,6 @@
     "configurations": [
         
         {
-            "type": "java",
-            "name": "date",
-            "request": "launch",
-            "mainClass": "date"
-        },
-        {
             "name": "C_[WINDOWS]",
             "type": "cppdbg",
             "request": "launch",

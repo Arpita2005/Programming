@@ -1,7 +1,8 @@
 import java.util.*;
 public class char_insert_del 
 {
-    public static void main(String[] args) {
+    public static void main(String[] args) 
+    {
         Scanner scan=new Scanner(System.in);
         String sen;
         System.out.println("Enter a sen:\n");
@@ -17,8 +18,7 @@ public class char_insert_del
         System.out.println("||...................................||\n");
         System.out.println(sc);
         
-
-        //Delete any substr or char
+        // Delete any substr or char  
 
         System.out.println("Enter the index number from where the del will start:\n");
         int id=scan.nextInt();

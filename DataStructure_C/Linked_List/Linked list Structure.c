@@ -1,11 +1,12 @@
 #include<stdio.h>
+#include<stdlib.h>
 #include<conio.h>
 typedef struct node
 {
     int data;
     struct node *next;
 }node;
-void main()
+int main()
 {
     int i,n ;
     node *head,*ptr,*ptr1;
@@ -23,6 +24,7 @@ for(i=1;i<n;i++)
     ptr->next=ptr1;
     ptr1->next=NULL;
     getch();
+    return 0;
 }
 }
 

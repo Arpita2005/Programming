@@ -1,7 +1,8 @@
 import java.util.*;
 public class char_index_pos
 {
-public static void main(String[] args) {
+public static void main(String[] args) 
+{
     Scanner sc=new Scanner(System.in);
     String input;
     System.out.println("Enter a string:\n");

@@ -1,7 +1,8 @@
 import java.util.*;
 public class join_at_end
 {
-    public static void main(String[] args) {
+    public static void main(String[] args) 
+    {
         Scanner scan=new Scanner(System.in);
         String sen,sen2;
         System.out.println("Enter first part:\n");

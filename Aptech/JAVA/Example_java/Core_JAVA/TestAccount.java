@@ -43,8 +43,8 @@ class my_Account
 	}  
 }  
   
-class TESTAccount
-{  
+public class TestAccount
+{   
 	public static void main(String[] args)
 	{ 	
 			my_Account a1=new my_Account();

@@ -3,7 +3,8 @@ import java.io.*;
 
 public class ExcepTest {
 
-      public static void main(String args[]) {
+      public static void main(String args[]) 
+   {
       try 
 	  {
          int a[] = new int[2];
