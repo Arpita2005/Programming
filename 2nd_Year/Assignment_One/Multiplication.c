@@ -26,7 +26,7 @@ int main()
         for(j=0;j<coloumn;j++)
         {
             multiplication[i][j]=first[i][j]*second[i][j];
-            printf("%d\n",multiplication[i][j]);
+            printf("%d\t",multiplication[i][j]);
         }
         printf("\n");
     }

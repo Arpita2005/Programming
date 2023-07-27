@@ -3,11 +3,11 @@
 
 int main()
 {
-    int a[1000], i, n, min, max;
+    int  i, n, min, max;
 
     printf("Enter size of the array : ");
     scanf("%d", &n);
-
+    int a[n];
     for (i = 0; i < n; i++)
     {
         printf("Enter elements in array %d: ", i + 1);

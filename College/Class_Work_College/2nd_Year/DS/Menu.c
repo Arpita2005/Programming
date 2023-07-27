@@ -68,7 +68,7 @@ n* deletebeg(n *head)
         return (head);
     }
 }
-n* deleteeend(n *head)
+n* deleteend(n *head)
 {
     n *ptr;
     ptr=head;

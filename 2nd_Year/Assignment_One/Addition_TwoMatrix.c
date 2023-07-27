@@ -28,13 +28,13 @@ void main()
         }
     }
 
-    printf("Sum of the total matrix:\n");
+    printf("Sum of the total matrix:\n"); 
     for(i=0;i<row;i++)
     {
         for(j=0;j<coloumn;j++)
         {
             sum[i][j]=first[i][j]+second[i][j];
-            printf("%d\n",sum[i][j]);
+            printf("%d\t",sum[i][j]);
         }
         printf("\n");
     }
