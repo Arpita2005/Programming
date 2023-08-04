@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4a4a2aa9-8027-44af-9ffe-78bac319cac8" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../../C language/C/C/My_own_try/digit_count_sum.c" beforeDir="false" afterPath="$PROJECT_DIR$/../../C language/C/C/My_own_try/digit_count_sum.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../C language/C/C/Own try/MorseText.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../C language/C/C/Own try/MorseText.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../C language/C/C/Own try/TextConverter.c" beforeDir="false" afterPath="$PROJECT_DIR$/../../C language/C/C/Own try/TextConverter.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../C language/C/C/Own try/TextConverter.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../C language/C/C/Own try/TextConverter.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Example_java/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Example_java/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,14 +27,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/Programming/Aptech/JAVA/Example_java/Own_Try/Library&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.Issue.Navigation&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "jdk.selected.JAVA_MODULE": "19",
+    "last_opened_file_path": "E:/Programming/Aptech/JAVA/Example_java/Own_Try/Library",
+    "settings.editor.selected.configurable": "project.propVCSSupport.Issue.Navigation"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\Programming\Aptech\JAVA\Example_java\Own_Try\Library" />
