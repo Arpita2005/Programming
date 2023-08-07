@@ -68,15 +68,6 @@ n* deletebeg(n *head)
         return (head);
     }
 }
-n* deleteend(n *head)
-{
-    n *ptr;
-    ptr=head;
-    while(ptr->link==NULL)
-    {
-        
-    }
-}
 int main()
 {
     int num,choose;

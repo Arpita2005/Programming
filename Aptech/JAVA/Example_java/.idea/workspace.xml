@@ -5,7 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4a4a2aa9-8027-44af-9ffe-78bac319cac8" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../2nd_Year/Assignment_One/RotateArray.c" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2nd_Year/Assignment_One/RotateArray.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2nd_Year/Assignment_One/RotateArray.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2nd_Year/Assignment_One/RotateArray.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../College/Class_Work_College/2nd_Year/DS/Menu.c" beforeDir="false" afterPath="$PROJECT_DIR$/../../../College/Class_Work_College/2nd_Year/DS/Menu.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../College/Class_Work_College/2nd_Year/JAVA/accountamount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../College/Class_Work_College/2nd_Year/JAVA/tax.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +39,9 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "jdk.selected.JAVA_MODULE": "19",
     "last_opened_file_path": "E:/Programming/Aptech/JAVA/Example_java/Own_Try/Library",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "project.propVCSSupport.Issue.Navigation"
   }
 }]]></component>

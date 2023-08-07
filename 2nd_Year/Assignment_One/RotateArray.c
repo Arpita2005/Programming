@@ -3,21 +3,18 @@
 
 void rotateArray(int arr[], int n, int d) 
 {
-    int temp;
+     int temp[d];
     for (int i = 0; i < d; i++) 
     {
-        // temp = arr[n - 1]; 
-        // for (int j = n - 1; j > 0; j--) 
-        // {
-        //     arr[j] = arr[j - 1]; 
-        //     arr[0] = temp; 
-        // }
-        for(int j=0;arr[j]!='\0';j++)
-        {
-            arr[j]=arr[j+1];
-            temp=arr[n-1];
-            arr[0]=temp;
-        }
+        temp[i] = arr[i];
+    }
+    for (int i = 0; i < n - d; i++) 
+    {
+        arr[i] = arr[i + d];
+    }
+    for (int i = 0; i < d; i++) 
+    {
+        arr[n - d + i] = temp[i];
     }
 }
 void printArray(int arr[], int n) 
