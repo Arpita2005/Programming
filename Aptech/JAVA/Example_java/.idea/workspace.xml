@@ -5,11 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4a4a2aa9-8027-44af-9ffe-78bac319cac8" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../.vscode/launch.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.vscode/launch.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C language/C/C/Own try/MorseText.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C language/C/C/Own try/TextConverter.c" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Let Us C/C_Questions/A.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Let Us C/C_Questions/B.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Let Us C/C_Questions/C.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Let Us C/C_Questions/D.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../College/Class_Work_College/2nd_Year/Assignment_One_DS/RotateArray.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../../College/Class_Work_College/2nd_Year/Assignment_One_DS/RotateArray.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../College/Class_Work_College/2nd_Year/Assignment_One_DS/reverse.c" beforeDir="false" afterPath="$PROJECT_DIR$/../../../College/Class_Work_College/2nd_Year/Assignment_One_DS/reverse.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../College/Class_Work_College/2nd_Year/Assignment_One_DS/reverse.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../../College/Class_Work_College/2nd_Year/Assignment_One_DS/reverse.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../College/Class_Work_College/2nd_Year/JAVA/option.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../College/Class_Work_College/2nd_Year/JAVA/option.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

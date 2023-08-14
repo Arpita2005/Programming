@@ -7,7 +7,6 @@ void printSparseMatrix(int matrix[MAX_ROWS][MAX_COLS], int rows, int cols)
     int nonZeroCount = 0;
     int sparseMatrix[MAX_ROWS * MAX_COLS][3]; // 3 columns for (row, col, value)
 
-    // Count the number of non-zero elements and store them in sparseMatrix
     for (int i = 0; i < rows; i++) {
         for (int j = 0; j < cols; j++) {
             if (matrix[i][j] != 0) {

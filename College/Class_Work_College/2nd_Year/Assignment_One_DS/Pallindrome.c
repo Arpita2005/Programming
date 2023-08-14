@@ -19,7 +19,7 @@ int main()
        {
         printf("It is a pallindrome word \n");
        }
-    }
+    } 
     getch();
     return 0;
     

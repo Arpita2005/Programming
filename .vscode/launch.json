@@ -1,11 +1,6 @@
 {
     "configurations": [
-        {
-            "type": "java",
-            "name": "Nameone",
-            "request": "launch",
-            "mainClass": "Nameone"
-        },
+       
         {
             "name": "C_[WINDOWS]",
             "type": "cppdbg",
