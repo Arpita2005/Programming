@@ -1,6 +1,18 @@
 {
     "configurations": [
-       
+        {
+            "type": "java",
+            "name": "prime",
+            "request": "launch",
+            "mainClass": "prime",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "pattern",
+            "request": "launch",
+            "mainClass": "pattern"
+        },
         {
             "name": "C_[WINDOWS]",
             "type": "cppdbg",
