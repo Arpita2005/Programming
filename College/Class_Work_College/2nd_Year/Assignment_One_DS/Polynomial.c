@@ -15,7 +15,8 @@ int main()
     }
 
     printf("The polynomial is: ");
-    for (int i = n; i >= 0; i--) {
+    for (int i = n; i >= 0; i--) 
+    {
         if (value[i] != 0) {
             printf("%dx^%d", value[i], i);
             if (i > 0 && value[i - 1] >= 0) {
