@@ -43,7 +43,7 @@ class my_Account
 	}  
 }  
   
-public class TestAccount
+public class TestAccountone
 {   
 	public static void main(String[] args)
 	{ 	
