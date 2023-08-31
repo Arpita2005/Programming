@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<conio.h>
 #include<stdlib.h>
 typedef struct node
 {
@@ -12,7 +13,7 @@ node* deletebegining(node *h);
 node* deleteend(node *h);
 node* deleteposition(node *h);
 node* display(node*h);
-void main()
+int main()
 {
 	int i,n,ch;
 	node *head,*ptr,*ptr1;
@@ -41,10 +42,10 @@ void main()
 		printf("6. delete position \n");
 		printf("7. display \n");
 		printf("8. Exit");
-		printf("\n Enter Your Choice :\n");
+		printf("\nEnter Your Choice :\n");
 		scanf("%d",&ch);
-		if(ch==8)
-		break;
+		//if(ch==8)
+		//break;
 		switch(ch)
 		{
 			case 1 : head=insertbegining(head);
@@ -68,6 +69,8 @@ void main()
 		}
 			
 	}
+	getch();
+	return  0;
 }
 node* display(node*h)
 {
@@ -137,7 +140,7 @@ node* deletebegining(node*h)
 	else
 	{
 		ptr=h;
-		h=h->next;
+		h=ptr->next;
 		free(ptr);
 		return(h);
 	}

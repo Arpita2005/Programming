@@ -62,7 +62,7 @@ class Details
                 verify_name = input.nextLine();
                 System.out.println("Enter your Id:\n");
                 verify_id = input.nextLong();
-                for(int i=0; i<p1.length; i++)
+                for(int i=0; i<num; i++)
                 {
                     if((p1[i].name).equalsIgnoreCase(verify_name) && (p1[i].id==(verify_id)))
                     {

@@ -16,16 +16,22 @@ public class morse_to_text
         System.out.println("Enter Your Morse Code :\n");
         input=in.nextLine();
         String[] mi=input.split(" ");
-        for(int i=0;i<input.length();i++)
+        for(int i=0;i<mi.length;i++)
         {
             for(int j = 0;j<m.length; j++)
             {
                 if(mi[j].equals(m[j]))
                 {
                     System.out.println(alpha[j]);
+                    break;
+                }
+                else
+                {
+                    System.out.println("Wrong Input \n");
                 }
             }
         }
     }
 }
+
 

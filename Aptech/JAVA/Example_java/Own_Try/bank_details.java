@@ -8,28 +8,28 @@ class first
 
     public void name()
     {
-    System.out.println("Hello Customer! ");
+    System.out.println("Hello Customer! \n");
     System.out.println("Enter your name:\n");
     name=input.nextLine();
     }
     public  void account_open()
     {
         System.out.println("\n===============================\n");
-        System.out.println("Welcome to our bank :)\n Hi "+name);
+        System.out.println("Welcome to our bank \n Hello "+name);
         System.out.println("To creat a new account how much amount you want to give\n");
         ac_open_amount=input.nextInt();
         System.out.println("Your present bank balance is:\n"+ac_open_amount);
     }
     public void deposit()
     {
-        System.out.println("Enter how much amount you want to deposit  "+name);
+        System.out.println("Enter how much amount you want to deposit  ");
         deposit=input.nextInt();
         ac_open_amount+=deposit;
         System.out.println("Your present bank balance is : "+ac_open_amount);
     }
     public void withdraw()
     {
-        System.out.println("Enter how much amount you want to withdraw   "+name);
+        System.out.println("Enter how much amount you want to withdraw   ");
         withdraw=input.nextInt();
         ac_open_amount-=withdraw;
         System.out.println("Your present bank balance is : "+ac_open_amount);
@@ -43,7 +43,7 @@ class first
         while(true) 
         {
         //System.out.println("Hello  "+name);
-        System.out.println("\nWhat do you want to do   "+name+"??");
+        System.out.println("\nWhat do you want to do "+name+"??");
         System.out.println("\nD = Deposit \nW = Withdraw \nE = Exit");
         select=input.next().charAt(0);
 

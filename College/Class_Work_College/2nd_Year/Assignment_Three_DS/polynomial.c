@@ -34,7 +34,6 @@ void insertTerm(struct Term** polynomial, int coefficient, int exponent) {
     }
 }
 
-// Function to display the polynomial expression
 void displayPolynomial(struct Term* polynomial) {
     if (polynomial == NULL) {
         printf("Polynomial is empty.\n");

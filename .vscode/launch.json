@@ -1,13 +1,6 @@
 {
     "configurations": [
         {
-            "type": "java",
-            "name": "Menu_driven_Calculator",
-            "request": "launch",
-            "mainClass": "Menu_driven_Calculator",
-            "projectName": ""
-        },
-        {
             "name": "C_[WINDOWS]",
             "type": "cppdbg",
             "request": "launch",

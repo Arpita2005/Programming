@@ -16,13 +16,18 @@ public class text_to_morse
         System.out.println("Enter Your Input :\n");
         input=in.next();
         String[] mi=input.split(" ");
-        for(int i=0;i<input.length();i++)
+        for(int i=0;i<mi.length;i++)
         {
             for(int j = 0;j<alpha.length; j++)
             {
                 if(mi[j].equals(alpha[j]))
                 {
                     System.out.println(m[j]);
+                    break;
+                }
+                else
+                {
+                    System.out.println("Wrong Input");
                 }
             }
         }
