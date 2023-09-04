@@ -1,15 +1,15 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-struct node // Define a structure for a single node 
+struct node
 {
-    int data;          // Data stored in the node
+    int data;
     struct node *next; // Pointer to the next node in the stack
 };
 
-struct stack // Define a structure to represent the stack 
+struct stack // Define a structure to represent the stack
 {
-    struct node *top; // Pointer to the top of the stack
+    struct node *top; // Pointer pointing to the top of the stack
 };
 
 void init_stack(struct stack *s) // Initialize the stack by setting top to NULL
@@ -30,24 +30,22 @@ void push(struct stack *s, int data)
     s->top = new_node;       // Update top to the new node (new top)
 }
 
-// Pop (remove) an element from the top of the stack
 int pop(struct stack *s)
 {
     if (is_stack_empty(s))
     {
-        return -1; // Return -1 to indicate an empty stack
+        return -1; // Return -1 because if stack is empty we know the values have to be at -1
     }
     else
     {
         struct node *temp = s->top; // Temporarily store the current top node
         int data = temp->data;      // Get the data from the top node
         s->top = temp->next;        // Update top to the next node
-        free(temp);                 // Free the memory of the popped node
-        return data;                // Return the popped data
+        free(temp);
+        return data;                // returning the popped data
     }
 }
 
-// Print the elements in the stack
 void print_stack(struct stack *s)
 {
     struct node *temp = s->top; // Start from the top of the stack
@@ -59,7 +57,6 @@ void print_stack(struct stack *s)
     printf("\n");
 }
 
-// Get user input for push operation
 void get_user_input(struct stack *s)
 {
     int data;

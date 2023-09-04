@@ -63,14 +63,14 @@ void display()
 }  
 int main()  
 {  
-    int choice=1,x;   // variables declaration  
+    int choice=1,x;  
       
-    while(1)   // while loop  
+    while(1)   
     {  
-    printf("\n Press 1: Insert an element");  
+    printf("\nPress 1: Insert an element");  
     printf("\nPress 2: Delete an element");  
     printf("\nPress 3: Display the element");  
-    printf("\nEnter your choice");  
+    printf("\n\nEnter your choice :\n");  
     scanf("%d", &choice);  
       
     switch(choice)  

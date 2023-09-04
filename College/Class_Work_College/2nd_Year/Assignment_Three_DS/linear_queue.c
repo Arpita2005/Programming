@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-
+#include<conio.h>
 // Define the structure for a node in the queue
 struct Node {
     int data;
@@ -44,9 +44,10 @@ void enqueue(struct Queue* queue, int data) {
         queue->rear->next = newNode;
         queue->rear = newNode;
     }
+    printf("Front element: %d, Rear element: %d\n", queue->front->data, queue->rear->data);
 }
 
-// Function to dequeue an element from the queue
+
 int dequeue(struct Queue* queue) {
     if (isEmpty(queue)) {
         printf("Queue is empty\n");
@@ -60,6 +61,7 @@ int dequeue(struct Queue* queue) {
     }
     free(temp);
     return dequeuedValue;
+    // printf("Front element: %d, Rear element: %d\n", queue->front->data, queue->rear->data);
 }
 
 // Function to display the elements of the queue
@@ -83,19 +85,43 @@ void freeQueue(struct Queue* queue) {
 
 int main() {
     struct Queue* queue = createQueue();
+    int choice, data;
 
-    enqueue(queue, 1);
-    enqueue(queue, 2);
-    enqueue(queue, 3);
+    do {
+        printf("\nMenu:\n");
+        printf("1. Enqueue\n");
+        printf("2. Dequeue\n");
+        printf("3. Display Queue\n");
+        printf("4. Exit\n");
+        printf("Enter your choice: ");
+        scanf("%d", &choice);
 
-    displayQueue(queue);
+        switch (choice) {
+            case 1:
+                printf("Enter data to enqueue: ");
+                scanf("%d", &data);
+                enqueue(queue, data);
+                break;
+            case 2:
+                if (!isEmpty(queue)) {
+                    printf("Dequeued element: %d\n", dequeue(queue));
+                } else {
+                    printf("Queue is empty\n");
+                }
+                break;
+            case 3:
+                displayQueue(queue);
+                break;
+            case 4:
+                printf("Exiting...\n");
+                break;
+            default:
+                printf("Invalid choice\n");
+        }
 
-    printf("Dequeued element: %d\n", dequeue(queue));
-    printf("Dequeued element: %d\n", dequeue(queue));
-
-    displayQueue(queue);
+    } while (choice != 4);
 
     freeQueue(queue);
-
+    getch();
     return 0;
-} 
+}

@@ -86,7 +86,8 @@ int main()
     int choice;
     while (1)
     {
-        printf("1. Enqueue\n2. Dequeue\n3. Print queue\n4. Exit\n");
+        printf("Linear Queue Implementation :- \n");
+        printf("1. Enqueue\n2.Dequeue\n3. Traverse\n4. Exit\n");
         scanf("%d", &choice);
         switch (choice)
         {

@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-
+#include<conio.h>
 struct Node
 {
     int data;
@@ -67,7 +67,6 @@ int dequeue(struct Queue *queue)
 
     return data;
 }
-
 void display(struct Queue *queue)
 {
     struct Node *current = queue->front;
@@ -85,7 +84,30 @@ void display(struct Queue *queue)
         current = current->next;
     } while (current != queue->front);
     printf("\n");
+
+    printf("Front element: %d\n", queue->front->data); // Print the front element
+    printf("Rear element: %d\n", queue->rear->data);   // Print the rear element
 }
+
+
+/*void display(struct Queue *queue)
+{
+    struct Node *current = queue->front;
+
+    if (current == NULL)
+    {
+        printf("Queue is empty.\n");
+        return;
+    }
+
+    printf("Queue elements: ");
+    do
+    {
+        printf("%d ", current->data);
+        current = current->next;
+    } while (current != queue->front);
+    printf("\n");
+}*/
 
 int main()
 {
@@ -94,10 +116,7 @@ int main()
 
     do
     {
-        printf("1. Enqueue\n");
-        printf("2. Dequeue\n");
-        printf("3. Display\n");
-        printf("0. Exit\n");
+        printf("1. Enqueue\n2. Dequeue\n3. Display\n0. Exit\n");
         printf("Enter your choice: ");
         scanf("%d", &choice);
 
@@ -115,10 +134,10 @@ int main()
             display(queue);
             break;
         case 0:
-            printf("Exiting...\n");
+            printf("exiting your honor.....Goodbye..\n");
             break;
         default:
-            printf("Invalid choice. Try again.\n");
+            printf("Wrong input...please choose an option from the given list\n");
         }
     } while (choice != 0);
 

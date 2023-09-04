@@ -1,79 +1,92 @@
 #include <stdio.h>
 #include <stdlib.h>
-
-// Define the structure for a term in the polynomial
+#include<conio.h>
 struct Term {
-    int coefficient;
-    int exponent;
+    int coef;
+    int exp;
     struct Term* next;
 };
 
-// Function to create a new term
-struct Term* createTerm(int coefficient, int exponent) {
-    struct Term* newTerm = (struct Term*)malloc(sizeof(struct Term));
-    newTerm->coefficient = coefficient;
-    newTerm->exponent = exponent;
-    newTerm->next = NULL;
-    return newTerm;
+struct Term* newTerm(int coef, int exp) {
+    struct Term* term = (struct Term*)malloc(sizeof(struct Term));
+    term->coef = coef;
+    term->exp = exp;
+    term->next = NULL;
+    return term;
 }
 
-// Function to insert a term into the polynomial in descending order of exponent
-void insertTerm(struct Term** polynomial, int coefficient, int exponent) {
-    struct Term* newTerm = createTerm(coefficient, exponent);
-    
-    if (*polynomial == NULL || exponent > (*polynomial)->exponent) {
-        newTerm->next = *polynomial;
-        *polynomial = newTerm;
+void insertTerm(struct Term** poly, int coef, int exp) {
+    struct Term* term = newTerm(coef, exp);
+
+    if (*poly == NULL || exp > (*poly)->exp) {
+        term->next = *poly;
+        *poly = term;
     } else {
-        struct Term* current = *polynomial;
-        while (current->next != NULL && current->next->exponent >= exponent) {
-            current = current->next;
+        struct Term* cur = *poly;
+        while (cur->next != NULL && cur->next->exp >= exp) {
+            cur = cur->next;
         }
-        newTerm->next = current->next;
-        current->next = newTerm;
+        term->next = cur->next;
+        cur->next = term;
     }
 }
 
-void displayPolynomial(struct Term* polynomial) {
-    if (polynomial == NULL) {
+void displayPolynomial(struct Term* poly) {
+    if (poly == NULL) {
         printf("Polynomial is empty.\n");
         return;
     }
-    
-    while (polynomial != NULL) {
-        printf("(%dx^%d)", polynomial->coefficient, polynomial->exponent);
-        if (polynomial->next != NULL) {
+
+    while (poly != NULL) {
+        printf("(%dx^%d)", poly->coef, poly->exp);
+        if (poly->next != NULL) {
             printf(" + ");
         }
-        polynomial = polynomial->next;
+        poly = poly->next;
     }
     printf("\n");
 }
 
-// Function to free the memory used by the polynomial
-void freePolynomial(struct Term* polynomial) {
-    while (polynomial != NULL) {
-        struct Term* temp = polynomial;
-        polynomial = polynomial->next;
+void freePolynomial(struct Term* poly) {
+    while (poly != NULL) {
+        struct Term* temp = poly;
+        poly = poly->next;
         free(temp);
     }
 }
 
-int main() {
-    struct Term* polynomial = NULL;
+int main() 
+{
+    struct Term* poly = NULL;
+    int choice, coef, exp;
 
-    // Insert terms into the polynomial
-    insertTerm(&polynomial, 3, 2);
-    insertTerm(&polynomial, -4, 3);
-    insertTerm(&polynomial, 5, 1);
-    insertTerm(&polynomial, 2, 4);
+    while (1) {
+        printf("Menu:\n");
+        printf("1. Insert term\n");
+        printf("2. Display polynomial\n");
+        printf("3. Exit\n");
+        printf("Enter choice: ");
+        scanf("%d", &choice);
 
-    // Display the polynomial expression
-    printf("Polynomial: ");
-    displayPolynomial(polynomial);
-
-    // Free the memory used by the polynomial
-    freePolynomial(polynomial);
-
+        switch (choice) {
+            case 1:
+                printf("Enter coefficient and exponent: ");
+                scanf("%d %d", &coef, &exp);
+                insertTerm(&poly, coef, exp);
+                printf("Term inserted.\n");
+                break;
+            case 2:
+                printf("Polynomial: ");
+                displayPolynomial(poly);
+                break;
+            case 3:
+                freePolynomial(poly);
+                printf("Exiting.\n");
+                return 0;
+            default:
+                printf("Invalid choice. Retry.\n");
+        }
+    }
+    getch();
     return 0;
 }
