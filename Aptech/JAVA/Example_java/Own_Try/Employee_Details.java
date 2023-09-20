@@ -1,5 +1,14 @@
 import java.io.*;
 import java.util.*;
+public class Employee_Details 
+{
+    public static void main(String[] args+
+    +) throws IOException
+    {
+        DetailsFirst d1=new DetailsFirst();
+       d1.data_input();
+    }
+}
 class DetailsFirst
 {
     String[] name,doj;
@@ -52,14 +61,4 @@ class DetailsFirst
     //     }
     // }
     
-}
-public class Employee_Details 
-{
-    public static void main(String[] args) throws IOException
-    {
-        // int num=0,p;
-        DetailsFirst d1=new DetailsFirst();
-        // p=d1.num;
-       d1.data_input();
-    }
 }

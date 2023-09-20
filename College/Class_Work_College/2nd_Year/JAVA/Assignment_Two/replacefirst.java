@@ -10,9 +10,11 @@ public class replacefirst
         System.out.println("Enter Your Input \n");
         input = sc.nextLine();
         System.out.println("Which letter you want to replace ?");
-        i = scc.next();
+        i = scc.next().charAt(0);
         System.out.println("Enter the new character :\n");
-        j = scc.next();
-        System.out.println(input.replaceFirst(i,j)); 
+        j = scc.next().charAt(0);
+        String iStr = String.valueOf(i);
+        String jStr = String.valueOf(j);
+        System.out.println(input.replaceFirst(iStr,jStr)); 
   }   
 }

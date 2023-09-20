@@ -1,4 +1,4 @@
-public class No_arg_Cons 
+public class No_arg_ConsOone
 {
     No_arg_Cons()
     {

@@ -7,6 +7,7 @@
 // •	size() returns the size of stack
 
 #include<stdio.h>
+#include<stdlib.h>
 #include<conio.h>
 int stack[100],choice,n,top,x,i;
 
@@ -15,19 +16,20 @@ void pop(void);
 void isempty(void);
 void isfull(void);
 void display(void);
-
+void top_element(void);
+void size(void);
 
 int main()
 {
     top=-1;
-    printf("\n Enter the size of STACK[MAX=100]:");
+    printf("\nEnter the size of STACK[MAX=100]:");
     scanf("%d",&n);
   
   while(1)
     {
-          printf("\n\t STACK OPERATIONS USING ARRAY");
+          printf("\n\tSTACK OPERATIONS USING ARRAY");
           printf("\n\t--------------------------------");
-          printf("\n1.PUSH\n2.POP\n3.DISPLAY\n4.isEmpty\n5.isFull\n6.EXIT");
+          printf("\n1.PUSH\n2.POP\n3.DISPLAY\n4.isEmpty\n5.isFull\n6.TOP ELEMENT\n7. SIZE\n8. EXIT\n");
         printf("\n Enter the Choice:");
         scanf("%d",&choice);
        if(choice==1)
@@ -44,13 +46,29 @@ int main()
             }
          else if(choice==4)
             {
-                printf("\n\t EXIT POINT ");
-                exit(0);
+                isempty();
             }
+         else if(choice==5)
+         {
+            isfull();
+         }
+         else if(choice==6)
+         {
+            top_element();
+         }
+         else if(choice==7)
+         {
+            size();
+         }
+         else if(choice==8)
+         {
+            printf("Thank You");
+            exit(0);
+         }
         else
-            {
-                printf ("\n\t Please Enter a Valid Choice(1/2/3/4)");
-            }
+         {
+            printf ("\n\t Please Enter a Valid Choice(1/2/3/4)");
+         }
                 
     }
     getch();
@@ -104,6 +122,14 @@ void isfull(void)
     {
         printf("We have space to insert element in stack \n");
     }
+}
+void top_element(void)
+{
+    printf("The Top element is : %d\n",stack[top]);
+}
+void size(void)
+{
+    printf("The size of stack is :%d\n",top+1);
 }
 void display()
 {

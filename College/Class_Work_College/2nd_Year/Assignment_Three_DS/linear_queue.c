@@ -114,6 +114,7 @@ int main() {
                 break;
             case 4:
                 printf("Exiting...\n");
+                exit(0);
                 break;
             default:
                 printf("Invalid choice\n");

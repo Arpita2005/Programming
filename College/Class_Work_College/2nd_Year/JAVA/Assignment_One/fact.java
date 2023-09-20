@@ -1,5 +1,5 @@
 import java.util.*;
-class one
+class fact
 {
     public static void fact()
     {
@@ -19,24 +19,3 @@ class one
     }
 
 }
-
-// import java.util.*;
-// import java.io.*;
-
-//  public class fact
-// {
-//     public static void main(String[] args)
-//     {
-//     int num,fact=1;
-   
-//     Scanner sc = new Scanner(System.in);
-//     System.out.println("Please enter a number : ");
-//     num=sc.nextInt();
-//      for(i=1;i<=num;i++)
-//      {
-//      fact=fact*i;
-//     }
-     
-// System.out.println("The factorial of"+num+"is"+fact);
-// }
-// }

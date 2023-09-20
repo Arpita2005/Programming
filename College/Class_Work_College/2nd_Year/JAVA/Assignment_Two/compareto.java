@@ -10,7 +10,7 @@ public class compareto
     sen=sc.nextLine();
     System.out.println("Enter the second input :\n"); 
     sen1=sc.nextLine();
-    if(sen.compareTo(sen1))
+    if(sen.compareTo(sen1)==0)
     {
         System.out.println("Both Strings are same \n");
     }

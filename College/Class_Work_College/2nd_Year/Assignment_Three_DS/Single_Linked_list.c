@@ -16,31 +16,31 @@ node* display(node*h);
 int main()
 {
 	int i,n,ch;
-	node *head,*ptr,*ptr1;
-	printf("Enter the number of nodes of the linked list :\n");
-	scanf("%d",&n);
-	head=(node*)malloc(sizeof(node));
-	printf("\nEnter values one by one :\n");
-	scanf("%d",&head->data);
-	head->next=NULL;
-	ptr=head;
-	for(i=1;i<n;i++)
-	{
-		ptr1=(node*)malloc(sizeof(node));
-		scanf("%d",&ptr1->data);
-		ptr->next=ptr1;
-		ptr1->next=NULL;
-		ptr=ptr1;
-	}
+	node *head=NULL,*ptr,*ptr1;
+	// printf("Enter the number of nodes of the linked list :\n");
+	// scanf("%d",&n);
+	// head=(node*)malloc(sizeof(node));
+	// printf("\nEnter values one by one :\n");
+	// scanf("%d",&head->data);
+	// head->next=NULL;
+	// ptr=head;
+	// for(i=1;i<n;i++)
+	// {
+	// 	ptr1=(node*)malloc(sizeof(node));
+	// 	scanf("%d",&ptr1->data);
+	// 	ptr->next=ptr1;
+	// 	ptr1->next=NULL;
+	// 	ptr=ptr1;
+	// }
 	while(1)
 	{
 		printf("\n1. Insert begining \n");
-		printf("2. Interest end \n");
-		printf("3. Interest position \n");
-		printf("4. Delelte begining \n");
-		printf("5. Delete end \n");
-		printf("6. delete position \n");
-		printf("7. display \n");
+		printf("2. Insert at end \n");
+		printf("3. Insert at any position \n");
+		printf("4. Delelte at begining \n");
+		printf("5. Delete at end \n");
+		printf("6. Delete at any position \n");
+		printf("7. Display \n");
 		printf("8. Exit");
 		printf("\nEnter Your Choice :\n");
 		scanf("%d",&ch);
@@ -64,8 +64,7 @@ int main()
 			break;
 			case 8 : exit(0);
 			break;
-			
-			default : printf("GIve the correct option\n");
+			default : printf("Give the correct option\n");
 		}
 			
 	}

@@ -27,22 +27,25 @@ void enqueue(int element)
   
 int dequeue()  
 {  
-    if((front==-1) && (rear==-1))    
+    if (front == -1 && rear == -1)    
     {  
         printf("\nQueue is underflow..");  
     }  
- else if(front==rear)  
-{  
-   printf("\nThe dequeued element is %d ", queue[front]);  
-   front=-1;  
-   rear=-1;  
-}   
-else  
-{  
-    printf("\nThe dequeued element is %d ", queue[front]);  
-   front=(front+1)%max;  
-}  
-}  
+    else  
+    {  
+        printf("\nThe dequeued element is %d ", queue[front]);  
+        if (front == rear)  
+        {  
+            front = -1;  
+            rear = -1;  
+        }  
+        else  
+        {  
+            front = (front + 1) % max;  
+        }  
+    }  
+}
+
 
 void display()  
 {  
@@ -69,7 +72,8 @@ int main()
     {  
     printf("\nPress 1: Insert an element");  
     printf("\nPress 2: Delete an element");  
-    printf("\nPress 3: Display the element");  
+    printf("\nPress 3: Display the element"); 
+    printf("\nPress 4: Exit ");
     printf("\n\nEnter your choice :\n");  
     scanf("%d", &choice);  
       

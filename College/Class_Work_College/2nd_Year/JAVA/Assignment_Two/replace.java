@@ -9,9 +9,9 @@ public class replace {
         System.out.println("Enter Your Input \n");
         input = sc.nextLine();
         System.out.println("Which letter you want to replace ?");
-        i = scc.next();
+        i = scc.next().charAt(0);
         System.out.println("Enter the new character :\n");
-        j = scc.next();
+        j = scc.next().charAt(0);
         System.out.println(input.replace(i, j));
     }
 }
