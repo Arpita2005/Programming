@@ -1,11 +1,11 @@
 package bank;
 import java.util.*;
-public class output
+public class output extends input
 {
     public static void main(String[] args) 
     {
         System.out.println("Welcome To Our Bank\n\n");
-        input.details();
+        input i = i.details();
         System.out.println("\n..................\n");
         while(true)
         {
@@ -15,11 +15,11 @@ public class output
             c = one.next().charAt(0);
             if (c=='D'||c=='d')
             {
-                input.deposit();
+                i.deposit();
             }
             else if (c == 'W'||c=='w')
             {
-                input.withdraw();
+                i.withdraw();
             }
             else if (c == 'E'||c=='e')
             {

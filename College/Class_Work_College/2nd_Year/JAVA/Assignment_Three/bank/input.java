@@ -15,7 +15,7 @@ import java.util.*;
         this.amount=amn;
 
     }
-    public static void details()
+    public void details()
     {
         Scanner sc= new Scanner(System.in);
         Scanner in= new Scanner(System.in);
@@ -29,7 +29,7 @@ import java.util.*;
         int  amn=in.nextInt();
         input ip = new input(n,b_name,id,0,0,amn);
     }
-    public static void deposit()
+    public void deposit()
     {
         int d;
         Scanner sc=new Scanner(System.in);
@@ -40,7 +40,7 @@ import java.util.*;
         deposit=amount;
         System.out.println("Bank balance of : "+name+" is "+deposit);
     }
-    public static void withdraw()
+    public void withdraw()
     {
         int w;
         Scanner sc=new Scanner(System.in);

@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class JoinExample {
+public class starts_with {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String i, k;
@@ -10,3 +10,4 @@ public class JoinExample {
         System.out.println(k);
     }
 }
+

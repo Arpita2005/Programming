@@ -1,5 +1,4 @@
 import java.util.*;
-
 public class toupper
 {
     public static void main(String[] args) 
