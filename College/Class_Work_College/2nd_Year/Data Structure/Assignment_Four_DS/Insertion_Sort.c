@@ -19,8 +19,17 @@ void insertionSort(int *arr, int size)
         }
         arr[previous_index + 1] = currentElement;
     }
+} 
+/*
+[1, 3, 4, 2, 5]
+i = 1
+currentElement = 3
+previousElement = 0
+while(previousIndex >= 0 && arr[previousElement] > currentElement) ---> False
+{
+    arr[previousIndex + 1] = arr[previousIndex]
 }
-
+*/
 int main()
 {
     int size;
