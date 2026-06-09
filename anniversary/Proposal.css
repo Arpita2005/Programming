@@ -1,0 +1,444 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+min-height:100vh;
+overflow:hidden;
+
+display:flex;
+justify-content:center;
+align-items:center;
+
+font-family:'Poppins',sans-serif;
+
+background:
+radial-gradient(circle at top left,#db6e9b,transparent 30%),
+radial-gradient(circle at bottom right,#ffd8e8,transparent 30%),
+linear-gradient(135deg,#fff1f6,#ffe7ef,#e19db6);
+}
+
+#proposalPage,
+#successPage{
+position:absolute;
+width:100%;
+height:100%;
+display:flex;
+justify-content:center;
+align-items:center;
+padding:20px;
+}
+
+.card{
+width:min(600px,95%);
+padding:40px;
+
+text-align:center;
+
+background:rgba(255,255,255,.3);
+
+backdrop-filter:blur(15px);
+
+border-radius:30px;
+
+box-shadow:
+0 10px 40px rgba(255,105,180,.25);
+}
+
+#question{
+font-family:'Dancing Script',cursive;
+font-size:clamp(3rem,6vw,5rem);
+color:#ff4f93;
+
+animation:glow 2s infinite alternate;
+}
+
+@keyframes glow{
+from{
+text-shadow:0 0 10px #ffb3d1;
+}
+to{
+text-shadow:
+0 0 20px #ff4f93,
+0 0 40px #ff4f93;
+}
+}
+
+#reasonText{
+margin-top:20px;
+font-size:1rem;
+line-height:1.8;
+color:#5f5f5f;
+}
+
+.buttons{
+margin-top:30px;
+
+display:flex;
+gap:15px;
+justify-content:center;
+flex-wrap:wrap;
+}
+
+button{
+padding:15px 28px;
+border:none;
+border-radius:50px;
+cursor:pointer;
+font-size:1rem;
+font-weight:600;
+transition:.3s;
+}
+
+button:hover{
+transform:scale(1.08);
+}
+
+#foreverBtn{
+background:#ff4f93;
+color:white;
+}
+
+#reasonBtn{
+background:white;
+color:#555;
+}
+
+.sparkle,
+.butterfly{
+position:absolute;
+font-size:2rem;
+pointer-events:none;
+}
+
+.s1{
+top:10%;
+left:15%;
+animation:float 4s infinite;
+}
+
+.s2{
+top:20%;
+right:15%;
+animation:float 5s infinite;
+}
+
+.s3{
+bottom:10%;
+left:25%;
+animation:float 6s infinite;
+}
+
+.b1{
+top:15%;
+left:80%;
+animation:float 5s infinite;
+}
+
+.b2{
+bottom:15%;
+left:10%;
+animation:float 4s infinite;
+}
+
+.b3{
+top:70%;
+right:10%;
+animation:float 6s infinite;
+}
+
+@keyframes float{
+0%,100%{
+transform:translateY(0);
+}
+50%{
+transform:translateY(-15px);
+}
+}
+
+#successPage{
+    opacity:0;
+    visibility:hidden;
+    transition:1s;
+}
+
+#successPage.show{
+    opacity:1;
+    visibility:visible;
+}
+
+.success-content{
+text-align:center;
+animation:fadeUp 1.5s ease;
+}
+
+.story{
+font-family:'Dancing Script',cursive;
+font-size:3rem;
+color:#ff4f93;
+}
+
+.success-title{
+font-size:3rem;
+margin:15px 0;
+color:#ff4f93;
+}
+
+.couple-img{
+width:min(350px,90%);
+margin-top:25px;
+border-radius:25px;
+
+box-shadow:
+0 0 30px rgba(255,255,255,.6);
+
+animation:zoom 2s ease;
+}
+
+@keyframes zoom{
+from{
+transform:scale(.7);
+opacity:0;
+}
+to{
+transform:scale(1);
+opacity:1;
+}
+}
+
+@keyframes fadeUp{
+from{
+opacity:0;
+transform:translateY(40px);
+}
+to{
+opacity:1;
+transform:translateY(0);
+}
+}
+
+@media(max-width:600px){
+
+#question{
+font-size:3rem;
+}
+
+.success-title{
+font-size:2rem;
+}
+
+.story{
+font-size:2rem;
+}
+
+button{
+width:100%;
+}
+
+}
+
+
+
+
+/* ==========================
+RESPONSIVE DESIGN
+========================== */
+
+@media (max-width: 768px){
+
+    .card{
+        width:95%;
+        padding:30px 20px;
+    }
+
+    #question{
+        font-size:clamp(2.5rem,8vw,4rem);
+    }
+
+    #reasonText{
+        font-size:0.95rem;
+        line-height:1.7;
+    }
+
+    .story{
+        font-size:2.2rem;
+    }
+
+    .success-title{
+        font-size:2.2rem;
+    }
+
+    .couple-img{
+        width:80%;
+        max-width:320px;
+    }
+
+    .sparkle,
+    .butterfly{
+        font-size:1.7rem;
+    }
+
+}
+
+@media (max-width: 600px){
+
+    body{
+        overflow-x:hidden;
+    }
+
+    .card{
+        width:100%;
+        max-width:420px;
+        padding:25px 18px;
+    }
+
+    #question{
+        font-size:2.4rem;
+        line-height:1.2;
+    }
+
+    #reasonText{
+        font-size:0.9rem;
+        line-height:1.6;
+        margin-top:15px;
+    }
+
+    .buttons{
+        flex-direction:column;
+        gap:12px;
+    }
+
+    button{
+        width:100%;
+        padding:14px;
+        font-size:0.95rem;
+    }
+
+    .story{
+        font-size:1.8rem;
+    }
+
+    .success-title{
+        font-size:1.9rem;
+    }
+
+    .success-content p{
+        font-size:0.9rem;
+        padding:0 15px;
+    }
+
+    .couple-img{
+        width:90%;
+        margin-top:20px;
+    }
+
+    .sparkle{
+        font-size:1.3rem;
+    }
+
+    .butterfly{
+        font-size:1.4rem;
+    }
+
+}
+
+@media (max-width: 480px){
+
+    #proposalPage,
+    #successPage{
+        padding:15px;
+    }
+
+    .card{
+        border-radius:25px;
+        padding:22px 15px;
+    }
+
+    #question{
+        font-size:2rem;
+    }
+
+    #reasonText{
+        font-size:0.85rem;
+    }
+
+    .story{
+        font-size:1.5rem;
+    }
+
+    .success-title{
+        font-size:1.6rem;
+    }
+
+    .couple-img{
+        width:95%;
+        border-radius:18px;
+    }
+
+    .s1{
+        top:5%;
+        left:5%;
+    }
+
+    .s2{
+        top:10%;
+        right:5%;
+    }
+
+    .s3{
+        bottom:8%;
+        left:8%;
+    }
+
+    .b1{
+        top:12%;
+        left:85%;
+    }
+
+    .b2{
+        bottom:12%;
+        left:5%;
+    }
+
+    .b3{
+        top:75%;
+        right:5%;
+    }
+
+}
+
+@media (max-width: 360px){
+
+    #question{
+        font-size:1.8rem;
+    }
+
+    #reasonText{
+        font-size:0.8rem;
+    }
+
+    .story{
+        font-size:1.3rem;
+    }
+
+    .success-title{
+        font-size:1.4rem;
+    }
+
+    button{
+        font-size:0.85rem;
+        padding:12px;
+    }
+
+    .couple-img{
+        width:100%;
+    }
+
+    .sparkle,
+    .butterfly{
+        font-size:1rem;
+    }
+
+}

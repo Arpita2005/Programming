@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Happy Anniversary ❤️</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:wght@300;500&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="overlay"></div>
+
+<div class="container">
+
+<h1 class="title">
+Happy Anniversary Pupuu ❤️
+</h1>
+
+<p class="subtitle">
+Make a wish before the candles go out ✨
+</p>
+<br><br>
+
+<div class="cake-container">
+
+<div id="candles" class="candles">
+<div class="candle">
+<div class="flame"></div>
+</div>
+
+<div class="candle">
+<div class="flame"></div>
+</div>
+
+<div class="candle">
+<div class="flame"></div>
+</div>
+</div>
+
+<div class="cake">
+<div class="layer top"></div>
+<div class="layer middle"></div>
+<div class="layer bottom"></div>
+</div>
+
+</div>
+
+<div id="countdown" class="countdown">
+3
+</div>
+
+<p id="wishText" class="wish-text">
+Get ready for a little surprise...
+</p>
+
+</div>
+
+<script src="script.js"></script>
+ <script>
+    function openNextPage() {
+        document.body.classList.add("page-fade");
+
+        setTimeout(() => {
+            window.location.href = "nextpage.html";
+        }, 1000);
+    }
+ </script>
+
+
+</body>
+</html>

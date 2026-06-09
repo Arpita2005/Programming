@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Our Memories ❤️</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:wght@300;500&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="memories.css">
+</head>
+<body>
+
+<div class="floating-hearts"></div>
+
+<h1>Our Little Memory Book ❤️</h1>
+
+<p class="subtitle">
+Click each memory to unlock it ✨
+</p>
+
+<div class="memory-container">
+
+    <!-- First Date -->
+    <div class="memory-card polaroid"
+    onclick="openMemory(
+    '🐻 First Date',
+    'Hi sweetheart....mone ache amra sein exam er por first gilu gilu korte gechilam tandoor house e... amar kintu oi dokan ta ekhono pochonder janish... sedin kintu amar khub bhalo legesilo karon ami to first time pupur sathe gechilammm.... hihiii.... Me Labheewww bheliii muchhh ✨❤️',
+    './images/date.jpg')">
+
+        <div class="sticker">
+            <img src="./images/date-bg.png" alt="Date Sticker">
+        </div>
+
+        <h2>First Date</h2>
+        <p>The day our story started ✨</p>
+
+    </div>
+
+    <!-- First Movie -->
+    <div class="memory-card movie"
+    onclick="openMemory(
+    '🎬 First Movie',
+    'Eta hosse bhutur sathe prohtom bhoot er movie dekhte jaoyaa....hihiii..tor jokhon bhutu dekhe phatu phatu hoye jai na ar amar hat ta dhoris hebbi lage tokhon bishash kor...puro puchku puchku mone hoii ❤️',
+    './images/movie.jpg')">
+
+        <div class="sticker">
+            <img src="./images/mv bg.png" alt="Movie Sticker">
+        </div>
+
+        <h2>First Movie</h2>
+        <p>Popcorn & Memories 🎥</p>
+
+    </div>
+
+    <!-- First Kiss -->
+    <div class="memory-card kiss"
+    onclick="openMemory(
+    '💋 First Kiss',
+    'Ik eta amader prothom kissi to ekdomi noi but amar na ei photo ta khuuubbbb baa lagee...mane onek ei ettotaaa....tai dilam...puro cinima cinima mone hoi pupu r pupi ke dekhle hihiiii......I Love You babee ❤️',
+    './images/kissi.png')">
+
+        <div class="sticker">
+            <img src="./images/kiss-bg.png" alt="Kiss Sticker">
+        </div>
+
+        <h2>First Kiss</h2>
+        <p>A magical moment 💖</p>
+
+    </div>
+
+    <!-- Special Gift -->
+    <div class="memory-card special"
+    onclick="window.location.href='proposal.html'">
+
+        <div class="gift-box">
+            🎁
+        </div>
+
+        <h2>Something Special</h2>
+
+        <p>Click to unlock ❤️</p>
+
+    </div>
+
+</div>
+
+<!-- Popup -->
+
+<div id="popup" class="popup">
+
+    <div class="popup-content">
+
+        <span class="close" onclick="closePopup()">
+            ✖
+        </span>
+
+        <h2 id="title"></h2>
+
+        <img id="photo" src="" alt="Memory">
+
+        <p id="text"></p>
+
+    </div>
+
+</div>
+
+<script src="memories.js"></script>
+
+</body>
+</html>
